@@ -1,0 +1,3253 @@
+{
+  "test_run": {
+    "started_at": "2026-04-18T03:14:37.289139",
+    "base_url": "http://13.210.47.18:8088",
+    "total_pages": 72,
+    "finished_at": "2026-04-18T03:20:57.623848"
+  },
+  "login": {
+    "status": "success",
+    "url_after_login": "http://13.210.47.18:8088/4d5c7c941df8262af83d7b494f9d120e"
+  },
+  "pages": [
+    {
+      "name": "Dashboard",
+      "url": "http://13.210.47.18:8088/4d5c7c941df8262af83d7b494f9d120e",
+      "path": "/4d5c7c941df8262af83d7b494f9d120e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 7,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Dashboard.png",
+      "load_time_ms": 4202
+    },
+    {
+      "name": "HR - Employee",
+      "url": "http://13.210.47.18:8088/51564f2eb2d3a1bca494e86b1c67635e",
+      "path": "/51564f2eb2d3a1bca494e86b1c67635e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 11,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/HR___Employee.png",
+      "load_time_ms": 4937
+    },
+    {
+      "name": "Debtors - Consignee Due",
+      "url": "http://13.210.47.18:8088/1abe8a244329f592bb3bbb96e22e0344",
+      "path": "/1abe8a244329f592bb3bbb96e22e0344",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 32,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        },
+        {
+          "name": "inv_318[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_318[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_318",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_318",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_301[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_301[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_301",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_301",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_255[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_255[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_255",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_255",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_241[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_241",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_241",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_8[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_8[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_8",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_8",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_290[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_290",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_290",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_15[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_15",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_15",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_47[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_47",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Consignee_Due.png",
+      "load_time_ms": 4909
+    },
+    {
+      "name": "Debtors - Consignee Paid",
+      "url": "http://13.210.47.18:8088/8c8bcb5e96e6c22e001efff53fcadf28",
+      "path": "/8c8bcb5e96e6c22e001efff53fcadf28",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 3,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Consignee_Paid.png",
+      "load_time_ms": 4632
+    },
+    {
+      "name": "Debtors - Agent Due",
+      "url": "http://13.210.47.18:8088/28f3b7864cdf11d6b30b148bec8d6307",
+      "path": "/28f3b7864cdf11d6b30b148bec8d6307",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 11,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        },
+        {
+          "name": "inv_337[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_337",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_337",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_147[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_147[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_147",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_147",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_27[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_27[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_27",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_27",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Agent_Due.png",
+      "load_time_ms": 4192
+    },
+    {
+      "name": "Debtors - Agent Paid",
+      "url": "http://13.210.47.18:8088/b621a0964636bcee73d691db7d3572fd",
+      "path": "/b621a0964636bcee73d691db7d3572fd",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Agent_Paid.png",
+      "load_time_ms": 4620
+    },
+    {
+      "name": "Debtors - Shipper Due",
+      "url": "http://13.210.47.18:8088/8211377a76b5f20c607e278620d4abe3",
+      "path": "/8211377a76b5f20c607e278620d4abe3",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Shipper_Due.png",
+      "load_time_ms": 3501
+    },
+    {
+      "name": "Debtors - Shipper Paid",
+      "url": "http://13.210.47.18:8088/76264365e7c5a943b7629804aeab136b",
+      "path": "/76264365e7c5a943b7629804aeab136b",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Debtors___Shipper_Paid.png",
+      "load_time_ms": 3476
+    },
+    {
+      "name": "Creditors - Shipping Line Due",
+      "url": "http://13.210.47.18:8088/8e1b7fdf1fd87dcc9e0546d03ae62556",
+      "path": "/8e1b7fdf1fd87dcc9e0546d03ae62556",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 14,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        },
+        {
+          "name": "inv_98[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_98",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_98",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_26[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_26",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_26",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_72[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_72",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_72",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Shipping_Line_Due.png",
+      "load_time_ms": 4197
+    },
+    {
+      "name": "Creditors - Shipping Line Paid",
+      "url": "http://13.210.47.18:8088/d18ec27a83b522669c9efc55a880f917",
+      "path": "/d18ec27a83b522669c9efc55a880f917",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Shipping_Line_Paid.png",
+      "load_time_ms": 3473
+    },
+    {
+      "name": "Creditors - Co-Loader Due",
+      "url": "http://13.210.47.18:8088/285ee3bf7d21a421fb354e824a0ba678",
+      "path": "/285ee3bf7d21a421fb354e824a0ba678",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Co_Loader_Due.png",
+      "load_time_ms": 3813
+    },
+    {
+      "name": "Creditors - Co-Loader Paid",
+      "url": "http://13.210.47.18:8088/49ab2c7ef13c1de745c5e511ea7d306f",
+      "path": "/49ab2c7ef13c1de745c5e511ea7d306f",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Co_Loader_Paid.png",
+      "load_time_ms": 3453
+    },
+    {
+      "name": "Creditors - Supplier Due",
+      "url": "http://13.210.47.18:8088/57e215a5d82f9e54a6e6b2ddfd0372c1",
+      "path": "/57e215a5d82f9e54a6e6b2ddfd0372c1",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 17,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        },
+        {
+          "name": "inv_7[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_7",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_7",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_130[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_130[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_130[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_130[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_130",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_130",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_121[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_121[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_121[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_121",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_121",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_170[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_170",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_170",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Supplier_Due.png",
+      "load_time_ms": 4284
+    },
+    {
+      "name": "Creditors - Supplier Paid",
+      "url": "http://13.210.47.18:8088/832128c1bea0bf94b30c16a8417125ae",
+      "path": "/832128c1bea0bf94b30c16a8417125ae",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Supplier_Paid.png",
+      "load_time_ms": 3475
+    },
+    {
+      "name": "Creditors - Agent Due",
+      "url": "http://13.210.47.18:8088/455492c7888db5aafecf4facc1aa7639",
+      "path": "/455492c7888db5aafecf4facc1aa7639",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 3,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        },
+        {
+          "name": "inv_122[]",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "name": "paydt_122",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "payamnt_122",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Agent_Due.png",
+      "load_time_ms": 3843
+    },
+    {
+      "name": "Creditors - Agent Paid",
+      "url": "http://13.210.47.18:8088/bfd9d957f28679c09593198e7cefb085",
+      "path": "/bfd9d957f28679c09593198e7cefb085",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": "Search..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Creditors___Agent_Paid.png",
+      "load_time_ms": 3469
+    },
+    {
+      "name": "Financial - Purchase Invoice",
+      "url": "http://13.210.47.18:8088/purchase-invoice",
+      "path": "/purchase-invoice",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 21,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "adate_from",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "adate_to",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_from",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "inv_to",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "vendor_type",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "party",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "job_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "amnt",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "doc_link",
+          "type": "url",
+          "placeholder": "Paste link here"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Purchase_Invoice.png",
+      "load_time_ms": 31250
+    },
+    {
+      "name": "Financial - Sales Invoice",
+      "url": "http://13.210.47.18:8088/sales-invoice",
+      "path": "/sales-invoice",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 20,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "party",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "job_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "amnt",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "modal_invoice_no",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Sales_Invoice.png",
+      "load_time_ms": 8547
+    },
+    {
+      "name": "Financial - Purchase Invoice VAT",
+      "url": "http://13.210.47.18:8088/purchase-invoice-with-vat",
+      "path": "/purchase-invoice-with-vat",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 21,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "vendor_type",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "party",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "job_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "amnt",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "modal_invoice_no",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Purchase_Invoice_VAT.png",
+      "load_time_ms": 6730
+    },
+    {
+      "name": "Financial - Sales Invoice VAT",
+      "url": "http://13.210.47.18:8088/sales-invoice/with-vat",
+      "path": "/sales-invoice/with-vat",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 20,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "party",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "job_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "invoice_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "amnt",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "status",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": "Amount"
+        },
+        {
+          "name": "reason",
+          "type": "text",
+          "placeholder": "Reason"
+        },
+        {
+          "name": "modal_invoice_no",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "placeholder": ""
+        },
+        {
+          "name": "reason",
+          "type": "textarea",
+          "placeholder": "Enter reason"
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Sales_Invoice_VAT.png",
+      "load_time_ms": 3952
+    },
+    {
+      "name": "Financial - Ledger Report",
+      "url": "http://13.210.47.18:8088/ledger",
+      "path": "/ledger",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 2,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "party",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Ledger_Report.png",
+      "load_time_ms": 3430
+    },
+    {
+      "name": "Financial - Customer Ageing",
+      "url": "http://13.210.47.18:8088/reports/customer-aging",
+      "path": "/reports/customer-aging",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 10,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "module",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "customer",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Customer_Ageing.png",
+      "load_time_ms": 3748
+    },
+    {
+      "name": "Financial - Supplier Ageing",
+      "url": "http://13.210.47.18:8088/reports/supplier-ageing",
+      "path": "/reports/supplier-ageing",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 10,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "module",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "customer",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Supplier_Ageing.png",
+      "load_time_ms": 3793
+    },
+    {
+      "name": "Financial - Jobs w/o Purchase Inv",
+      "url": "http://13.210.47.18:8088/purchase-invoice-missing",
+      "path": "/purchase-invoice-missing",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 10,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "search",
+          "type": "text",
+          "placeholder": "Job No"
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Jobs_w_o_Purchase_Inv.png",
+      "load_time_ms": 3491
+    },
+    {
+      "name": "Financial - Jobs w/o Sales Inv",
+      "url": "http://13.210.47.18:8088/sales-charges-without-invoice",
+      "path": "/sales-charges-without-invoice",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 10,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "search",
+          "type": "text",
+          "placeholder": "Search Job No"
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Jobs_w_o_Sales_Inv.png",
+      "load_time_ms": 3496
+    },
+    {
+      "name": "Financial - Activity Log",
+      "url": "http://13.210.47.18:8088/activity-log",
+      "path": "/activity-log",
+      "status": "error",
+      "http_status": 500,
+      "title": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.FNAME' in 'field list' (SQL: select 'Job Created' as event_type, 'job_created' as event_key, 'Ocean Import' as job_category, `lti_jb`.`JBNO` as `ref_no`, `lti_j`.`JOBID`, TRIM(CONCAT(COALESCE(u.FNAME,''), ' ', COALESCE(u.LNAME,''))) as performed_by, `lti_j`.`ADATE` as `event_date` from `lti_job_oc` as `lti_j` left join `lti_job_oc_basic` as `lti_jb` on `lti_j`.`JOBID` = `lti_jb`.`JOBID` left join `lti_user` as `lti_u` on `lti_j`.`UID` = `lti_u`.`UID`) (500 Internal Server Error)",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": " Symfony Exception",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Activity_Log.png",
+      "load_time_ms": 4583
+    },
+    {
+      "name": "Financial - Credit Note Register",
+      "url": "http://13.210.47.18:8088/credit-note-register",
+      "path": "/credit-note-register",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 6,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "credit_no",
+          "type": "text",
+          "placeholder": "CN number..."
+        },
+        {
+          "name": "invoice_no",
+          "type": "text",
+          "placeholder": "Invoice no..."
+        },
+        {
+          "name": "party",
+          "type": "text",
+          "placeholder": "Party name..."
+        },
+        {
+          "name": "from_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "to_date",
+          "type": "date",
+          "placeholder": ""
+        },
+        {
+          "name": "jtype",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Financial___Credit_Note_Register.png",
+      "load_time_ms": 3177
+    },
+    {
+      "name": "Master - State",
+      "url": "http://13.210.47.18:8088/9ed39e2ea931586b6a985a6942ef573e",
+      "path": "/9ed39e2ea931586b6a985a6942ef573e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrState",
+          "type": "text",
+          "placeholder": "Search State.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___State.png",
+      "load_time_ms": 4255
+    },
+    {
+      "name": "Master - City",
+      "url": "http://13.210.47.18:8088/4ed5d2eaed1a1fadcc41ad1d58ed603e",
+      "path": "/4ed5d2eaed1a1fadcc41ad1d58ed603e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrCity",
+          "type": "text",
+          "placeholder": "Search City.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___City.png",
+      "load_time_ms": 4446
+    },
+    {
+      "name": "Master - Company Type",
+      "url": "http://13.210.47.18:8088/4cbb903cfae35c7d1844aac2363280b4",
+      "path": "/4cbb903cfae35c7d1844aac2363280b4",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 16,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Company Type.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Company_Type.png",
+      "load_time_ms": 3801
+    },
+    {
+      "name": "Master - Charge Master",
+      "url": "http://13.210.47.18:8088/af33c0fa2a013f51745b910eb3f70046",
+      "path": "/af33c0fa2a013f51745b910eb3f70046",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Charge_Master.png",
+      "load_time_ms": 6452
+    },
+    {
+      "name": "Master - Company Master",
+      "url": "http://13.210.47.18:8088/005480c8a6a0357d17cff2e8eb7e060d",
+      "path": "/005480c8a6a0357d17cff2e8eb7e060d",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 8,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Company.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Company_Master.png",
+      "load_time_ms": 3757
+    },
+    {
+      "name": "Master - Customer Type",
+      "url": "http://13.210.47.18:8088/4fe8a4cd07dfac7245a1e6cacb76ea5e",
+      "path": "/4fe8a4cd07dfac7245a1e6cacb76ea5e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 15,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Customer Type.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Customer_Type.png",
+      "load_time_ms": 3779
+    },
+    {
+      "name": "Master - Ledger Group",
+      "url": "http://13.210.47.18:8088/2b0f7f32c7f7af6b51bf090558391d67",
+      "path": "/2b0f7f32c7f7af6b51bf090558391d67",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 4,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Ledger_Group.png",
+      "load_time_ms": 3464
+    },
+    {
+      "name": "Master - Customer Master",
+      "url": "http://13.210.47.18:8088/423b21e5932f11b123a1ddb35654b51b",
+      "path": "/423b21e5932f11b123a1ddb35654b51b",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrLNAME",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrCODE",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrMOB",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrEMAIL",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrCUSTYPE",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Customer_Master.png",
+      "load_time_ms": 6725
+    },
+    {
+      "name": "Master - Vendor Master",
+      "url": "http://13.210.47.18:8088/237cddc13035afd40df532c9c471b4ea",
+      "path": "/237cddc13035afd40df532c9c471b4ea",
+      "status": "error",
+      "http_status": 500,
+      "title": "View [vendor.index] not found. (500 Internal Server Error)",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": " Symfony Exception",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Vendor_Master.png",
+      "load_time_ms": 5374
+    },
+    {
+      "name": "Master - Vendor Type",
+      "url": "http://13.210.47.18:8088/01f9a24e9744ed8edf5beb17513aafb4",
+      "path": "/01f9a24e9744ed8edf5beb17513aafb4",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 31,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Supplier Type.."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Vendor_Type.png",
+      "load_time_ms": 4087
+    },
+    {
+      "name": "Master - Shipping Line Code",
+      "url": "http://13.210.47.18:8088/9cdaacf035c457148bc2134dfe09fc50",
+      "path": "/9cdaacf035c457148bc2134dfe09fc50",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 21,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrCODE",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Shipping_Line_Code.png",
+      "load_time_ms": 3768
+    },
+    {
+      "name": "Master - Commodity Master",
+      "url": "http://13.210.47.18:8088/b515f30a4688bf67cd17f0cd09512ecf",
+      "path": "/b515f30a4688bf67cd17f0cd09512ecf",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrCODE",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Commodity_Master.png",
+      "load_time_ms": 4095
+    },
+    {
+      "name": "Master - Address",
+      "url": "http://13.210.47.18:8088/de7c54d99428fb909bef013577070f0d",
+      "path": "/de7c54d99428fb909bef013577070f0d",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrADDRESS",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "StrType",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Address.png",
+      "load_time_ms": 4095
+    },
+    {
+      "name": "Ocean Master - Job Type",
+      "url": "http://13.210.47.18:8088/3f80ea99d7b24220db44943ed1838285",
+      "path": "/3f80ea99d7b24220db44943ed1838285",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 6,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Name"
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Job_Type.png",
+      "load_time_ms": 3742
+    },
+    {
+      "name": "Ocean Master - Vessel",
+      "url": "http://13.210.47.18:8088/ed6c460e3ce8e91132123ff09428a37d",
+      "path": "/ed6c460e3ce8e91132123ff09428a37d",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Name"
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Vessel.png",
+      "load_time_ms": 4076
+    },
+    {
+      "name": "Ocean Master - Port Sector",
+      "url": "http://13.210.47.18:8088/51b6df155998f6c6b3ccc2701b59693d",
+      "path": "/51b6df155998f6c6b3ccc2701b59693d",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 10,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Search Name"
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Port_Sector.png",
+      "load_time_ms": 3759
+    },
+    {
+      "name": "Ocean Master - Port",
+      "url": "http://13.210.47.18:8088/eac46b9f08f604c039b439ef2dd5663f",
+      "path": "/eac46b9f08f604c039b439ef2dd5663f",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 40,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "StrCODE",
+          "type": "text",
+          "placeholder": "Port Code"
+        },
+        {
+          "name": "StrNAME",
+          "type": "text",
+          "placeholder": "Port Name"
+        },
+        {
+          "name": "StrSTATUS",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Port.png",
+      "load_time_ms": 4102
+    },
+    {
+      "name": "Air Master - Airport",
+      "url": "http://13.210.47.18:8088/d1ed858f6d8126a814e31f18a7de5f8e",
+      "path": "/d1ed858f6d8126a814e31f18a7de5f8e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 50,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Master___Airport.png",
+      "load_time_ms": 4517
+    },
+    {
+      "name": "Air Master - Carrier Airlines",
+      "url": "http://13.210.47.18:8088/1abf8c1a21e96e8d369b40b322331782",
+      "path": "/1abf8c1a21e96e8d369b40b322331782",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 32,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Master___Carrier_Airlines.png",
+      "load_time_ms": 4328
+    },
+    {
+      "name": "Quote Setup - Carriers",
+      "url": "http://13.210.47.18:8088/8ee4a920e024b1d3beadaadd006a0a31",
+      "path": "/8ee4a920e024b1d3beadaadd006a0a31",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Quote_Setup___Carriers.png",
+      "load_time_ms": 3177
+    },
+    {
+      "name": "Quote Setup - Exchange Rates",
+      "url": "http://13.210.47.18:8088/b63cf46906108334186c3ecf25f4ddb8",
+      "path": "/b63cf46906108334186c3ecf25f4ddb8",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "date",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Quote_Setup___Exchange_Rates.png",
+      "load_time_ms": 3183
+    },
+    {
+      "name": "Quote Setup - Rate Database",
+      "url": "http://13.210.47.18:8088/95ea21eb539e083e42f57313509a93ed",
+      "path": "/95ea21eb539e083e42f57313509a93ed",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str2",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": "Rate type..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Quote_Setup___Rate_Database.png",
+      "load_time_ms": 3178
+    },
+    {
+      "name": "Quote Setup - Client Rates",
+      "url": "http://13.210.47.18:8088/db6f53167f5911e700a4b3aae0352572",
+      "path": "/db6f53167f5911e700a4b3aae0352572",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Quote_Setup___Client_Rates.png",
+      "load_time_ms": 3171
+    },
+    {
+      "name": "Quotes",
+      "url": "http://13.210.47.18:8088/68915d3ba92a6ff8c96734362d61b15e",
+      "path": "/68915d3ba92a6ff8c96734362d61b15e",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "Str1",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": "Client name..."
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Quotes.png",
+      "load_time_ms": 3168
+    },
+    {
+      "name": "Ocean Import - Open Jobs",
+      "url": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+      "path": "/9dddd5ce1b1375bc497feeb871842d4b",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 17,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "pnjb",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str7",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "lportid",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "dportid",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "acustomer_1",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Import___Open_Jobs.png",
+      "load_time_ms": 4164
+    },
+    {
+      "name": "Ocean Import - Closed Jobs",
+      "url": "http://13.210.47.18:8088/670effb783ab68c5759f4523c9ad5185",
+      "path": "/670effb783ab68c5759f4523c9ad5185",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Import___Closed_Jobs.png",
+      "load_time_ms": 3476
+    },
+    {
+      "name": "Ocean Import - Booking Report",
+      "url": "http://13.210.47.18:8088/e14e00f9b8b4f2a0fbce2a5f843a543d",
+      "path": "/e14e00f9b8b4f2a0fbce2a5f843a543d",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "yrChng",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Import___Booking_Report.png",
+      "load_time_ms": 3490
+    },
+    {
+      "name": "Ocean Export - Open Jobs",
+      "url": "http://13.210.47.18:8088/ddc5bbfa18cf713c1478e511ea7455a7",
+      "path": "/ddc5bbfa18cf713c1478e511ea7455a7",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "pnjb",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "lportid",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "dportid",
+          "type": "text",
+          "placeholder": " "
+        },
+        {
+          "name": "acustomer_1",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Export___Open_Jobs.png",
+      "load_time_ms": 3693
+    },
+    {
+      "name": "Ocean Export - Closed Jobs",
+      "url": "http://13.210.47.18:8088/12d57e567d9ab44399006309b5d542a4",
+      "path": "/12d57e567d9ab44399006309b5d542a4",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "pnjb",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Export___Closed_Jobs.png",
+      "load_time_ms": 3470
+    },
+    {
+      "name": "Ocean Export - Booking Report",
+      "url": "http://13.210.47.18:8088/a77dd96ff658388a662b311c5bbd1a75",
+      "path": "/a77dd96ff658388a662b311c5bbd1a75",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "yrChng",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Export___Booking_Report.png",
+      "load_time_ms": 3477
+    },
+    {
+      "name": "Air Import - Open Jobs",
+      "url": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8",
+      "path": "/951733b073f499bd67fa764d38df48a8",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 12,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "pnjb",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "consigne",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "lportid",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "dportid",
+          "type": "text",
+          "placeholder": " "
+        },
+        {
+          "name": "acustomer_1",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Import___Open_Jobs.png",
+      "load_time_ms": 3771
+    },
+    {
+      "name": "Air Import - Closed Jobs",
+      "url": "http://13.210.47.18:8088/3092560bb3f11343b8ceb0e02a739a01",
+      "path": "/3092560bb3f11343b8ceb0e02a739a01",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Import___Closed_Jobs.png",
+      "load_time_ms": 3461
+    },
+    {
+      "name": "Air Import - Booking Report",
+      "url": "http://13.210.47.18:8088/6e2cac0a97967fe9b38243a12ec09be0",
+      "path": "/6e2cac0a97967fe9b38243a12ec09be0",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "yrChng",
+          "type": "select",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Import___Booking_Report.png",
+      "load_time_ms": 3485
+    },
+    {
+      "name": "Air Export - Open Jobs",
+      "url": "http://13.210.47.18:8088/8b574ca0cd37f8b76897ecc0f9d9ad34",
+      "path": "/8b574ca0cd37f8b76897ecc0f9d9ad34",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 4,
+      "has_form": true,
+      "form_fields": [
+        {
+          "name": "ryr",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "pnjb",
+          "type": "select",
+          "placeholder": ""
+        },
+        {
+          "name": "Str2",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str6",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str5",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str4",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "Str3",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "consigne",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "lportid",
+          "type": "text",
+          "placeholder": ""
+        },
+        {
+          "name": "dportid",
+          "type": "text",
+          "placeholder": " "
+        },
+        {
+          "name": "acustomer_1",
+          "type": "text",
+          "placeholder": ""
+        }
+      ],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Export___Open_Jobs.png",
+      "load_time_ms": 3777
+    },
+    {
+      "name": "Air Export - Closed Jobs",
+      "url": "http://13.210.47.18:8088/8ec1c8a3d9ad635d8fd2adb2c583b7c0",
+      "path": "/8ec1c8a3d9ad635d8fd2adb2c583b7c0",
+      "status": "ok",
+      "http_status": 200,
+      "title": "Sena ERP",
+      "has_table": true,
+      "table_row_count": 1,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": false,
+      "error_text": null,
+      "has_add_button": true,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Export___Closed_Jobs.png",
+      "load_time_ms": 3467
+    },
+    {
+      "name": "Air Export - Booking Report",
+      "url": "http://13.210.47.18:8088/7d27d418fe920b6bc9230e81e58bc28b",
+      "path": "/7d27d418fe920b6bc9230e81e58bc28b",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Export___Booking_Report.png",
+      "load_time_ms": 4020
+    },
+    {
+      "name": "Land Import - Open Jobs",
+      "url": "http://13.210.47.18:8088/8013f48199799dce7a1fde812ebda23b",
+      "path": "/8013f48199799dce7a1fde812ebda23b",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Land_Import___Open_Jobs.png",
+      "load_time_ms": 2830
+    },
+    {
+      "name": "Land Import - Closed Jobs",
+      "url": "http://13.210.47.18:8088/ad661c9739fbf14ddd1802a6c4bb9f0c",
+      "path": "/ad661c9739fbf14ddd1802a6c4bb9f0c",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Land_Import___Closed_Jobs.png",
+      "load_time_ms": 2830
+    },
+    {
+      "name": "Land Export - Open Jobs",
+      "url": "http://13.210.47.18:8088/2ca1dbee9121459dedd8cf2e8c3b8e69",
+      "path": "/2ca1dbee9121459dedd8cf2e8c3b8e69",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Land_Export___Open_Jobs.png",
+      "load_time_ms": 2829
+    },
+    {
+      "name": "Land Export - Closed Jobs",
+      "url": "http://13.210.47.18:8088/2785ba86aa37c0a8ff38e247ad1c5e55",
+      "path": "/2785ba86aa37c0a8ff38e247ad1c5e55",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Land_Export___Closed_Jobs.png",
+      "load_time_ms": 2829
+    },
+    {
+      "name": "DSR - Basic Graph",
+      "url": "http://13.210.47.18:8088/fe83dce7816670353cfa807c5e45db0e",
+      "path": "/fe83dce7816670353cfa807c5e45db0e",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/DSR___Basic_Graph.png",
+      "load_time_ms": 2830
+    },
+    {
+      "name": "DSR - Ocean Import",
+      "url": "http://13.210.47.18:8088/1387f1ae3dc1d840789d15c545b8a7e5",
+      "path": "/1387f1ae3dc1d840789d15c545b8a7e5",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/DSR___Ocean_Import.png",
+      "load_time_ms": 2831
+    },
+    {
+      "name": "DSR - Ocean Export",
+      "url": "http://13.210.47.18:8088/c745c437840b2e21636a2cbdab3c0e59",
+      "path": "/c745c437840b2e21636a2cbdab3c0e59",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/DSR___Ocean_Export.png",
+      "load_time_ms": 2829
+    },
+    {
+      "name": "DSR - Air Import",
+      "url": "http://13.210.47.18:8088/abf5db603d4276889077e81dee45d0ca",
+      "path": "/abf5db603d4276889077e81dee45d0ca",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/DSR___Air_Import.png",
+      "load_time_ms": 2830
+    },
+    {
+      "name": "DSR - Air Export",
+      "url": "http://13.210.47.18:8088/627db3ba79d7139f8dfd6f462fdce3ab",
+      "path": "/627db3ba79d7139f8dfd6f462fdce3ab",
+      "status": "error",
+      "http_status": 404,
+      "title": "Page Not Found",
+      "has_table": false,
+      "table_row_count": 0,
+      "has_form": false,
+      "form_fields": [],
+      "has_error": true,
+      "error_text": "HTTP 404",
+      "has_add_button": false,
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/DSR___Air_Export.png",
+      "load_time_ms": 2830
+    }
+  ],
+  "add_attempts": [
+    {
+      "page": "Master - State",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___State_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Master - City",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___City_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Master - Company Type",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Company_Type_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Master - Charge Master",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Charge_Master_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Master - Customer Type",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Customer_Type_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Master - Vendor Type",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Master___Vendor_Type_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Ocean Master - Job Type",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Job_Type_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Ocean Master - Vessel",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Ocean_Master___Vessel_ADD_FORM.png",
+      "error": null
+    },
+    {
+      "page": "Air Master - Airport",
+      "add_clicked": true,
+      "modal_appeared": false,
+      "form_fields_in_modal": [],
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/all_pages/Air_Master___Airport_ADD_FORM.png",
+      "error": null
+    }
+  ],
+  "summary": {
+    "total_pages": 72,
+    "ok": 60,
+    "errors": 12,
+    "exceptions": 0,
+    "pages_with_tables": 62,
+    "pages_with_forms": 55,
+    "pages_with_add_button": 30,
+    "add_attempts_total": 9,
+    "add_modals_found": 0
+  }
+}

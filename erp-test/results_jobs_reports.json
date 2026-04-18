@@ -1,0 +1,2916 @@
+{
+  "test_run": "2026-04-18T04:12:14.113361",
+  "base_url": "http://13.210.47.18:8088",
+  "parts": {
+    "part1_job_creation": {
+      "ocean_import": {
+        "name": "Ocean Import",
+        "url": "/9dddd5ce1b1375bc497feeb871842d4b",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Re"
+        },
+        "existing_rows": 17,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "JbNo",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/SI/2627//0467"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mblno",
+            "id": "mblno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mbldte",
+            "id": "mbldte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "etd",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "eta",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrbkdte",
+            "id": "dlvrbkdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrdte",
+            "id": "dlvrdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrref",
+            "id": "dlvrref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "frghtchrg",
+            "id": "frghtchrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "inschrg",
+            "id": "inschrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "calref",
+            "id": "calref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "SptmntId",
+            "id": "SptmntId",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "Place"
+              },
+              {
+                "value": "1",
+                "text": "LCL"
+              },
+              {
+                "value": "2",
+                "text": "FCL"
+              },
+              {
+                "value": "3",
+                "text": "Consol"
+              }
+            ],
+            "optionCount": 4
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "IncoTrms",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "lport",
+            "id": "lport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dport",
+            "id": "dport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas1",
+            "id": "overseas1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas2",
+            "id": "overseas2",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas3",
+            "id": "overseas3",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "shpline",
+            "id": "shpline",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "coloder",
+            "id": "coloder",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "vovesel",
+            "id": "vovesel",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dlwrhouse",
+            "id": "dlwrhouse",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "gbpapplicable",
+            "id": "gbpapplicable",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "yes",
+                "text": "Yes"
+              },
+              {
+                "value": "no",
+                "text": "No"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "cladr",
+            "id": "cladr",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[mblno]=AUTOTEST_...",
+          "input[mbldte]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[dlvrbkdte]=AUTOTEST_...",
+          "input[dlvrdte]=AUTOTEST_...",
+          "input[dlvrref]=AUTOTEST_...",
+          "input[frghtchrg]=AUTOTEST_...",
+          "input[inschrg]=AUTOTEST_...",
+          "input[calref]=AUTOTEST_...",
+          "select[SptmntId]=1",
+          "select[gbpapplicable]=yes"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": true,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Report\n\nOcean Export\n\nAir Import\n\nAir Export\n\nLand Import\n\nLand Export\n\nDSR Reports\n\nLogout\n\nOcean Imp"
+        }
+      },
+      "ocean_export": {
+        "name": "Ocean Export",
+        "url": "/ddc5bbfa18cf713c1478e511ea7455a7",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nOpen Jobs\n\nClosed Jo"
+        },
+        "existing_rows": 1,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "JbNo",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/SE/2627//0038"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mblno",
+            "id": "mblno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mbldte",
+            "id": "mbldte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "etd",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "eta",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrbkdte",
+            "id": "dlvrbkdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrdte",
+            "id": "dlvrdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrref",
+            "id": "dlvrref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "frghtchrg",
+            "id": "frghtchrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "inschrg",
+            "id": "inschrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "calref",
+            "id": "calref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "SptmntId",
+            "id": "SptmntId",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "Place"
+              },
+              {
+                "value": "1",
+                "text": "LCL"
+              },
+              {
+                "value": "2",
+                "text": "FCL"
+              },
+              {
+                "value": "3",
+                "text": "Consol"
+              }
+            ],
+            "optionCount": 4
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "IncoTrms",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "lport",
+            "id": "lport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dport",
+            "id": "dport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas1",
+            "id": "overseas1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas2",
+            "id": "overseas2",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas3",
+            "id": "overseas3",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "shpline",
+            "id": "shpline",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "coloder",
+            "id": "coloder",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "vovesel",
+            "id": "vovesel",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dlwrhouse",
+            "id": "dlwrhouse",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "gbpapplicable",
+            "id": "gbpapplicable",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "yes",
+                "text": "Yes"
+              },
+              {
+                "value": "no",
+                "text": "No"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "cladr",
+            "id": "cladr",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[mblno]=AUTOTEST_...",
+          "input[mbldte]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[dlvrbkdte]=AUTOTEST_...",
+          "input[dlvrdte]=AUTOTEST_...",
+          "input[dlvrref]=AUTOTEST_...",
+          "input[frghtchrg]=AUTOTEST_...",
+          "input[inschrg]=AUTOTEST_...",
+          "input[calref]=AUTOTEST_...",
+          "select[SptmntId]=1",
+          "select[gbpapplicable]=yes"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": true,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Report\n\nAir Import\n\nAir Export\n\nLand Import\n\nLand Export\n\nDSR Reports\n\nLogout\n\nOcean Exp"
+        }
+      },
+      "air_import": {
+        "name": "Air Import",
+        "url": "/951733b073f499bd67fa764d38df48a8",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nOpen Job"
+        },
+        "existing_rows": 12,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "JbNo",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/AI/2627//0457"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hawbno",
+            "id": "hawbno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hawbdte",
+            "id": "hawbdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mawbno",
+            "id": "mawbno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mawbdte",
+            "id": "mawbdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "eta",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "etd",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "flght_no",
+            "id": "flght_no",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hsn[]",
+            "id": "hsn_cmdty_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "temp[]",
+            "id": "temp_1",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "packno[]",
+            "id": "packno_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "lngth[]",
+            "id": "lngth_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "brdth[]",
+            "id": "brdth_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hght[]",
+            "id": "hght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "spinval[]",
+            "id": "spinval_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "grswght[]",
+            "id": "grswght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "ntwght[]",
+            "id": "ntwght_1",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "vlmwght[]",
+            "id": "vlmwght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "chrgwght[]",
+            "id": "chrgwght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totNo",
+            "id": "totNo",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totGwght",
+            "id": "totGwght",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totNght",
+            "id": "totNght",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totChrg",
+            "id": "totChrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totvlght",
+            "id": "totvlght",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvval",
+            "id": "shpinvval",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvno",
+            "id": "shpinvno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvdte",
+            "id": "shpinvdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrbkdte",
+            "id": "dlvrbkdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrdte",
+            "id": "dlvrdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrref",
+            "id": "dlvrref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "frghtchrg",
+            "id": "frghtchrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "inschrg",
+            "id": "inschrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "calref",
+            "id": "calref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "IncoTrms",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "shipper",
+            "id": "shipper_1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "lport",
+            "id": "lport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dport",
+            "id": "dport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas1",
+            "id": "overseas1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas2",
+            "id": "overseas2",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas3",
+            "id": "overseas3",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "splierId",
+            "id": "splierId",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "cmdty[]",
+            "id": "cmdty_1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "volume[]",
+            "id": "volume_1",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "Place"
+              },
+              {
+                "value": "CM",
+                "text": "CM"
+              },
+              {
+                "value": "INCH",
+                "text": "INCH"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "shpcur[]",
+            "id": "shpcur_1",
+            "required": false,
+            "options": [
+              {
+                "value": "GBP",
+                "text": "GBP"
+              },
+              {
+                "value": "USD",
+                "text": "USD"
+              },
+              {
+                "value": "INR",
+                "text": "INR"
+              },
+              {
+                "value": "AUD",
+                "text": "AUD"
+              },
+              {
+                "value": "EUR",
+                "text": "EUR"
+              },
+              {
+                "value": "AZN",
+                "text": "AZN"
+              },
+              {
+                "value": "HUF",
+                "text": "HUF"
+              },
+              {
+                "value": "ISK",
+                "text": "ISK"
+              },
+              {
+                "value": "CNY",
+                "text": "CNY"
+              }
+            ],
+            "optionCount": 9
+          },
+          {
+            "tag": "select",
+            "name": "dlwrhouse",
+            "id": "dlwrhouse",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "gbpapplicable",
+            "id": "gbpapplicable",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "yes",
+                "text": "Yes"
+              },
+              {
+                "value": "no",
+                "text": "No"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "cladr",
+            "id": "cladr",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[hawbno]=AUTOTEST_...",
+          "input[hawbdte]=AUTOTEST_...",
+          "input[mawbno]=AUTOTEST_...",
+          "input[mawbdte]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[flght_no]=AUTOTEST_...",
+          "input[hsn[]]=AUTOTEST_...",
+          "input[temp[]]=AUTOTEST_...",
+          "input[packno[]]=AUTOTEST_...",
+          "input[lngth[]]=AUTOTEST_...",
+          "input[brdth[]]=AUTOTEST_...",
+          "input[hght[]]=AUTOTEST_...",
+          "input[spinval[]]=AUTOTEST_...",
+          "input[grswght[]]=AUTOTEST_...",
+          "input[ntwght[]]=AUTOTEST_...",
+          "input[vlmwght[]]=AUTOTEST_...",
+          "input[chrgwght[]]=AUTOTEST_...",
+          "input[totNo]=AUTOTEST_...",
+          "input[totGwght]=AUTOTEST_...",
+          "input[totNght]=AUTOTEST_...",
+          "input[totChrg]=AUTOTEST_...",
+          "input[totvlght]=AUTOTEST_...",
+          "input[shpinvval]=AUTOTEST_...",
+          "input[shpinvno]=AUTOTEST_...",
+          "input[shpinvdte]=AUTOTEST_...",
+          "input[dlvrbkdte]=AUTOTEST_...",
+          "input[dlvrdte]=AUTOTEST_...",
+          "input[dlvrref]=AUTOTEST_...",
+          "input[frghtchrg]=AUTOTEST_...",
+          "input[inschrg]=AUTOTEST_...",
+          "input[calref]=AUTOTEST_...",
+          "select[volume[]]=CM",
+          "select[shpcur[]]=GBP",
+          "select[gbpapplicable]=yes"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": true,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Report\n\nAir Export\n\nLand Import\n\nLand Export\n\nDSR Reports\n\nLogout\n\nAir Impor"
+        }
+      },
+      "air_export": {
+        "name": "Air Export",
+        "url": "/8b574ca0cd37f8b76897ecc0f9d9ad34",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "existing_rows": 4,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "JbNo",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/AE/2627//0071"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hawbno",
+            "id": "hawbno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hawbdte",
+            "id": "hawbdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mawbno",
+            "id": "mawbno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "mawbdte",
+            "id": "mawbdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "eta",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "etd",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "flght_no",
+            "id": "flght_no",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "book_ref",
+            "id": "book_ref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hsn[]",
+            "id": "hsn_cmdty_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "temp[]",
+            "id": "temp_1",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "packno[]",
+            "id": "packno_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "lngth[]",
+            "id": "lngth_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "brdth[]",
+            "id": "brdth_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "hght[]",
+            "id": "hght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "spinval[]",
+            "id": "spinval_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "grswght[]",
+            "id": "grswght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "ntwght[]",
+            "id": "ntwght_1",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "vlmwght[]",
+            "id": "vlmwght_1",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totNo",
+            "id": "totNo",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totGwght",
+            "id": "totGwght",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totNght",
+            "id": "totNght",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "totvlght",
+            "id": "totvlght",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvval",
+            "id": "shpinvval",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvno",
+            "id": "shpinvno",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "shpinvdte",
+            "id": "shpinvdte",
+            "placeholder": "",
+            "required": true,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrbkdte",
+            "id": "dlvrbkdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrdte",
+            "id": "dlvrdte",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvrref",
+            "id": "dlvrref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "frghtchrg",
+            "id": "frghtchrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "inschrg",
+            "id": "inschrg",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "calref",
+            "id": "calref",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "IncoTrms",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "shipper",
+            "id": "shipper_1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "lport",
+            "id": "lport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "dport",
+            "id": "dport",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas1",
+            "id": "overseas1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas2",
+            "id": "overseas2",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "overseas3",
+            "id": "overseas3",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "splierId",
+            "id": "splierId",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "cmdty[]",
+            "id": "cmdty_1",
+            "required": true,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "volume[]",
+            "id": "volume_1",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "Place"
+              },
+              {
+                "value": "CM",
+                "text": "CM"
+              },
+              {
+                "value": "INCH",
+                "text": "INCH"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "shpcur[]",
+            "id": "shpcur_1",
+            "required": false,
+            "options": [
+              {
+                "value": "GBP",
+                "text": "GBP"
+              },
+              {
+                "value": "USD",
+                "text": "USD"
+              },
+              {
+                "value": "INR",
+                "text": "INR"
+              },
+              {
+                "value": "AUD",
+                "text": "AUD"
+              },
+              {
+                "value": "EUR",
+                "text": "EUR"
+              },
+              {
+                "value": "AZN",
+                "text": "AZN"
+              },
+              {
+                "value": "HUF",
+                "text": "HUF"
+              },
+              {
+                "value": "ISK",
+                "text": "ISK"
+              },
+              {
+                "value": "CNY",
+                "text": "CNY"
+              }
+            ],
+            "optionCount": 9
+          },
+          {
+            "tag": "select",
+            "name": "dlwrhouse",
+            "id": "dlwrhouse",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          },
+          {
+            "tag": "select",
+            "name": "gbpapplicable",
+            "id": "gbpapplicable",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "yes",
+                "text": "Yes"
+              },
+              {
+                "value": "no",
+                "text": "No"
+              }
+            ],
+            "optionCount": 3
+          },
+          {
+            "tag": "select",
+            "name": "cladr",
+            "id": "cladr",
+            "required": false,
+            "options": [],
+            "optionCount": 0
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[hawbno]=AUTOTEST_...",
+          "input[hawbdte]=AUTOTEST_...",
+          "input[mawbno]=AUTOTEST_...",
+          "input[mawbdte]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[flght_no]=AUTOTEST_...",
+          "input[book_ref]=AUTOTEST_...",
+          "input[hsn[]]=AUTOTEST_...",
+          "input[temp[]]=AUTOTEST_...",
+          "input[packno[]]=AUTOTEST_...",
+          "input[lngth[]]=AUTOTEST_...",
+          "input[brdth[]]=AUTOTEST_...",
+          "input[hght[]]=AUTOTEST_...",
+          "input[spinval[]]=AUTOTEST_...",
+          "input[grswght[]]=AUTOTEST_...",
+          "input[ntwght[]]=AUTOTEST_...",
+          "input[vlmwght[]]=AUTOTEST_...",
+          "input[totNo]=AUTOTEST_...",
+          "input[totGwght]=AUTOTEST_...",
+          "input[totNght]=AUTOTEST_...",
+          "input[totvlght]=AUTOTEST_...",
+          "input[shpinvval]=AUTOTEST_...",
+          "input[shpinvno]=AUTOTEST_...",
+          "input[shpinvdte]=AUTOTEST_...",
+          "input[dlvrbkdte]=AUTOTEST_...",
+          "input[dlvrdte]=AUTOTEST_...",
+          "input[dlvrref]=AUTOTEST_...",
+          "input[frghtchrg]=AUTOTEST_...",
+          "input[inschrg]=AUTOTEST_...",
+          "input[calref]=AUTOTEST_...",
+          "select[volume[]]=CM",
+          "select[shpcur[]]=GBP",
+          "select[gbpapplicable]=yes"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": true,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Export\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Report\n\nLand Import\n\nLand Export\n\nDSR Reports\n\nLogout\n\nAir Expor"
+        }
+      },
+      "land_import": {
+        "name": "Land Import",
+        "url": "/8013f48199799dce7a1fde812910a496",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "existing_rows": 1,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/LI/2627//0001"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": "18/04/2026"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "origin",
+            "id": "",
+            "placeholder": "e.g. London, UK",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "destination",
+            "id": "",
+            "placeholder": "e.g. Paris, France",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "veh_reg",
+            "id": "",
+            "placeholder": "e.g. AB12 CDE",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "driver",
+            "id": "",
+            "placeholder": "Driver name",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "cmr_no",
+            "id": "",
+            "placeholder": "CMR No.",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "gw",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "nw",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "cbm",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "pkgs",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvr_dte",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "1",
+                "text": "ExW"
+              },
+              {
+                "value": "2",
+                "text": "FCA"
+              },
+              {
+                "value": "3",
+                "text": "FOB"
+              },
+              {
+                "value": "4",
+                "text": "FAS"
+              },
+              {
+                "value": "5",
+                "text": "CFR"
+              },
+              {
+                "value": "6",
+                "text": "CIF"
+              },
+              {
+                "value": "7",
+                "text": "CIP"
+              },
+              {
+                "value": "8",
+                "text": "CPT"
+              },
+              {
+                "value": "9",
+                "text": "DAP"
+              }
+            ],
+            "optionCount": 12
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Type to search --"
+              }
+            ],
+            "optionCount": 1
+          },
+          {
+            "tag": "select",
+            "name": "veh_type",
+            "id": "",
+            "required": false,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "FTL",
+                "text": "FTL (Full Truck Load)"
+              },
+              {
+                "value": "LTL",
+                "text": "LTL (Less Truck Load)"
+              },
+              {
+                "value": "FTLR",
+                "text": "FTLR (Full Trailer Load)"
+              },
+              {
+                "value": "Van",
+                "text": "Van"
+              },
+              {
+                "value": "Refrigerated",
+                "text": "Refrigerated"
+              },
+              {
+                "value": "Flatbed",
+                "text": "Flatbed"
+              },
+              {
+                "value": "Tanker",
+                "text": "Tanker"
+              },
+              {
+                "value": "Other",
+                "text": "Other"
+              }
+            ],
+            "optionCount": 9
+          },
+          {
+            "tag": "textarea",
+            "name": "remarks",
+            "id": "",
+            "required": false
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[origin]=AUTOTEST_...",
+          "input[destination]=AUTOTEST_...",
+          "input[veh_reg]=AUTOTEST_...",
+          "input[driver]=AUTOTEST_...",
+          "input[cmr_no]=AUTOTEST_...",
+          "input[gw]=100",
+          "input[nw]=100",
+          "input[cbm]=100",
+          "input[pkgs]=100",
+          "input[dlvr_dte]=AUTOTEST_...",
+          "select[IncoTrms]=1",
+          "select[veh_type]=FTL"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": false,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Export\n\nLand Import\n\nOpen Jobs\n\nClosed Jobs\n\nLand Export\n\nDSR Reports\n\nLogout\n\nLand Import - Open \u00a0/\u00a0 Ne"
+        }
+      },
+      "land_export": {
+        "name": "Land Export",
+        "url": "/2ca1dbee9121459dedd8cf2e88823068",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "existing_rows": 1,
+        "add_new_clicked": true,
+        "add_new_selector": "a:has-text('Add New')",
+        "form_fields": [
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "JbNo",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "TLI/LE/2627//0001"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "jbdte",
+            "id": "jbdte",
+            "placeholder": "",
+            "required": true,
+            "value": "18/04/2026"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "etd",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "eta",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "origin",
+            "id": "",
+            "placeholder": "e.g. London, UK",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "destination",
+            "id": "",
+            "placeholder": "e.g. Paris, France",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "veh_reg",
+            "id": "",
+            "placeholder": "e.g. AB12 CDE",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "driver",
+            "id": "",
+            "placeholder": "Driver name",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "cmr_no",
+            "id": "",
+            "placeholder": "CMR No.",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "gw",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "nw",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "cbm",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0.000"
+          },
+          {
+            "tag": "input",
+            "type": "number",
+            "name": "pkgs",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": "0"
+          },
+          {
+            "tag": "input",
+            "type": "text",
+            "name": "dlvr_dte",
+            "id": "",
+            "placeholder": "",
+            "required": false,
+            "value": ""
+          },
+          {
+            "tag": "select",
+            "name": "IncoTrms",
+            "id": "",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "1",
+                "text": "ExW"
+              },
+              {
+                "value": "2",
+                "text": "FCA"
+              },
+              {
+                "value": "3",
+                "text": "FOB"
+              },
+              {
+                "value": "4",
+                "text": "FAS"
+              },
+              {
+                "value": "5",
+                "text": "CFR"
+              },
+              {
+                "value": "6",
+                "text": "CIF"
+              },
+              {
+                "value": "7",
+                "text": "CIP"
+              },
+              {
+                "value": "8",
+                "text": "CPT"
+              },
+              {
+                "value": "9",
+                "text": "DAP"
+              }
+            ],
+            "optionCount": 12
+          },
+          {
+            "tag": "select",
+            "name": "consigne",
+            "id": "consigne",
+            "required": true,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Type to search --"
+              }
+            ],
+            "optionCount": 1
+          },
+          {
+            "tag": "select",
+            "name": "veh_type",
+            "id": "",
+            "required": false,
+            "options": [
+              {
+                "value": "",
+                "text": "-- Select --"
+              },
+              {
+                "value": "FTL",
+                "text": "FTL (Full Truck Load)"
+              },
+              {
+                "value": "LTL",
+                "text": "LTL (Less Truck Load)"
+              },
+              {
+                "value": "FTLR",
+                "text": "FTLR (Full Trailer Load)"
+              },
+              {
+                "value": "Van",
+                "text": "Van"
+              },
+              {
+                "value": "Refrigerated",
+                "text": "Refrigerated"
+              },
+              {
+                "value": "Flatbed",
+                "text": "Flatbed"
+              },
+              {
+                "value": "Tanker",
+                "text": "Tanker"
+              },
+              {
+                "value": "Other",
+                "text": "Other"
+              }
+            ],
+            "optionCount": 9
+          },
+          {
+            "tag": "textarea",
+            "name": "remarks",
+            "id": "",
+            "required": false
+          }
+        ],
+        "fields_filled": [
+          "input[JbNo]=AUTOTEST_...",
+          "input[jbdte]=AUTOTEST_...",
+          "input[etd]=AUTOTEST_...",
+          "input[eta]=AUTOTEST_...",
+          "input[origin]=AUTOTEST_...",
+          "input[destination]=AUTOTEST_...",
+          "input[veh_reg]=AUTOTEST_...",
+          "input[driver]=AUTOTEST_...",
+          "input[cmr_no]=AUTOTEST_...",
+          "input[gw]=100",
+          "input[nw]=100",
+          "input[cbm]=100",
+          "input[pkgs]=100",
+          "input[dlvr_dte]=AUTOTEST_...",
+          "select[IncoTrms]=1",
+          "select[veh_type]=FTL"
+        ],
+        "submitted": true,
+        "submit_selector": "button[type='submit']",
+        "post_submit": {
+          "hasSuccess": false,
+          "hasError": false,
+          "alertText": "",
+          "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Export\n\nLand Import\n\nLand Export\n\nOpen Jobs\n\nClosed Jobs\n\nDSR Reports\n\nLogout\n\nLand Export - Open \u00a0/\u00a0 Ne"
+        }
+      }
+    },
+    "part2_booking_reports": {
+      "ocean_import_booking": {
+        "name": "Ocean Import Booking",
+        "url": "/e14e00f9b8b4f2a0fbce2a5f843a543d",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Re"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": false,
+          "date_inputs_found": 1
+        }
+      },
+      "ocean_export_booking": {
+        "name": "Ocean Export Booking",
+        "url": "/a77dd96ff658388a662b311c5bbd1a75",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nOpen Jobs\n\nClosed Jo"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": false,
+          "date_inputs_found": 1
+        }
+      },
+      "air_import_booking": {
+        "name": "Air Import Booking",
+        "url": "/6e2cac0a97967fe9b38243a12ec09be0",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nOpen Job"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": false,
+          "date_inputs_found": 1
+        }
+      },
+      "air_export_booking": {
+        "name": "Air Export Booking",
+        "url": "/7d27d418fe920b6bc9230e81ef3a9bae",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": false,
+          "date_inputs_found": 1
+        }
+      }
+    },
+    "part3_financial_reports": {
+      "purchase_invoice": {
+        "name": "Purchase Invoice",
+        "url": "/purchase-invoice",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 21,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 27
+        },
+        "tables_found": 1
+      },
+      "sales_invoice": {
+        "name": "Sales Invoice",
+        "url": "/sales-invoice",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 20,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 16
+        },
+        "tables_found": 1
+      },
+      "purchase_invoice_vat": {
+        "name": "Purchase Invoice VAT",
+        "url": "/purchase-invoice-with-vat",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 21,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 14
+        },
+        "tables_found": 1
+      },
+      "sales_invoice_vat": {
+        "name": "Sales Invoice VAT",
+        "url": "/sales-invoice/with-vat",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 20,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 14
+        },
+        "tables_found": 1
+      },
+      "ledger_report": {
+        "name": "Ledger Report",
+        "url": "/ledger",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 2,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 4
+        },
+        "tables_found": 1
+      },
+      "customer_ageing": {
+        "name": "Customer Ageing",
+        "url": "/reports/customer-aging",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 10,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 2
+        },
+        "tables_found": 1
+      },
+      "supplier_ageing": {
+        "name": "Supplier Ageing",
+        "url": "/reports/supplier-ageing",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 10,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 2
+        },
+        "tables_found": 1
+      },
+      "jobs_w_o_purchase_inv": {
+        "name": "Jobs w/o Purchase Inv",
+        "url": "/purchase-invoice-missing",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 10,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 2
+        },
+        "tables_found": 1
+      },
+      "jobs_w_o_sales_inv": {
+        "name": "Jobs w/o Sales Inv",
+        "url": "/sales-charges-without-invoice",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nPurchase Invoice\n\nSales Invoice\n\nPurchase Invoice w/ VAT\n\nSales Invoice w/ VAT\n\nLedger Report\n\nCustomer Ageing\n\nS"
+        },
+        "row_count": 10,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 2
+        },
+        "tables_found": 1
+      }
+    },
+    "part4_closed_jobs_quotes": {
+      "ocean_import_closed": {
+        "name": "Ocean Import Closed",
+        "url": "/670effb783ab68c5759f4523c9ad5185",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOpen Jobs\n\nClosed Jobs\n\nBooking Re"
+        },
+        "row_count": 1
+      },
+      "ocean_export_closed": {
+        "name": "Ocean Export Closed",
+        "url": "/12d57e567d9ab44399006309b5d542a4",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      },
+      "air_import_closed": {
+        "name": "Air Import Closed",
+        "url": "/3092560bb3f11343b8ceb0e02a739a01",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nOpen Job"
+        },
+        "row_count": 1
+      },
+      "air_export_closed": {
+        "name": "Air Export Closed",
+        "url": "/8ec1c8a3d9ad635d8fd2adb2c583b7c0",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      },
+      "quotes": {
+        "name": "Quotes",
+        "url": "/68915d3ba92a6ff8c96734362d61b15e",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1,
+        "add_new_clicked": false
+      },
+      "rate_database": {
+        "name": "Rate Database",
+        "url": "/95ea21eb539e083e42f57313509a93ed",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nCarriers\n\nExchange Rates\n\nRate Database\n\nClient Rates\n\nQ"
+        },
+        "row_count": 1
+      },
+      "client_rates": {
+        "name": "Client Rates",
+        "url": "/db6f53167f5911e700a4b3aae0352572",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nCarriers\n\nExchange Rates\n\nRate Database\n\nClient Rates\n\nQ"
+        },
+        "row_count": 1
+      }
+    },
+    "part5_account_pages": {
+      "consignee_due": {
+        "name": "Consignee Due",
+        "url": "/1abe8a244329f592bb3bbb96e22e0344",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 32,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "consignee_paid": {
+        "name": "Consignee Paid",
+        "url": "/8c8bcb5e96e6c22e001efff53fcadf28",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 3,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "agent_due_debtor": {
+        "name": "Agent Due (Debtor)",
+        "url": "/28f3b7864cdf11d6b30b148bec8d6307",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 11,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "agent_paid_debtor": {
+        "name": "Agent Paid (Debtor)",
+        "url": "/b621a0964636bcee73d691db7d3572fd",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "shipper_due": {
+        "name": "Shipper Due",
+        "url": "/8211377a76b5f20c607e278620d4abe3",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "shipper_paid": {
+        "name": "Shipper Paid",
+        "url": "/76264365e7c5a943b7629804aeab136b",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nConsignee Due\n\nConsignee Paid\n\nAgent Due\n\nAgent Paid\n\nShipper Due\n\nShipper Paid\n\nCreditors\n\nFinancial Reports\n\nCommon Maste"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "shipping_line_due": {
+        "name": "Shipping Line Due",
+        "url": "/8e1b7fdf1fd87dcc9e0546d03ae62556",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 14,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "shipping_line_paid": {
+        "name": "Shipping Line Paid",
+        "url": "/d18ec27a83b522669c9efc55a880f917",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "co-loader_due": {
+        "name": "Co-Loader Due",
+        "url": "/285ee3bf7d21a421fb354e824a0ba678",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "co-loader_paid": {
+        "name": "Co-Loader Paid",
+        "url": "/49ab2c7ef13c1de745c5e511ea7d306f",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "supplier_due": {
+        "name": "Supplier Due",
+        "url": "/57e215a5d82f9e54a6e6b2ddfd0372c1",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 17,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "supplier_paid": {
+        "name": "Supplier Paid",
+        "url": "/832128c1bea0bf94b30c16a8417125ae",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "agent_due_creditor": {
+        "name": "Agent Due (Creditor)",
+        "url": "/455492c7888db5aafecf4facc1aa7639",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 3,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      },
+      "agent_paid_creditor": {
+        "name": "Agent Paid (Creditor)",
+        "url": "/bfd9d957f28679c09593198e7cefb085",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nDebtors\n\nCreditors\n\nShipping Line Due\n\nShipping Line Paid\n\nCo-Loader Due\n\nCo-Loader Paid\n\nSupplier Due\n\nSupplier Paid\n\nAgent Due\n\nAg"
+        },
+        "row_count": 1,
+        "filter": {
+          "filtered": true,
+          "date_inputs_found": 3
+        }
+      }
+    },
+    "part6_hr_employee": {
+      "name": "Employee",
+      "url": "/51564f2eb2d3a1bca494e86b1c67635e",
+      "page_status": {
+        "status": 200,
+        "is_404": false,
+        "is_error": false,
+        "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nEmployee\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import"
+      },
+      "row_count": 11,
+      "add_new_clicked": true,
+      "form_fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "fname",
+          "id": "fname",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "mname",
+          "id": "mname",
+          "placeholder": "",
+          "required": false,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "lname",
+          "id": "lname",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "Mob",
+          "id": "Mob",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "Email",
+          "id": "Email",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "UType",
+          "id": "UTypeA",
+          "placeholder": "",
+          "required": true,
+          "value": "2"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "UType",
+          "id": "UTypeY",
+          "placeholder": "",
+          "required": false,
+          "value": "3"
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "uname",
+          "id": "uname",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "pwd",
+          "id": "pwd",
+          "placeholder": "",
+          "required": true,
+          "value": ""
+        },
+        {
+          "tag": "input",
+          "type": "file",
+          "name": "prPic",
+          "id": "prPic",
+          "placeholder": "",
+          "required": false,
+          "value": ""
+        }
+      ],
+      "fields_filled": [
+        "input[fname]=AUTOTEST_...",
+        "input[mname]=AUTOTEST_...",
+        "input[lname]=AUTOTEST_...",
+        "input[Mob]=AUTOTEST_...",
+        "input[Email]=autotest@test.com",
+        "input[uname]=AUTOTEST_...",
+        "input[pwd]=AUTOTEST_..."
+      ],
+      "submitted": true,
+      "post_submit": {
+        "hasSuccess": false,
+        "hasError": false,
+        "alertText": "",
+        "bodyPreview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nEmployee\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Export\n\nLand Import\n\nLand Export\n\nDSR Reports\n\nLogout\n\nEmployee\u00a0/\u00a0Add\nFirst Name\nMiddle Name\nL"
+      }
+    },
+    "part7_dsr_reports": {
+      "basic_graph": {
+        "name": "Basic Graph",
+        "url": "/fe83dce7816670353cfa807c5722d816",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 0
+      },
+      "ocean_import_dsr": {
+        "name": "Ocean Import DSR",
+        "url": "/1387f1ae3dc1d840789d15c546e89125",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      },
+      "ocean_export_dsr": {
+        "name": "Ocean Export DSR",
+        "url": "/c745c437840b2e21636a2cbdab4b33a6",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      },
+      "air_import_dsr": {
+        "name": "Air Import DSR",
+        "url": "/abf5db603d4276889077e81de984cf6d",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      },
+      "air_export_dsr": {
+        "name": "Air Export DSR",
+        "url": "/627db3ba79d7139f8dfd6f462e1b0514",
+        "page_status": {
+          "status": 200,
+          "is_404": false,
+          "is_error": false,
+          "body_preview": "NICK JAIN\nSena ERP\nNICK JAIN\nAdministrator\n\nDashboard\n\nHR\n\nAccount\n\nFinancial Reports\n\nCommon Masters\n\nOcean Masters\n\nAir Masters\n\nQuote Setup\n\nQuotes\n\nOcean Import\n\nOcean Export\n\nAir Import\n\nAir Expo"
+        },
+        "row_count": 1
+      }
+    }
+  },
+  "completed": "2026-04-18T04:17:46.332049"
+}

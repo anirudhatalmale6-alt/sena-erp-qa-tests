@@ -1,0 +1,1701 @@
+{
+  "run_timestamp": "2026-04-18T03:28:05.707981",
+  "base_url": "http://13.210.47.18:8088",
+  "total_pages": 20,
+  "summary": {
+    "total_tested": 20,
+    "by_status": {
+      "SUCCESS": 19,
+      "NO_FIELDS": 1
+    },
+    "success_count": 19,
+    "error_count": 0,
+    "exception_count": 0
+  },
+  "pages": [
+    {
+      "name": "State",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/9ed39e2ea931586b6a985a6942ef573e",
+      "status": "SUCCESS",
+      "fields_found": 4,
+      "fields_filled": 4,
+      "fields_detail": [
+        {
+          "name": "cntId",
+          "id": "cntId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '99'}",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/State_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/State_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/State_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/State_04_after_submit.png"
+      },
+      "timestamp": "20260418_032820",
+      "error_info": null
+    },
+    {
+      "name": "City",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/4ed5d2eaed1a1fadcc41ad1d58ed603e",
+      "status": "SUCCESS",
+      "fields_found": 6,
+      "fields_filled": 5,
+      "fields_detail": [
+        {
+          "name": "cntId",
+          "id": "cntId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '99'}",
+          "filled": true
+        },
+        {
+          "name": "statId",
+          "id": "statId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": false,
+      "messages": [
+        "SUCCESS: Save",
+        "ERROR: Logout",
+        "ERROR: Add"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/City_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/City_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/City_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/City_04_after_submit.png"
+      },
+      "timestamp": "20260418_032839",
+      "error_info": null
+    },
+    {
+      "name": "Company Type",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/4cbb903cfae35c7d1844aac2363280b4",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Type_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Type_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Type_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Type_04_after_submit.png"
+      },
+      "timestamp": "20260418_032856",
+      "error_info": null
+    },
+    {
+      "name": "Customer Type",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/4fe8a4cd07dfac7245a1e6cacb76ea5e",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Type_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Type_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Type_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Type_04_after_submit.png"
+      },
+      "timestamp": "20260418_032913",
+      "error_info": null
+    },
+    {
+      "name": "Vendor Type",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/01f9a24e9744ed8edf5beb17513aafb4",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vendor_Type_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vendor_Type_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vendor_Type_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vendor_Type_04_after_submit.png"
+      },
+      "timestamp": "20260418_032930",
+      "error_info": null
+    },
+    {
+      "name": "Ledger Group",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/2b0f7f32c7f7af6b51bf090558391d67",
+      "status": "NO_FIELDS",
+      "fields_found": 0,
+      "fields_filled": 0,
+      "fields_detail": [],
+      "add_button_found": true,
+      "submit_clicked": false,
+      "success_detected": false,
+      "error_detected": false,
+      "record_in_table": false,
+      "messages": [
+        "No form fields found after clicking Add New"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ledger_Group_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ledger_Group_02_form.png"
+      },
+      "timestamp": "20260418_032947",
+      "error_info": null
+    },
+    {
+      "name": "Commodity Master",
+      "category": "Simple",
+      "url": "http://13.210.47.18:8088/b515f30a4688bf67cd17f0cd09512ecf",
+      "status": "SUCCESS",
+      "fields_found": 4,
+      "fields_filled": 4,
+      "fields_detail": [
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Commodity_Master_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Commodity_Master_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Commodity_Master_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Commodity_Master_04_after_submit.png"
+      },
+      "timestamp": "20260418_032953",
+      "error_info": null
+    },
+    {
+      "name": "Charge Master",
+      "category": "Complex",
+      "url": "http://13.210.47.18:8088/af33c0fa2a013f51745b910eb3f70046",
+      "status": "SUCCESS",
+      "fields_found": 7,
+      "fields_filled": 6,
+      "fields_detail": [
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "taxId",
+          "id": "taxId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '0.00'}",
+          "filled": true
+        },
+        {
+          "name": "taxrate",
+          "id": "taxrate",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "typeId",
+          "id": "typeId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': 'A'}",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Charge_Master_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Charge_Master_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Charge_Master_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Charge_Master_04_after_submit.png"
+      },
+      "timestamp": "20260418_033011",
+      "error_info": null
+    },
+    {
+      "name": "Company Master",
+      "category": "Complex",
+      "url": "http://13.210.47.18:8088/005480c8a6a0357d17cff2e8eb7e060d",
+      "status": "SUCCESS",
+      "fields_found": 5,
+      "fields_filled": 5,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "ctypeId",
+          "id": "ctypeId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '17'}",
+          "filled": true
+        },
+        {
+          "name": "typId",
+          "id": "typId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': 'S'}",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Master_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Master_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Master_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Company_Master_04_after_submit.png"
+      },
+      "timestamp": "20260418_033036",
+      "error_info": null
+    },
+    {
+      "name": "Customer Master",
+      "category": "Complex",
+      "url": "http://13.210.47.18:8088/423b21e5932f11b123a1ddb35654b51b",
+      "status": "SUCCESS",
+      "fields_found": 39,
+      "fields_filled": 36,
+      "fields_detail": [
+        {
+          "name": "com_type",
+          "id": "com_type",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '1'}",
+          "filled": true
+        },
+        {
+          "name": "cus_type",
+          "id": "cus_type",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '1'}",
+          "filled": true
+        },
+        {
+          "name": "cus_code",
+          "id": "cus_code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_cus_code",
+          "filled": true
+        },
+        {
+          "name": "base_fld",
+          "id": "base_fld",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_base_fld",
+          "filled": true
+        },
+        {
+          "name": "con_prsn",
+          "id": "con_prsn",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_con_prsn",
+          "filled": true
+        },
+        {
+          "name": "eori_num",
+          "id": "eori_num",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_eori_num",
+          "filled": true
+        },
+        {
+          "name": "tel_no",
+          "id": "tel_no",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "1234567890",
+          "filled": true
+        },
+        {
+          "name": "mob_no",
+          "id": "mob_no",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_mob_no",
+          "filled": true
+        },
+        {
+          "name": "Email",
+          "id": "Email",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "autotest@example.com",
+          "filled": true
+        },
+        {
+          "name": "fax_no",
+          "id": "fax_no",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "1234567890",
+          "filled": true
+        },
+        {
+          "name": "vats",
+          "id": "vats",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '1'}",
+          "filled": true
+        },
+        {
+          "name": "vatId",
+          "id": "vatId",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_vatid",
+          "filled": true
+        },
+        {
+          "name": "due_date",
+          "id": "due_date",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "2026-04-18",
+          "filled": true
+        },
+        {
+          "name": "notify",
+          "id": "notify",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "brnch[]",
+          "id": "brnch_1",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "bnsm[]",
+          "id": "bnsm_1",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "bnsm[]",
+          "id": "bnsm_2",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "bnsm[]",
+          "id": "bnsm_3",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "bnsm[]",
+          "id": "bnsm_4",
+          "type": "checkbox",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "drname[]",
+          "id": "drname_1",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_drname[]",
+          "filled": true
+        },
+        {
+          "name": "adr1",
+          "id": "adr1",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_adr1",
+          "filled": true
+        },
+        {
+          "name": "adr2",
+          "id": "adr2",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_adr2",
+          "filled": true
+        },
+        {
+          "name": "adr3",
+          "id": "adr3",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_adr3",
+          "filled": true
+        },
+        {
+          "name": "adr4",
+          "id": "adr4",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_adr4",
+          "filled": true
+        },
+        {
+          "name": "cntry",
+          "id": "cntry",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '99'}",
+          "filled": true
+        },
+        {
+          "name": "state",
+          "id": "state",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "city",
+          "id": "city",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "PinCode",
+          "id": "PinCode",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "400001",
+          "filled": true
+        },
+        {
+          "name": "cbname",
+          "id": "cbname",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_cbname",
+          "filled": true
+        },
+        {
+          "name": "bnkname",
+          "id": "bnkname",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_bnkname",
+          "filled": true
+        },
+        {
+          "name": "accno",
+          "id": "accno",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_accno",
+          "filled": true
+        },
+        {
+          "name": "bcode",
+          "id": "bcode",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_bcode",
+          "filled": true
+        },
+        {
+          "name": "scode",
+          "id": "scode",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_scode",
+          "filled": true
+        },
+        {
+          "name": "ibanno",
+          "id": "ibanno",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_ibanno",
+          "filled": true
+        },
+        {
+          "name": "bnkadr",
+          "id": "bnkadr",
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "label": "",
+          "value_attempted": "AUTOTEST_bnkadr",
+          "filled": true
+        },
+        {
+          "name": "prPic",
+          "id": "prPic",
+          "type": "file",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "cmnt1",
+          "id": "cmnt1",
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "label": "",
+          "value_attempted": "AUTOTEST_cmnt1",
+          "filled": true
+        },
+        {
+          "name": "cmnt2",
+          "id": "cmnt2",
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "label": "",
+          "value_attempted": "AUTOTEST_cmnt2",
+          "filled": true
+        },
+        {
+          "name": "cmnt3",
+          "id": "cmnt3",
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "label": "",
+          "value_attempted": "AUTOTEST_cmnt3",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: Save",
+        "ERROR: Logout",
+        "ERROR: Add",
+        "ERROR: BASIC SECTION",
+        "ERROR: OTHER SECTION",
+        "ERROR: DIRECTOR SECTION",
+        "ERROR: ADDRESS SECTION",
+        "ERROR: BANKING SECTION",
+        "ERROR: Image\u00a0/\u00a0Pdf",
+        "ERROR: MESSAGE SECTION",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Master_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Master_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Master_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Customer_Master_04_after_submit.png"
+      },
+      "timestamp": "20260418_033053",
+      "error_info": null
+    },
+    {
+      "name": "Shipping Line Code",
+      "category": "Complex",
+      "url": "http://13.210.47.18:8088/9cdaacf035c457148bc2134dfe09fc50",
+      "status": "SUCCESS",
+      "fields_found": 4,
+      "fields_filled": 4,
+      "fields_detail": [
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Shipping_Line_Code_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Shipping_Line_Code_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Shipping_Line_Code_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Shipping_Line_Code_04_after_submit.png"
+      },
+      "timestamp": "20260418_033127",
+      "error_info": null
+    },
+    {
+      "name": "Address",
+      "category": "Complex",
+      "url": "http://13.210.47.18:8088/de7c54d99428fb909bef013577070f0d",
+      "status": "SUCCESS",
+      "fields_found": 6,
+      "fields_filled": 6,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "textarea",
+          "tag": "TEXTAREA",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "aType",
+          "id": "AdrTypeC",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "aType",
+          "id": "AdrTypeD",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "aType",
+          "id": "AdrTypeB",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": false,
+      "messages": [
+        "SUCCESS: Save",
+        "ERROR: Logout",
+        "ERROR: Add"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Address_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Address_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Address_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Address_04_after_submit.png"
+      },
+      "timestamp": "20260418_033143",
+      "error_info": null
+    },
+    {
+      "name": "Job Type",
+      "category": "Ocean",
+      "url": "http://13.210.47.18:8088/3f80ea99d7b24220db44943ed1838285",
+      "status": "SUCCESS",
+      "fields_found": 4,
+      "fields_filled": 4,
+      "fields_detail": [
+        {
+          "name": "jb_typ",
+          "id": "jb_typ",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '1'}",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Job_Type_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Job_Type_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Job_Type_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Job_Type_04_after_submit.png"
+      },
+      "timestamp": "20260418_033204",
+      "error_info": null
+    },
+    {
+      "name": "Vessel",
+      "category": "Ocean",
+      "url": "http://13.210.47.18:8088/ed6c460e3ce8e91132123ff09428a37d",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vessel_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vessel_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vessel_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Vessel_04_after_submit.png"
+      },
+      "timestamp": "20260418_033221",
+      "error_info": null
+    },
+    {
+      "name": "Ocean Port Sector",
+      "category": "Ocean",
+      "url": "http://13.210.47.18:8088/51b6df155998f6c6b3ccc2701b59693d",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_Sector_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_Sector_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_Sector_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_Sector_04_after_submit.png"
+      },
+      "timestamp": "20260418_033238",
+      "error_info": null
+    },
+    {
+      "name": "Ocean Port",
+      "category": "Ocean",
+      "url": "http://13.210.47.18:8088/eac46b9f08f604c039b439ef2dd5663f",
+      "status": "SUCCESS",
+      "fields_found": 6,
+      "fields_filled": 6,
+      "fields_detail": [
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "cntId",
+          "id": "cntId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '99'}",
+          "filled": true
+        },
+        {
+          "name": "secId",
+          "id": "secId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": "{'type': 'select', 'value': '1'}",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Ocean_Port_04_after_submit.png"
+      },
+      "timestamp": "20260418_033255",
+      "error_info": null
+    },
+    {
+      "name": "Airport",
+      "category": "Air",
+      "url": "http://13.210.47.18:8088/d1ed858f6d8126a814e31f18a7de5f8e",
+      "status": "SUCCESS",
+      "fields_found": 6,
+      "fields_filled": 4,
+      "fields_detail": [
+        {
+          "name": "cntId",
+          "id": "cntId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "statId",
+          "id": "statId",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "",
+          "value_attempted": null,
+          "filled": false
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": false,
+      "messages": [
+        "SUCCESS: Save",
+        "ERROR: Logout",
+        "ERROR: Add"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Airport_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Airport_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Airport_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Airport_04_after_submit.png"
+      },
+      "timestamp": "20260418_033312",
+      "error_info": null
+    },
+    {
+      "name": "Carrier Airlines",
+      "category": "Air",
+      "url": "http://13.210.47.18:8088/1abf8c1a21e96e8d369b40b322331782",
+      "status": "SUCCESS",
+      "fields_found": 6,
+      "fields_filled": 6,
+      "fields_detail": [
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "arfx",
+          "id": "arfx",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_arfx",
+          "filled": true
+        },
+        {
+          "name": "adr",
+          "id": "adr",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "AUTOTEST_adr",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusA",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "StatusI",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": false,
+      "messages": [
+        "SUCCESS: Save",
+        "ERROR: Logout",
+        "ERROR: Add"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carrier_Airlines_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carrier_Airlines_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carrier_Airlines_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carrier_Airlines_04_after_submit.png"
+      },
+      "timestamp": "20260418_033330",
+      "error_info": null
+    },
+    {
+      "name": "Carriers",
+      "category": "Quote",
+      "url": "http://13.210.47.18:8088/8ee4a920e024b1d3beadaadd006a0a31",
+      "status": "SUCCESS",
+      "fields_found": 5,
+      "fields_filled": 5,
+      "fields_detail": [
+        {
+          "name": "mode",
+          "id": "mode",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "Mode *",
+          "value_attempted": "{'type': 'select', 'value': 'O'}",
+          "filled": true
+        },
+        {
+          "name": "code",
+          "id": "code",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "Mode *",
+          "value_attempted": "AUTOTEST_code",
+          "filled": true
+        },
+        {
+          "name": "name",
+          "id": "name",
+          "type": "text",
+          "tag": "INPUT",
+          "label": "Carrier / Airline Name *",
+          "value_attempted": "AUTOTEST_name",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "Carrier / Airline Name *",
+          "value_attempted": "CHECK",
+          "filled": true
+        },
+        {
+          "name": "Status",
+          "id": "",
+          "type": "radio",
+          "tag": "INPUT",
+          "label": "Carrier / Airline Name *",
+          "value_attempted": "CHECK",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": true,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout",
+        "AUTOTEST record found in table"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carriers_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carriers_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carriers_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Carriers_04_after_submit.png"
+      },
+      "timestamp": "20260418_033347",
+      "error_info": null
+    },
+    {
+      "name": "Exchange Rates",
+      "category": "Quote",
+      "url": "http://13.210.47.18:8088/b63cf46906108334186c3ecf25f4ddb8",
+      "status": "SUCCESS",
+      "fields_found": 3,
+      "fields_filled": 3,
+      "fields_detail": [
+        {
+          "name": "currency",
+          "id": "",
+          "type": "select-one",
+          "tag": "SELECT",
+          "label": "Currency *",
+          "value_attempted": "{'type': 'select', 'value': 'USD'}",
+          "filled": true
+        },
+        {
+          "name": "rate",
+          "id": "",
+          "type": "number",
+          "tag": "INPUT",
+          "label": "Currency *",
+          "value_attempted": "100",
+          "filled": true
+        },
+        {
+          "name": "eff_date",
+          "id": "",
+          "type": "date",
+          "tag": "INPUT",
+          "label": "Effective Date *",
+          "value_attempted": "2026-04-18",
+          "filled": true
+        }
+      ],
+      "add_button_found": true,
+      "submit_clicked": true,
+      "success_detected": true,
+      "error_detected": true,
+      "record_in_table": false,
+      "messages": [
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: Add New Rate",
+        "SUCCESS: AddedRecord added successfully.",
+        "SUCCESS: AddedRecord added successfully.",
+        "ERROR: Logout"
+      ],
+      "screenshots": {
+        "list": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Exchange_Rates_01_list.png",
+        "form": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Exchange_Rates_02_form.png",
+        "filled": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Exchange_Rates_03_filled.png",
+        "after_submit": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/crud/Exchange_Rates_04_after_submit.png"
+      },
+      "timestamp": "20260418_033401",
+      "error_info": null
+    }
+  ]
+}
