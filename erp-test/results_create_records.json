@@ -1,0 +1,526 @@
+{
+  "test1_employee": {
+    "test": "Create HR Employee",
+    "status": "success",
+    "errors": [],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/01_employee_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/02_employee_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/03_employee_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/04_employee_result.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/05_employee_list_after.png"
+    ],
+    "verified_in_list": true
+  },
+  "test2_ocean_import": {
+    "test": "Create Ocean Import Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-2 ()",
+      "Required: conSizeId ()",
+      "Required: signupForm_step-4 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: bl_payto[] ()",
+      "Required: bl_party[] ()",
+      "Required: signupForm_step-5 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: signupForm_step-8 ()",
+      "Required: file_link ()",
+      "Required: sinv_due_date ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/10_ocean_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/11_ocean_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/12_ocean_filled_top.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/12b_ocean_filled_mid.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/12c_ocean_filled_bottom.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/13_ocean_result.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/13b_ocean_result_mid.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/14_ocean_list_after.png"
+    ],
+    "select2_IncoTrms": "FCA",
+    "select2_consigne": "RASKEL",
+    "select2_lport": "BOMBAY",
+    "select2_dport": "KOLKATA",
+    "select2_overseas1": "PARTHA",
+    "select2_shpline": "HAPAG LLOYD",
+    "select2_shipper": "RASKEL",
+    "verified_in_list": true
+  },
+  "test3_air_import": {
+    "test": "Create Air Import Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-4 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: sl_party[] ()",
+      "Required: signupForm_step-5 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: signupForm_step-8 ()",
+      "Required: file_link ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/20_air_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/21_air_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/22_air_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/22b_air_filled_bottom.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/23_air_result.png"
+    ],
+    "form_fields": [
+      {
+        "id": "JbNo",
+        "name": "JbNo",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "jbdte",
+        "name": "jbdte",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "IncoTrms",
+        "name": "IncoTrms",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "shipper_1",
+        "name": "shipper",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "consigne",
+        "name": "consigne",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "hawbno",
+        "name": "hawbno",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "lport",
+        "name": "lport",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "dport",
+        "name": "dport",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "hawbdte",
+        "name": "hawbdte",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "overseas1",
+        "name": "overseas1",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "overseas2",
+        "name": "overseas2",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": false
+      },
+      {
+        "id": "overseas3",
+        "name": "overseas3",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": false
+      },
+      {
+        "id": "mawbno",
+        "name": "mawbno",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "mawbdte",
+        "name": "mawbdte",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "splierId",
+        "name": "splierId",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "eta",
+        "name": "eta",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "etd",
+        "name": "etd",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "flght_no",
+        "name": "flght_no",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "cmdty_1",
+        "name": "cmdty[]",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "hsn_cmdty_1",
+        "name": "hsn[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "temp_1",
+        "name": "temp[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      },
+      {
+        "id": "packno_1",
+        "name": "packno[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "lngth_1",
+        "name": "lngth[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "brdth_1",
+        "name": "brdth[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "hght_1",
+        "name": "hght[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "volume_1",
+        "name": "volume[]",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true
+      },
+      {
+        "id": "shpcur_1",
+        "name": "shpcur[]",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": false
+      },
+      {
+        "id": "spinval_1",
+        "name": "spinval[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "grswght_1",
+        "name": "grswght[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true
+      },
+      {
+        "id": "ntwght_1",
+        "name": "ntwght[]",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false
+      }
+    ]
+  },
+  "test4_land_import": {
+    "test": "Create Land Import Job",
+    "status": "validation_error",
+    "errors": [
+      "Required: signupForm_step1 ()",
+      "Required: consigne ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/30_land_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/31_land_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/32_land_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/33_land_result.png"
+    ],
+    "form_fields": [
+      {
+        "id": "",
+        "name": "JbNo",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "jbdte",
+        "name": "jbdte",
+        "type": "text",
+        "tag": "INPUT",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "IncoTrms",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "consigne",
+        "name": "consigne",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "etd",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "eta",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "origin",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": "e.g. London, UK"
+      },
+      {
+        "id": "",
+        "name": "destination",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": "e.g. Paris, France"
+      },
+      {
+        "id": "",
+        "name": "veh_type",
+        "type": "select-one",
+        "tag": "SELECT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "veh_reg",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": "e.g. AB12 CDE"
+      },
+      {
+        "id": "",
+        "name": "driver",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": "Driver name"
+      },
+      {
+        "id": "",
+        "name": "cmr_no",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": "CMR No."
+      },
+      {
+        "id": "",
+        "name": "gw",
+        "type": "number",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "nw",
+        "type": "number",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "cbm",
+        "type": "number",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "pkgs",
+        "type": "number",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "dlvr_dte",
+        "type": "text",
+        "tag": "INPUT",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "id": "",
+        "name": "remarks",
+        "type": "textarea",
+        "tag": "TEXTAREA",
+        "required": false,
+        "placeholder": ""
+      }
+    ],
+    "visible_validation_errors": [
+      "Logout",
+      "LAND JOB \u2014 BASIC DETAILS"
+    ]
+  },
+  "test5_view_details": {
+    "test": "View Ocean Import Job Details",
+    "status": "success",
+    "errors": [],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/40_ocean_jobs_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/41_job_detail.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Clearing_Instruction.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Delivery_Note.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Buying_Charges.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Selling_Charges.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Sale_Invoice.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Job_Supporting.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/42_step_Files.png"
+    ],
+    "tabs_found": [
+      "Basic Details",
+      "Clearing Instructions",
+      "Delivery Note",
+      "Buying Charges",
+      "Selling Charges",
+      "Sale Invoice",
+      "Job Supporting",
+      "Files"
+    ],
+    "job_count": 19
+  },
+  "test6_quote_flow": {
+    "test": "Quote Creation Flow",
+    "status": "completed",
+    "errors": [],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/50_quotes.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51_quotes_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51b_quotes_form_scroll.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/50_rate_database.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51_rate_database_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51b_rate_database_form_scroll.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/50_client_rates.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51_client_rates_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/create_records/51b_client_rates_form_scroll.png"
+    ],
+    "pages_checked": [
+      {
+        "name": "Quotes",
+        "url": "/68915d3ba92a6ff8c96734362d61b15e",
+        "buttons_found": [
+          "+ New Quote"
+        ],
+        "has_add": true,
+        "form_fields": []
+      },
+      {
+        "name": "Rate Database",
+        "url": "/95ea21eb539e083e42f57313509a93ed",
+        "buttons_found": [
+          "Add Rate"
+        ],
+        "has_add": true,
+        "form_fields": []
+      },
+      {
+        "name": "Client Rates",
+        "url": "/db6f53167f5911e700a4b3aae0352572",
+        "buttons_found": [
+          "Add New"
+        ],
+        "has_add": true,
+        "form_fields": []
+      }
+    ]
+  },
+  "timestamp": "2026-04-18T09:37:54.406550"
+}

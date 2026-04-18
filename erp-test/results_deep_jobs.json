@@ -1,0 +1,4577 @@
+{
+  "OI": {
+    "job_type": "Ocean Import",
+    "url": "9dddd5ce1b1375bc497feeb871842d4b",
+    "form_controls": {
+      "selects": 17,
+      "inputs": 28,
+      "textareas": 2,
+      "select2_present": true,
+      "select2_count": 14,
+      "select_details": [
+        {
+          "id": "SptmntId",
+          "name": "SptmntId",
+          "className": "form-control",
+          "optionCount": 4,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "1",
+              "text": "LCL"
+            },
+            {
+              "value": "2",
+              "text": "FCL"
+            },
+            {
+              "value": "3",
+              "text": "Consol"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shipper_1",
+          "name": "shipper[]",
+          "className": "form-control shipper select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "cmdty_1_addcmdt_1",
+          "name": "cmdty_1[]",
+          "className": "form-control commudity select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "shpcur_1",
+          "name": "shpcur[]",
+          "className": "form-control shpcur",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "GBP",
+              "text": "GBP"
+            },
+            {
+              "value": "USD",
+              "text": "USD"
+            },
+            {
+              "value": "INR",
+              "text": "INR"
+            },
+            {
+              "value": "AUD",
+              "text": "AUD"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "IncoTrms",
+          "name": "IncoTrms",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "lport",
+          "name": "lport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dport",
+          "name": "dport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas1",
+          "name": "overseas1",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas2",
+          "name": "overseas2",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas3",
+          "name": "overseas3",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpline",
+          "name": "shpline",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "coloder",
+          "name": "coloder",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "vovesel",
+          "name": "vovesel",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dlwrhouse",
+          "name": "dlwrhouse",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "gbpapplicable",
+          "name": "gbpapplicable",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cladr",
+          "name": "cladr",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "JbNo",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/SI/2627//0467",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hblno_1",
+          "name": "hblno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hbldte_1",
+          "name": "hbldte[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hsn_cmdty_1_addcmdt_1",
+          "name": "hsn_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control hsn",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1_addcmdt_1",
+          "name": "cmgwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmgwt cmgwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "ntwght_1_addcmdt_1",
+          "name": "cmnwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmnwt cmnwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "spinval_1_addcmdt_1",
+          "name": "spinval_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calspinval spinval_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "pkno_1_addcmdt_1",
+          "name": "pkno_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calpknt pkno_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "packno_1",
+          "name": "packno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1",
+          "name": "grswght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "ntwght_1",
+          "name": "ntwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "volume_1",
+          "name": "volume[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "temp_1",
+          "name": "temp[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "shpinvval_1",
+          "name": "shpinvval[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control shpinvval dec2pnt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvno_1",
+          "name": "shpinvno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvdte_1",
+          "name": "shpinvdte[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "contno_1",
+          "name": "contno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control in4chr7num",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mblno",
+          "name": "mblno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mbldte",
+          "name": "mbldte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "etd",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "eta",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrbkdte",
+          "name": "dlvrbkdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrref",
+          "name": "dlvrref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "frghtchrg",
+          "name": "frghtchrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "inschrg",
+          "name": "inschrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "calref",
+          "name": "calref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphanumeric",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [
+      "select2:shipper_1",
+      "select2:cmdty_1_addcmdt_1",
+      "select2:IncoTrms",
+      "select2:consigne",
+      "select2:lport",
+      "select2:dport",
+      "select2:overseas1",
+      "select2:overseas2",
+      "select2:overseas3",
+      "select2:shpline",
+      "select2:coloder",
+      "select2:vovesel",
+      "select2:dlwrhouse",
+      "select2:cladr",
+      "select:SptmntId",
+      "select:shpcur_1",
+      "select:gbpapplicable",
+      "input:hblno_1=TESTHBL001",
+      "input:volume_1=50",
+      "input:mblno=TESTMBL001"
+    ],
+    "fields_failed": [],
+    "select2_results": {
+      "shipper_1": true,
+      "cmdty_1_addcmdt_1": true,
+      "IncoTrms": true,
+      "consigne": true,
+      "lport": true,
+      "dport": true,
+      "overseas1": true,
+      "overseas2": true,
+      "overseas3": true,
+      "shpline": true,
+      "coloder": true,
+      "vovesel": true,
+      "dlwrhouse": true,
+      "cladr": true
+    },
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "Add",
+      "BASIC DETAILS",
+      "This field is required.",
+      "SHIPMENT RELATED DETAILS",
+      "SHIPMENT:-\u00a01",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required."
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/8d9368c9ea314e4bf3271918424b2c24"
+  },
+  "OE": {
+    "job_type": "Ocean Export",
+    "url": "ddc5bbfa18cf713c1478e511ea7455a7",
+    "form_controls": {
+      "selects": 17,
+      "inputs": 28,
+      "textareas": 2,
+      "select2_present": true,
+      "select2_count": 14,
+      "select_details": [
+        {
+          "id": "SptmntId",
+          "name": "SptmntId",
+          "className": "form-control",
+          "optionCount": 4,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "1",
+              "text": "LCL"
+            },
+            {
+              "value": "2",
+              "text": "FCL"
+            },
+            {
+              "value": "3",
+              "text": "Consol"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shipper_1",
+          "name": "shipper[]",
+          "className": "form-control shipper select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "cmdty_1_addcmdt_1",
+          "name": "cmdty_1[]",
+          "className": "form-control commudity select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "shpcur_1",
+          "name": "shpcur[]",
+          "className": "form-control shpcur",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "GBP",
+              "text": "GBP"
+            },
+            {
+              "value": "USD",
+              "text": "USD"
+            },
+            {
+              "value": "INR",
+              "text": "INR"
+            },
+            {
+              "value": "AUD",
+              "text": "AUD"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "IncoTrms",
+          "name": "IncoTrms",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "lport",
+          "name": "lport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dport",
+          "name": "dport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas1",
+          "name": "overseas1",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas2",
+          "name": "overseas2",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas3",
+          "name": "overseas3",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpline",
+          "name": "shpline",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "coloder",
+          "name": "coloder",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "vovesel",
+          "name": "vovesel",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dlwrhouse",
+          "name": "dlwrhouse",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "gbpapplicable",
+          "name": "gbpapplicable",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cladr",
+          "name": "cladr",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "JbNo",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/SE/2627//0038",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hblno_1",
+          "name": "hblno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hbldte_1",
+          "name": "hbldte[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hsn_cmdty_1_addcmdt_1",
+          "name": "hsn_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control hsn",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1_addcmdt_1",
+          "name": "cmgwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmgwt cmgwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "ntwght_1_addcmdt_1",
+          "name": "cmnwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmnwt cmnwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "spinval_1_addcmdt_1",
+          "name": "spinval_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calspinval spinval_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "pkno_1_addcmdt_1",
+          "name": "pkno_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calpknt pkno_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "packno_1",
+          "name": "packno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1",
+          "name": "grswght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "ntwght_1",
+          "name": "ntwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "volume_1",
+          "name": "volume[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "temp_1",
+          "name": "temp[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "shpinvval_1",
+          "name": "shpinvval[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control shpinvval dec2pnt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvno_1",
+          "name": "shpinvno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvdte_1",
+          "name": "shpinvdte[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "contno_1",
+          "name": "contno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control in4chr7num",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mblno",
+          "name": "mblno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mbldte",
+          "name": "mbldte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "etd",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "eta",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrbkdte",
+          "name": "dlvrbkdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrref",
+          "name": "dlvrref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "frghtchrg",
+          "name": "frghtchrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "inschrg",
+          "name": "inschrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "calref",
+          "name": "calref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphanumeric",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [
+      "select2:shipper_1",
+      "select2:cmdty_1_addcmdt_1",
+      "select2:IncoTrms",
+      "select2:consigne",
+      "select2:lport",
+      "select2:dport",
+      "select2:overseas1",
+      "select2:overseas2",
+      "select2:overseas3",
+      "select2:shpline",
+      "select2:coloder",
+      "select2:vovesel",
+      "select2:dlwrhouse",
+      "select2:cladr",
+      "select:SptmntId",
+      "select:shpcur_1",
+      "select:gbpapplicable",
+      "input:hblno_1=TESTHBL001",
+      "input:volume_1=50",
+      "input:mblno=TESTMBL001"
+    ],
+    "fields_failed": [],
+    "select2_results": {
+      "shipper_1": true,
+      "cmdty_1_addcmdt_1": true,
+      "IncoTrms": true,
+      "consigne": true,
+      "lport": true,
+      "dport": true,
+      "overseas1": true,
+      "overseas2": true,
+      "overseas3": true,
+      "shpline": true,
+      "coloder": true,
+      "vovesel": true,
+      "dlwrhouse": true,
+      "cladr": true
+    },
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "Add",
+      "BASIC DETAILS",
+      "This field is required.",
+      "SHIPMENT RELATED DETAILS",
+      "SHIPMENT:-\u00a01",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required."
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/a726d92380a1b10fbaac7aa7b34ca1d5"
+  },
+  "AI": {
+    "job_type": "Air Import",
+    "url": "951733b073f499bd67fa764d38df48a8",
+    "form_controls": {
+      "selects": 15,
+      "inputs": 34,
+      "textareas": 2,
+      "select2_present": true,
+      "select2_count": 12,
+      "select_details": [
+        {
+          "id": "IncoTrms",
+          "name": "IncoTrms",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shipper_1",
+          "name": "shipper",
+          "className": "form-control shipper select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "lport",
+          "name": "lport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dport",
+          "name": "dport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas1",
+          "name": "overseas1",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas2",
+          "name": "overseas2",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas3",
+          "name": "overseas3",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "splierId",
+          "name": "splierId",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cmdty_1",
+          "name": "cmdty[]",
+          "className": "form-control commudity select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "volume_1",
+          "name": "volume[]",
+          "className": "form-control calvlmwght",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "CM",
+              "text": "CM"
+            },
+            {
+              "value": "INCH",
+              "text": "INCH"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpcur_1",
+          "name": "shpcur[]",
+          "className": "form-control shpcur",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "GBP",
+              "text": "GBP"
+            },
+            {
+              "value": "USD",
+              "text": "USD"
+            },
+            {
+              "value": "INR",
+              "text": "INR"
+            },
+            {
+              "value": "AUD",
+              "text": "AUD"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dlwrhouse",
+          "name": "dlwrhouse",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "gbpapplicable",
+          "name": "gbpapplicable",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cladr",
+          "name": "cladr",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "JbNo",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/AI/2627//0457",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hawbno",
+          "name": "hawbno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hawbdte",
+          "name": "hawbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "mawbno",
+          "name": "mawbno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control in11num",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mawbdte",
+          "name": "mawbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "eta",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "etd",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "flght_no",
+          "name": "flght_no",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hsn_cmdty_1",
+          "name": "hsn[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control hsn",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "temp_1",
+          "name": "temp[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphnumspl",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "packno_1",
+          "name": "packno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght noofplt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "lngth_1",
+          "name": "lngth[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "brdth_1",
+          "name": "brdth[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hght_1",
+          "name": "hght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "spinval_1",
+          "name": "spinval[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt spinval",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "grswght_1",
+          "name": "grswght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt grswght calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "ntwght_1",
+          "name": "ntwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt ntwght",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "vlmwght_1",
+          "name": "vlmwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control vlmwght",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "chrgwght_1",
+          "name": "chrgwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control chrgwght",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "totNo",
+          "name": "totNo",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totGwght",
+          "name": "totGwght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totNght",
+          "name": "totNght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totChrg",
+          "name": "totChrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totvlght",
+          "name": "totvlght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "shpinvval",
+          "name": "shpinvval",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "shpinvno",
+          "name": "shpinvno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvdte",
+          "name": "shpinvdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "dlvrbkdte",
+          "name": "dlvrbkdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrref",
+          "name": "dlvrref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "frghtchrg",
+          "name": "frghtchrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "inschrg",
+          "name": "inschrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "calref",
+          "name": "calref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphanumeric",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [
+      "select2:IncoTrms",
+      "select2:shipper_1",
+      "select2:consigne",
+      "select2:lport",
+      "select2:dport",
+      "select2:overseas1",
+      "select2:overseas2",
+      "select2:overseas3",
+      "select2:splierId",
+      "select2:cmdty_1",
+      "select2:dlwrhouse",
+      "select2:cladr",
+      "select:volume_1",
+      "select:shpcur_1",
+      "select:gbpapplicable",
+      "input:hawbno=TESTHAWB001",
+      "input:mawbno=TESTMAWB001"
+    ],
+    "fields_failed": [],
+    "select2_results": {
+      "IncoTrms": true,
+      "shipper_1": true,
+      "consigne": true,
+      "lport": true,
+      "dport": true,
+      "overseas1": true,
+      "overseas2": true,
+      "overseas3": true,
+      "splierId": true,
+      "cmdty_1": true,
+      "dlwrhouse": true,
+      "cladr": true
+    },
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "Add",
+      "BASIC DETAILS",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "Please provide only digits",
+      "This field is required.",
+      "This field is required.",
+      "SHIPMENT RELATED DETAILS",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "Place\n                                                    CM\n                                       ",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required."
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/130828239eb649851decd3453b85547a"
+  },
+  "AE": {
+    "job_type": "Air Export",
+    "url": "8b574ca0cd37f8b76897ecc0f9d9ad34",
+    "form_controls": {
+      "selects": 15,
+      "inputs": 33,
+      "textareas": 2,
+      "select2_present": true,
+      "select2_count": 12,
+      "select_details": [
+        {
+          "id": "IncoTrms",
+          "name": "IncoTrms",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shipper_1",
+          "name": "shipper",
+          "className": "form-control shipper select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "lport",
+          "name": "lport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dport",
+          "name": "dport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas1",
+          "name": "overseas1",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas2",
+          "name": "overseas2",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas3",
+          "name": "overseas3",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "splierId",
+          "name": "splierId",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cmdty_1",
+          "name": "cmdty[]",
+          "className": "form-control commudity select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "volume_1",
+          "name": "volume[]",
+          "className": "form-control calvlmwght",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "CM",
+              "text": "CM"
+            },
+            {
+              "value": "INCH",
+              "text": "INCH"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpcur_1",
+          "name": "shpcur[]",
+          "className": "form-control shpcur",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "GBP",
+              "text": "GBP"
+            },
+            {
+              "value": "USD",
+              "text": "USD"
+            },
+            {
+              "value": "INR",
+              "text": "INR"
+            },
+            {
+              "value": "AUD",
+              "text": "AUD"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dlwrhouse",
+          "name": "dlwrhouse",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "gbpapplicable",
+          "name": "gbpapplicable",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cladr",
+          "name": "cladr",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "JbNo",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/AE/2627//0071",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hawbno",
+          "name": "hawbno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hawbdte",
+          "name": "hawbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "mawbno",
+          "name": "mawbno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control in11num",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mawbdte",
+          "name": "mawbdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "eta",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "etd",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "flght_no",
+          "name": "flght_no",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "book_ref",
+          "name": "book_ref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphnum",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "hsn_cmdty_1",
+          "name": "hsn[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control hsn",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "temp_1",
+          "name": "temp[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphnumspl",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "packno_1",
+          "name": "packno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght noofplt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "lngth_1",
+          "name": "lngth[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "brdth_1",
+          "name": "brdth[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hght_1",
+          "name": "hght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calvlmwght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "spinval_1",
+          "name": "spinval[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt spinval",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "grswght_1",
+          "name": "grswght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt grswght",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "ntwght_1",
+          "name": "ntwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt ntwght",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "vlmwght_1",
+          "name": "vlmwght[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control vlmwght",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "totNo",
+          "name": "totNo",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totGwght",
+          "name": "totGwght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totNght",
+          "name": "totNght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "totvlght",
+          "name": "totvlght",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "shpinvval",
+          "name": "shpinvval",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "shpinvno",
+          "name": "shpinvno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvdte",
+          "name": "shpinvdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "dlvrbkdte",
+          "name": "dlvrbkdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrref",
+          "name": "dlvrref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "frghtchrg",
+          "name": "frghtchrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "inschrg",
+          "name": "inschrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "calref",
+          "name": "calref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphanumeric",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [
+      "select2:IncoTrms",
+      "select2:shipper_1",
+      "select2:consigne",
+      "select2:lport",
+      "select2:dport",
+      "select2:overseas1",
+      "select2:overseas2",
+      "select2:overseas3",
+      "select2:splierId",
+      "select2:cmdty_1",
+      "select2:dlwrhouse",
+      "select2:cladr",
+      "select:volume_1",
+      "select:shpcur_1",
+      "select:gbpapplicable",
+      "input:hawbno=TESTHAWB001",
+      "input:mawbno=TESTMAWB001"
+    ],
+    "fields_failed": [],
+    "select2_results": {
+      "IncoTrms": true,
+      "shipper_1": true,
+      "consigne": true,
+      "lport": true,
+      "dport": true,
+      "overseas1": true,
+      "overseas2": true,
+      "overseas3": true,
+      "splierId": true,
+      "cmdty_1": true,
+      "dlwrhouse": true,
+      "cladr": true
+    },
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "Add",
+      "BASIC DETAILS",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "Please provide only digits",
+      "This field is required.",
+      "This field is required.",
+      "SHIPMENT RELATED DETAILS",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "Place\n                                                    CM\n                                       ",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required."
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/2c752e5ace8abac955144baf0b9ee354"
+  },
+  "LI": {
+    "job_type": "Land Import",
+    "url": "8013f48199799dce7a1fde812910a496",
+    "form_controls": {
+      "selects": 3,
+      "inputs": 14,
+      "textareas": 1,
+      "select2_present": false,
+      "select2_count": 0,
+      "select_details": [
+        {
+          "id": "",
+          "name": "IncoTrms",
+          "className": "form-control",
+          "optionCount": 12,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "1",
+              "text": "ExW"
+            },
+            {
+              "value": "2",
+              "text": "FCA"
+            },
+            {
+              "value": "3",
+              "text": "FOB"
+            },
+            {
+              "value": "4",
+              "text": "FAS"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-cus",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Type to search --"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "",
+          "name": "veh_type",
+          "className": "form-control",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "FTL",
+              "text": "FTL (Full Truck Load)"
+            },
+            {
+              "value": "LTL",
+              "text": "LTL (Less Truck Load)"
+            },
+            {
+              "value": "FTLR",
+              "text": "FTLR (Full Trailer Load)"
+            },
+            {
+              "value": "Van",
+              "text": "Van"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/LI/2627//0001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "18/04/2026",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "origin",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. London, UK",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "destination",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. Paris, France",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "veh_reg",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. AB12 CDE",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "driver",
+          "type": "text",
+          "value": "",
+          "placeholder": "Driver name",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "cmr_no",
+          "type": "text",
+          "value": "",
+          "placeholder": "CMR No.",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "gw",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "nw",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "cbm",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "pkgs",
+          "type": "number",
+          "value": "0",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "dlvr_dte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [],
+    "fields_failed": [],
+    "select2_results": {},
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "LAND JOB \u2014 BASIC DETAILS"
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/f2d63311d4bd1935349fa1cb7a5afc7a"
+  },
+  "LE": {
+    "job_type": "Land Export",
+    "url": "2ca1dbee9121459dedd8cf2e88823068",
+    "form_controls": {
+      "selects": 3,
+      "inputs": 14,
+      "textareas": 1,
+      "select2_present": false,
+      "select2_count": 0,
+      "select_details": [
+        {
+          "id": "",
+          "name": "IncoTrms",
+          "className": "form-control",
+          "optionCount": 12,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "1",
+              "text": "ExW"
+            },
+            {
+              "value": "2",
+              "text": "FCA"
+            },
+            {
+              "value": "3",
+              "text": "FOB"
+            },
+            {
+              "value": "4",
+              "text": "FAS"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-cus",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Type to search --"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "",
+          "name": "veh_type",
+          "className": "form-control",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "FTL",
+              "text": "FTL (Full Truck Load)"
+            },
+            {
+              "value": "LTL",
+              "text": "LTL (Less Truck Load)"
+            },
+            {
+              "value": "FTLR",
+              "text": "FTLR (Full Trailer Load)"
+            },
+            {
+              "value": "Van",
+              "text": "Van"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        }
+      ],
+      "input_details": [
+        {
+          "id": "",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/LE/2627//0001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "18/04/2026",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "origin",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. London, UK",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "destination",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. Paris, France",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "veh_reg",
+          "type": "text",
+          "value": "",
+          "placeholder": "e.g. AB12 CDE",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "driver",
+          "type": "text",
+          "value": "",
+          "placeholder": "Driver name",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "cmr_no",
+          "type": "text",
+          "value": "",
+          "placeholder": "CMR No.",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "gw",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "nw",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "cbm",
+          "type": "number",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "pkgs",
+          "type": "number",
+          "value": "0",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "dlvr_dte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": false,
+          "required": false
+        }
+      ]
+    },
+    "fields_filled": [],
+    "fields_failed": [],
+    "select2_results": {},
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "LAND JOB \u2014 BASIC DETAILS"
+    ],
+    "success": false,
+    "notes": [],
+    "final_url": "http://13.210.47.18:8088/945639a3fddd936a8d275b4b0626a675"
+  },
+  "HR": {
+    "section": "HR Employee Creation",
+    "fields_filled": [
+      "Email=john.testdoe@example.com"
+    ],
+    "fields_failed": [],
+    "validation_errors": [
+      "Log Out",
+      "Logout",
+      "Add",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required.",
+      "This field is required."
+    ],
+    "success": false,
+    "notes": [],
+    "form_controls": {
+      "selects": 0,
+      "inputs": 10,
+      "select2_present": false
+    }
+  },
+  "VIEW_JOB": {
+    "section": "View Existing Job",
+    "fields": {
+      "selects": [
+        {
+          "id": "shipper_1",
+          "name": "shipper[]",
+          "className": "form-control shipper select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "0",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cmdty_1_addcmdt_1",
+          "name": "cmdty_1[]",
+          "className": "form-control commudity select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "0",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpcur_1",
+          "name": "shpcur[]",
+          "className": "form-control shpcur",
+          "optionCount": 9,
+          "firstOptions": [
+            {
+              "value": "GBP",
+              "text": "GBP"
+            },
+            {
+              "value": "USD",
+              "text": "USD"
+            },
+            {
+              "value": "INR",
+              "text": "INR"
+            },
+            {
+              "value": "AUD",
+              "text": "AUD"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "IncoTrms",
+          "name": "IncoTrms",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "0",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "consigne",
+          "name": "consigne",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "1",
+              "text": "58745"
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "lport",
+          "name": "lport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "4",
+              "text": "BOMBAY"
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dport",
+          "name": "dport",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "1",
+              "text": "KOLKATA"
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas1",
+          "name": "overseas1",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas2",
+          "name": "overseas2",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "overseas3",
+          "name": "overseas3",
+          "className": "form-control overseas select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "shpline",
+          "name": "shpline",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "coloder",
+          "name": "coloder",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "vovesel",
+          "name": "vovesel",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "dlwrhouse",
+          "name": "dlwrhouse",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "gbpapplicable_1",
+          "name": "gbpapplicable",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "yes",
+              "text": "Yes"
+            },
+            {
+              "value": "no",
+              "text": "No"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "cladr",
+          "name": "cladr",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": false,
+          "dataAttrs": [],
+          "visible": true
+        },
+        {
+          "id": "conSizeId",
+          "name": "conSizeId",
+          "className": "form-control select2-hidden-accessible",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": ""
+            }
+          ],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "bl_chrg_1",
+          "name": "slcharge[]",
+          "className": "form-control blcharge select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "sl_ppcc_1",
+          "name": "sl_ppcc[]",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "PP",
+              "text": "PP"
+            },
+            {
+              "value": "CC",
+              "text": "CC"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "bl_payto_1",
+          "name": "bl_payto[]",
+          "className": "form-control bl_payto select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "party_bl_payto_1",
+          "name": "bl_party[]",
+          "className": "form-control bl_party",
+          "optionCount": 1,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "sl_chrg_1",
+          "name": "slcharge[]",
+          "className": "form-control slcharge select2-hidden-accessible",
+          "optionCount": 0,
+          "firstOptions": [],
+          "hasSelect2Wrapper": true,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "sl_ppcc_1",
+          "name": "sl_ppcc[]",
+          "className": "form-control",
+          "optionCount": 3,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "PP",
+              "text": "PP"
+            },
+            {
+              "value": "CC",
+              "text": "CC"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "sl_payto_1",
+          "name": "sl_payto[]",
+          "className": "form-control sl_payto",
+          "optionCount": 2,
+          "firstOptions": [
+            {
+              "value": "",
+              "text": "Place"
+            },
+            {
+              "value": "1RT***RT1",
+              "text": "CONSIGNEE"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "className": "flatpickr-monthDropdown-months",
+          "optionCount": 12,
+          "firstOptions": [
+            {
+              "value": "0",
+              "text": "January"
+            },
+            {
+              "value": "1",
+              "text": "February"
+            },
+            {
+              "value": "2",
+              "text": "March"
+            },
+            {
+              "value": "3",
+              "text": "April"
+            },
+            {
+              "value": "4",
+              "text": "May"
+            }
+          ],
+          "hasSelect2Wrapper": false,
+          "isHidden": true,
+          "dataAttrs": [],
+          "visible": false
+        }
+      ],
+      "select2_containers": [
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "shipper_1",
+          "linkedSelectName": "shipper[]",
+          "text": "",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "cmdty_1_addcmdt_1",
+          "linkedSelectName": "cmdty_1[]",
+          "text": "",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "IncoTrms",
+          "linkedSelectName": "IncoTrms",
+          "text": "",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "consigne",
+          "linkedSelectName": "consigne",
+          "text": "58745",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "lport",
+          "linkedSelectName": "lport",
+          "text": "BOMBAY",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "dport",
+          "linkedSelectName": "dport",
+          "text": "KOLKATA",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "overseas1",
+          "linkedSelectName": "overseas1",
+          "text": "Select Primary Overseas Agent",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "overseas2",
+          "linkedSelectName": "overseas2",
+          "text": "Select Secondary Overseas Agent",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "overseas3",
+          "linkedSelectName": "overseas3",
+          "text": "Select Sub Agent",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "shpline",
+          "linkedSelectName": "shpline",
+          "text": "Select Shippingline",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "coloder",
+          "linkedSelectName": "coloder",
+          "text": "Select Co Loader",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "vovesel",
+          "linkedSelectName": "vovesel",
+          "text": "Select Voy / Vessel",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "dlwrhouse",
+          "linkedSelectName": "dlwrhouse",
+          "text": "Select Delivery Warehouse",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "cladr",
+          "linkedSelectName": "cladr",
+          "text": "Select Collection Address",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "conSizeId",
+          "linkedSelectName": "conSizeId",
+          "text": "Select Container Size",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "bl_chrg_1",
+          "linkedSelectName": "slcharge[]",
+          "text": "Select Charges",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "bl_payto_1",
+          "linkedSelectName": "bl_payto[]",
+          "text": "Select Payable to",
+          "classes": "select2 select2-container select2-container--default"
+        },
+        {
+          "id": "",
+          "selectId": "",
+          "linkedSelectId": "sl_chrg_1",
+          "linkedSelectName": "slcharge[]",
+          "text": "Select Charges",
+          "classes": "select2 select2-container select2-container--default"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "JbNo",
+          "name": "JbNo",
+          "type": "text",
+          "value": "TLI/SI/2627//0466",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "jbdte",
+          "name": "jbdte",
+          "type": "text",
+          "value": "15/04/2026",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "SptmntName",
+          "name": "SptmntName",
+          "type": "text",
+          "value": "LCL",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "hblno_1",
+          "name": "hblno[]",
+          "type": "text",
+          "value": "HBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "hbldte_1",
+          "name": "hbldte[]",
+          "type": "text",
+          "value": "30/11/-0001",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "hsn_cmdty_1_addcmdt_1",
+          "name": "hsn_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control hsn",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1_addcmdt_1",
+          "name": "cmgwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmgwt cmgwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "ntwght_1_addcmdt_1",
+          "name": "cmnwt_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calcmnwt cmnwt_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "spinval_1_addcmdt_1",
+          "name": "spinval_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec3pnt calspinval spinval_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "pkno_1_addcmdt_1",
+          "name": "pkno_1[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control CheckNum calpknt pkno_addcmdt_1",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "packno_1",
+          "name": "packno[]",
+          "type": "text",
+          "value": "5",
+          "placeholder": "",
+          "className": "form-control CheckNum",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "grswght_1",
+          "name": "grswght[]",
+          "type": "text",
+          "value": "100.500",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "ntwght_1",
+          "name": "ntwght[]",
+          "type": "text",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "volume_1",
+          "name": "volume[]",
+          "type": "text",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control dec3pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "temp_1",
+          "name": "temp[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "shpinvval_1",
+          "name": "shpinvval[]",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control shpinvval dec2pnt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvno_1",
+          "name": "shpinvno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "shpinvdte_1",
+          "name": "shpinvdte[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "contno_1",
+          "name": "contno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control in4chr7num",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mblno",
+          "name": "mblno",
+          "type": "text",
+          "value": "TEST-MBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "mbldte",
+          "name": "mbldte",
+          "type": "text",
+          "value": "15/04/2026",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "etd",
+          "name": "etd",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "eta",
+          "name": "eta",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrbkdte",
+          "name": "dlvrbkdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrref",
+          "name": "dlvrref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "frghtchrg",
+          "name": "frghtchrg",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "inschrg",
+          "name": "inschrg",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "calref",
+          "name": "calref",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphanumeric",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "TLI/SI/2627//0466",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "15/04/2026",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "58745",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "2589637845",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "TEST-MBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "KOLKATA",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "LCL",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "HBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "30/11/-0001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "dlvrdte",
+          "name": "dlvrdte",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "dldsc",
+          "name": "dldsc",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "mrksno",
+          "name": "mrksno",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "TLI/SI/2627//0466",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "15/04/2026",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "BOMBAY",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "TLI/SI/2627//0466",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "TEST-MBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "15/04/2026",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "HBL-001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "30/11/-0001",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control contner",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "5",
+          "placeholder": "",
+          "className": "form-control packno",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "100.500",
+          "placeholder": "",
+          "className": "form-control gwght",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "0.000",
+          "placeholder": "",
+          "className": "form-control vlmue",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "taxrate_bl_chrg_1",
+          "name": "sl_taxrate[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control sl_taxrate",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "amnt_bl_chrg_1",
+          "name": "sl_amnt[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt bl_amnt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "tax_bl_chrg_1",
+          "name": "sl_tax[]",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control bl_tax",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "bl_vlme_1",
+          "name": "sl_vlme[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control sl_vlme",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "total_1",
+          "name": "sl_total[]",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control bl_total",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "bl_invno_1",
+          "name": "sl_invno[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control alphnumspl sl_invno",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "bl_invdt_1",
+          "name": "sl_invdt[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control has-feedback-left jbdte sl_invdt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "btottaxx",
+          "name": "stottax",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "btotamntt",
+          "name": "stotamnt",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "btotamntt",
+          "name": "stotamnt",
+          "type": "text",
+          "value": "0",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "baltotall",
+          "name": "saltotal",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "taxrate_sl_chrg_1",
+          "name": "sl_taxrate[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control sl_taxrate",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "amnt_sl_chrg_1",
+          "name": "sl_amnt[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control dec2pnt sl_amnt",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "tax_sl_chrg_1",
+          "name": "sl_tax[]",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control sl_tax",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "sl_vlme_1",
+          "name": "sl_vlme[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control sl_vlme",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "sl_total_1",
+          "name": "sl_total[]",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control sl_total",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "party_sl_payto_1",
+          "name": "sl_party[]",
+          "type": "text",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control sl_party",
+          "readonly": true,
+          "required": true
+        },
+        {
+          "id": "stottaxx",
+          "name": "stottax",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "stotamntt",
+          "name": "stotamnt",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "saltotall",
+          "name": "saltotal",
+          "type": "text",
+          "value": "0.00",
+          "placeholder": "",
+          "className": "form-control dec2pnt",
+          "readonly": true,
+          "required": false
+        },
+        {
+          "id": "remark",
+          "name": "remark",
+          "type": "text",
+          "value": "",
+          "placeholder": "Enter remark",
+          "className": "form-control",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "due_date",
+          "name": "due_date",
+          "type": "text",
+          "value": "",
+          "placeholder": "dd/mm/yyyy",
+          "className": "form-control flatpickr-input",
+          "readonly": false,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "file_link",
+          "type": "url",
+          "value": "",
+          "placeholder": "Enter document URL",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "sinv_inv_date",
+          "name": "",
+          "type": "date",
+          "value": "2026-04-18",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "sinv_due_date",
+          "name": "",
+          "type": "date",
+          "value": "",
+          "placeholder": "",
+          "className": "form-control",
+          "readonly": false,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "",
+          "type": "number",
+          "value": "2026",
+          "placeholder": "",
+          "className": "numInput cur-year",
+          "readonly": false,
+          "required": false
+        }
+      ],
+      "textareas": [
+        {
+          "id": "NewDladr",
+          "name": "NewDladr",
+          "value": ""
+        },
+        {
+          "id": "NewCladr",
+          "name": "NewCladr",
+          "value": ""
+        }
+      ],
+      "select2_present": true,
+      "chosen_present": false,
+      "select2_container_count": 18
+    },
+    "tabs": [],
+    "notes": [],
+    "table_info": {
+      "hasTable": true,
+      "rowCount": 0,
+      "firstRowCells": [],
+      "editButtons": []
+    }
+  },
+  "AIRPORT": {
+    "section": "Airport Record",
+    "notes": [],
+    "table_info": {
+      "hasTable": true,
+      "rowCount": 0,
+      "firstRowLinks": []
+    }
+  }
+}
