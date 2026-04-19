@@ -538,14 +538,16 @@ CRUD_TESTS = {
     "Ledger Group": {
         "path": "/2b0f7f32c7f7af6b51bf090558391d67",
         "fields": [
-            ("ledger_group_name", f"{TEST_PREFIX}LedgerGroup", "text"),
+            ("name", f"{TEST_PREFIX}LedgerGroup", "text"),
+            ("gptype", "T", "text"),
         ],
-        "known_bug": "Empty modal - no form fields rendered",
     },
     "Vendor Master": {
         "path": "/237cddc13035afd40df532c9c471b4ea",
-        "fields": [],
-        "known_bug": "HTTP 500 - View not found / server error on page load",
+        "fields": [
+            ("name", f"{TEST_PREFIX}Vendor", "text"),
+            ("code", f"{TEST_PREFIX}VND", "text"),
+        ],
     },
     "Customer Master": {
         "path": "/423b21e5932f11b123a1ddb35654b51b",

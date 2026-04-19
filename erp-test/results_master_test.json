@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T09:29:02.812631",
+  "timestamp": "2026-04-19T17:31:59.477126",
   "base_url": "http://13.210.47.18:8088",
   "username": "superadmin",
   "viewport": {
@@ -9,12 +9,12 @@
   "total_pages_tested": 73,
   "summary": {
     "total": 130,
-    "passed": 125,
-    "failed": 4,
+    "passed": 127,
+    "failed": 2,
     "warnings": 1,
     "errors": 0,
     "skipped": 0,
-    "error_screenshots": 4
+    "error_screenshots": 2
   },
   "results": [
     {
@@ -272,9 +272,9 @@
     {
       "section": "SECTION A: PAGE LOAD TESTS",
       "name": "Vendor Master",
-      "status": "FAIL",
-      "message": "HTTP 500: Internal Server Error",
-      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_A_Vendor_Master.png"
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
     },
     {
       "section": "SECTION A: PAGE LOAD TESTS",
@@ -650,15 +650,15 @@
     {
       "section": "SECTION B: CRUD TESTS",
       "name": "Ledger Group",
-      "status": "WARNING",
-      "message": "Filled 1/1 fields but no submit button found",
-      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_B_CRUD_Ledger_Group.png"
+      "status": "PASS",
+      "message": "Record created (2/2 fields filled)",
+      "screenshot": ""
     },
     {
       "section": "SECTION B: CRUD TESTS",
       "name": "Vendor Master",
-      "status": "FAIL",
-      "message": "Known bug: HTTP 500 - View not found / server error on page load",
+      "status": "WARNING",
+      "message": "No 'Add New' button found",
       "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_B_CRUD_Vendor_Master.png"
     },
     {
@@ -756,7 +756,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Supplier Ageing",
       "status": "PASS",
-      "message": "10 rows loaded",
+      "message": "1 rows loaded",
       "screenshot": ""
     },
     {
