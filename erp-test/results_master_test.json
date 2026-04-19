@@ -1,0 +1,931 @@
+{
+  "timestamp": "2026-04-19T09:29:02.812631",
+  "base_url": "http://13.210.47.18:8088",
+  "username": "superadmin",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "total_pages_tested": 73,
+  "summary": {
+    "total": 130,
+    "passed": 125,
+    "failed": 4,
+    "warnings": 1,
+    "errors": 0,
+    "skipped": 0,
+    "error_screenshots": 4
+  },
+  "results": [
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Dashboard",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "HR - Employee",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Consignee Due",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Consignee Paid",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Agent Due (Debtor)",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Agent Paid (Debtor)",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Shipper Due",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Shipper Paid",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Shipping Line Due",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Shipping Line Paid",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Co-Loader Due",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Co-Loader Paid",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Supplier Due",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Supplier Paid",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Agent Due (Creditor)",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Agent Paid (Creditor)",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Purchase Invoice",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Sales Invoice",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Purchase Invoice w/ VAT",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Sales Invoice w/ VAT",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ledger Report",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Customer Ageing",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Supplier Ageing",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Jobs w/o Purchase Inv",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Jobs w/o Sales Inv",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Activity Log",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Credit Note Register",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Xero Integration",
+      "status": "FAIL",
+      "message": "HTTP 500: Internal Server Error",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_A_Xero_Integration.png"
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "State",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "City",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Company Type",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Charge Master",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Company Master",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Customer Type",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ledger Group",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Customer Master",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Vendor Master",
+      "status": "FAIL",
+      "message": "HTTP 500: Internal Server Error",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_A_Vendor_Master.png"
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Vendor Type",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Shipping Line Code",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Commodity Master",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Address",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Job Type",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Vessel",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Port Sector",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Port",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Airport",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Carrier / Airlines",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Carriers (Quote)",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Exchange Rates",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Rate Database",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Client Rates",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Quotes",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Import Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Import Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Import Booking Report",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Export Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Export Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Export Booking Report",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Import Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Import Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Import Booking Report",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Export Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Export Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Export Booking Report",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Land Import Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Land Import Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Land Export Open Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Land Export Closed Jobs",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "DSR Basic Graph",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Import DSR",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Ocean Export DSR",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Import DSR",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION A: PAGE LOAD TESTS",
+      "name": "Air Export DSR",
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "State",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "City",
+      "status": "PASS",
+      "message": "Form submitted, 1/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Company Type",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Customer Type",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Vendor Type",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Commodity Master",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Charge Master",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Company Master",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Shipping Line Code",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Job Type",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Vessel",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Ocean Port Sector",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Ocean Port",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Airport",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Carrier / Airlines",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Carriers (Quote)",
+      "status": "PASS",
+      "message": "Form submitted, 1/1 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Exchange Rates",
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Ledger Group",
+      "status": "WARNING",
+      "message": "Filled 1/1 fields but no submit button found",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_B_CRUD_Ledger_Group.png"
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Vendor Master",
+      "status": "FAIL",
+      "message": "Known bug: HTTP 500 - View not found / server error on page load",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_B_CRUD_Vendor_Master.png"
+    },
+    {
+      "section": "SECTION B: CRUD TESTS",
+      "name": "Customer Master",
+      "status": "PASS",
+      "message": "Form submitted, 17/19 fields filled (no error detected)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Ocean Import",
+      "status": "PASS",
+      "message": "Form submitted (10/18 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Ocean Export",
+      "status": "PASS",
+      "message": "Form submitted (10/18 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Air Import",
+      "status": "PASS",
+      "message": "Form submitted (9/16 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Air Export",
+      "status": "PASS",
+      "message": "Form submitted (12/19 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Land Import",
+      "status": "PASS",
+      "message": "Form submitted (8/12 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION C: JOB CREATION TESTS",
+      "name": "Land Export",
+      "status": "PASS",
+      "message": "Form submitted (8/12 fields), job ref: unknown",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Purchase Invoice",
+      "status": "PASS",
+      "message": "21 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Sales Invoice",
+      "status": "PASS",
+      "message": "20 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Purchase Invoice w/ VAT",
+      "status": "PASS",
+      "message": "21 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Sales Invoice w/ VAT",
+      "status": "PASS",
+      "message": "20 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Ledger Report",
+      "status": "PASS",
+      "message": "2 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Customer Ageing",
+      "status": "PASS",
+      "message": "10 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Supplier Ageing",
+      "status": "PASS",
+      "message": "10 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Jobs w/o Purchase Inv",
+      "status": "PASS",
+      "message": "10 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Jobs w/o Sales Inv",
+      "status": "PASS",
+      "message": "10 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Credit Note Register",
+      "status": "PASS",
+      "message": "6 rows loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Activity Log",
+      "status": "PASS",
+      "message": "Page loaded, no data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION D: FINANCIAL REPORTS",
+      "name": "Xero Integration",
+      "status": "FAIL",
+      "message": "Page error: HTTP 500: Internal Server Error",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_D_Financial_Xero_Integration.png"
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Consignee Due",
+      "status": "PASS",
+      "message": "32 rows, 21 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Consignee Paid",
+      "status": "PASS",
+      "message": "3 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Agent Due (Debtor)",
+      "status": "PASS",
+      "message": "11 rows, 9 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Agent Paid (Debtor)",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Shipper Due",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Shipper Paid",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Shipping Line Due",
+      "status": "PASS",
+      "message": "14 rows, 9 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Shipping Line Paid",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Co-Loader Due",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Co-Loader Paid",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Supplier Due",
+      "status": "PASS",
+      "message": "17 rows, 11 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Supplier Paid",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Agent Due (Creditor)",
+      "status": "PASS",
+      "message": "3 rows, 5 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION E: ACCOUNT PAGES",
+      "name": "Agent Paid (Creditor)",
+      "status": "PASS",
+      "message": "0 rows, 3 filter controls",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION F: DSR REPORTS",
+      "name": "DSR Basic Graph",
+      "status": "PASS",
+      "message": "Chart rendered, No data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION F: DSR REPORTS",
+      "name": "Ocean Import DSR",
+      "status": "PASS",
+      "message": "No data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION F: DSR REPORTS",
+      "name": "Ocean Export DSR",
+      "status": "PASS",
+      "message": "No data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION F: DSR REPORTS",
+      "name": "Air Import DSR",
+      "status": "PASS",
+      "message": "No data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION F: DSR REPORTS",
+      "name": "Air Export DSR",
+      "status": "PASS",
+      "message": "No data rows",
+      "screenshot": ""
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+[
+  {
+    "text": "Dashboard",
+    "href": "http://13.210.47.18:8088/4d5c7c941df8262af83d7b494f9d120e",
+    "subItems": []
+  },
+  {
+    "text": "HR",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Employee",
+        "href": "http://13.210.47.18:8088/51564f2eb2d3a1bca494e86b1c67635e",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Account",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Debtors",
+        "href": "#",
+        "subItems": [
+          {
+            "text": "Consignee Due",
+            "href": "http://13.210.47.18:8088/1abe8a244329f592bb3bbb96e22e0344"
+          },
+          {
+            "text": "Consignee Paid",
+            "href": "http://13.210.47.18:8088/8c8bcb5e96e6c22e001efff53fcadf28"
+          },
+          {
+            "text": "Agent Due",
+            "href": "http://13.210.47.18:8088/28f3b7864cdf11d6b30b148bec8d6307"
+          },
+          {
+            "text": "Agent Paid",
+            "href": "http://13.210.47.18:8088/b621a0964636bcee73d691db7d3572fd"
+          },
+          {
+            "text": "Shipper Due",
+            "href": "http://13.210.47.18:8088/8211377a76b5f20c607e278620d4abe3"
+          },
+          {
+            "text": "Shipper Paid",
+            "href": "http://13.210.47.18:8088/76264365e7c5a943b7629804aeab136b"
+          }
+        ]
+      },
+      {
+        "text": "Creditors",
+        "href": "#",
+        "subItems": [
+          {
+            "text": "Shipping Line Due",
+            "href": "http://13.210.47.18:8088/8e1b7fdf1fd87dcc9e0546d03ae62556"
+          },
+          {
+            "text": "Shipping Line Paid",
+            "href": "http://13.210.47.18:8088/d18ec27a83b522669c9efc55a880f917"
+          },
+          {
+            "text": "Co-Loader Due",
+            "href": "http://13.210.47.18:8088/285ee3bf7d21a421fb354e824a0ba678"
+          },
+          {
+            "text": "Co-Loader Paid",
+            "href": "http://13.210.47.18:8088/49ab2c7ef13c1de745c5e511ea7d306f"
+          },
+          {
+            "text": "Supplier Due",
+            "href": "http://13.210.47.18:8088/57e215a5d82f9e54a6e6b2ddfd0372c1"
+          },
+          {
+            "text": "Supplier Paid",
+            "href": "http://13.210.47.18:8088/832128c1bea0bf94b30c16a8417125ae"
+          },
+          {
+            "text": "Agent Due",
+            "href": "http://13.210.47.18:8088/455492c7888db5aafecf4facc1aa7639"
+          },
+          {
+            "text": "Agent Paid",
+            "href": "http://13.210.47.18:8088/bfd9d957f28679c09593198e7cefb085"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Financial Reports",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Purchase Invoice",
+        "href": "http://13.210.47.18:8088/purchase-invoice",
+        "subItems": []
+      },
+      {
+        "text": "Sales Invoice",
+        "href": "http://13.210.47.18:8088/sales-invoice",
+        "subItems": []
+      },
+      {
+        "text": "Purchase Invoice w/ VAT",
+        "href": "http://13.210.47.18:8088/purchase-invoice-with-vat",
+        "subItems": []
+      },
+      {
+        "text": "Sales Invoice w/ VAT",
+        "href": "http://13.210.47.18:8088/sales-invoice/with-vat",
+        "subItems": []
+      },
+      {
+        "text": "Ledger Report",
+        "href": "http://13.210.47.18:8088/ledger",
+        "subItems": []
+      },
+      {
+        "text": "Customer Ageing",
+        "href": "http://13.210.47.18:8088/reports/customer-aging",
+        "subItems": []
+      },
+      {
+        "text": "Supplier Ageing",
+        "href": "http://13.210.47.18:8088/reports/supplier-ageing",
+        "subItems": []
+      },
+      {
+        "text": "Jobs w/o Purchase Inv.",
+        "href": "http://13.210.47.18:8088/purchase-invoice-missing",
+        "subItems": []
+      },
+      {
+        "text": "Jobs w/o Sales Inv.",
+        "href": "http://13.210.47.18:8088/sales-charges-without-invoice",
+        "subItems": []
+      },
+      {
+        "text": "Activity Log",
+        "href": "http://13.210.47.18:8088/activity-log",
+        "subItems": []
+      },
+      {
+        "text": "Credit Note Register",
+        "href": "http://13.210.47.18:8088/credit-note-register",
+        "subItems": []
+      },
+      {
+        "text": "Xero Integration",
+        "href": "http://13.210.47.18:8088/xero",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Common Masters",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "State",
+        "href": "http://13.210.47.18:8088/9ed39e2ea931586b6a985a6942ef573e",
+        "subItems": []
+      },
+      {
+        "text": "City",
+        "href": "http://13.210.47.18:8088/4ed5d2eaed1a1fadcc41ad1d58ed603e",
+        "subItems": []
+      },
+      {
+        "text": "Company Type",
+        "href": "http://13.210.47.18:8088/4cbb903cfae35c7d1844aac2363280b4",
+        "subItems": []
+      },
+      {
+        "text": "Charge Master",
+        "href": "http://13.210.47.18:8088/af33c0fa2a013f51745b910eb3f70046",
+        "subItems": []
+      },
+      {
+        "text": "Company Master",
+        "href": "http://13.210.47.18:8088/005480c8a6a0357d17cff2e8eb7e060d",
+        "subItems": []
+      },
+      {
+        "text": "Customer Type",
+        "href": "http://13.210.47.18:8088/4fe8a4cd07dfac7245a1e6cacb76ea5e",
+        "subItems": []
+      },
+      {
+        "text": "Ledger Group",
+        "href": "http://13.210.47.18:8088/2b0f7f32c7f7af6b51bf090558391d67",
+        "subItems": []
+      },
+      {
+        "text": "Customer Master",
+        "href": "http://13.210.47.18:8088/423b21e5932f11b123a1ddb35654b51b",
+        "subItems": []
+      },
+      {
+        "text": "Vendor Master",
+        "href": "http://13.210.47.18:8088/237cddc13035afd40df532c9c471b4ea",
+        "subItems": []
+      },
+      {
+        "text": "Vendor Type",
+        "href": "http://13.210.47.18:8088/01f9a24e9744ed8edf5beb17513aafb4",
+        "subItems": []
+      },
+      {
+        "text": "Shipping Line Code",
+        "href": "http://13.210.47.18:8088/9cdaacf035c457148bc2134dfe09fc50",
+        "subItems": []
+      },
+      {
+        "text": "Commodity Master",
+        "href": "http://13.210.47.18:8088/b515f30a4688bf67cd17f0cd09512ecf",
+        "subItems": []
+      },
+      {
+        "text": "Address",
+        "href": "http://13.210.47.18:8088/de7c54d99428fb909bef013577070f0d",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Ocean Masters",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Job Type",
+        "href": "http://13.210.47.18:8088/3f80ea99d7b24220db44943ed1838285",
+        "subItems": []
+      },
+      {
+        "text": "Vessel",
+        "href": "http://13.210.47.18:8088/ed6c460e3ce8e91132123ff09428a37d",
+        "subItems": []
+      },
+      {
+        "text": "Ocean Port Sector",
+        "href": "http://13.210.47.18:8088/51b6df155998f6c6b3ccc2701b59693d",
+        "subItems": []
+      },
+      {
+        "text": "Ocean Port",
+        "href": "http://13.210.47.18:8088/eac46b9f08f604c039b439ef2dd5663f",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Air Masters",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Airport",
+        "href": "http://13.210.47.18:8088/d1ed858f6d8126a814e31f18a7de5f8e",
+        "subItems": []
+      },
+      {
+        "text": "Carrier / Airlines",
+        "href": "http://13.210.47.18:8088/1abf8c1a21e96e8d369b40b322331782",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Quote Setup",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Carriers",
+        "href": "http://13.210.47.18:8088/8ee4a920e024b1d3beadaadd006a0a31",
+        "subItems": []
+      },
+      {
+        "text": "Exchange Rates",
+        "href": "http://13.210.47.18:8088/b63cf46906108334186c3ecf25f4ddb8",
+        "subItems": []
+      },
+      {
+        "text": "Rate Database",
+        "href": "http://13.210.47.18:8088/95ea21eb539e083e42f57313509a93ed",
+        "subItems": []
+      },
+      {
+        "text": "Client Rates",
+        "href": "http://13.210.47.18:8088/db6f53167f5911e700a4b3aae0352572",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Quotes",
+    "href": "http://13.210.47.18:8088/68915d3ba92a6ff8c96734362d61b15e",
+    "subItems": []
+  },
+  {
+    "text": "Ocean Import",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/670effb783ab68c5759f4523c9ad5185",
+        "subItems": []
+      },
+      {
+        "text": "Booking Report",
+        "href": "http://13.210.47.18:8088/e14e00f9b8b4f2a0fbce2a5f843a543d",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Ocean Export",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/ddc5bbfa18cf713c1478e511ea7455a7",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/12d57e567d9ab44399006309b5d542a4",
+        "subItems": []
+      },
+      {
+        "text": "Booking Report",
+        "href": "http://13.210.47.18:8088/a77dd96ff658388a662b311c5bbd1a75",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Air Import",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/3092560bb3f11343b8ceb0e02a739a01",
+        "subItems": []
+      },
+      {
+        "text": "Booking Report",
+        "href": "http://13.210.47.18:8088/6e2cac0a97967fe9b38243a12ec09be0",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Air Export",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/8b574ca0cd37f8b76897ecc0f9d9ad34",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/8ec1c8a3d9ad635d8fd2adb2c583b7c0",
+        "subItems": []
+      },
+      {
+        "text": "Booking Report",
+        "href": "http://13.210.47.18:8088/7d27d418fe920b6bc9230e81ef3a9bae",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Land Import",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/8013f48199799dce7a1fde812910a496",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/ad661c9739fbf14ddd1802a6cc8c15c9",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Land Export",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Open Jobs",
+        "href": "http://13.210.47.18:8088/2ca1dbee9121459dedd8cf2e88823068",
+        "subItems": []
+      },
+      {
+        "text": "Closed Jobs",
+        "href": "http://13.210.47.18:8088/2785ba86aa37c0a8ff38e247afd5c2af",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "DSR Reports",
+    "href": "#",
+    "subItems": [
+      {
+        "text": "Basic Graph",
+        "href": "http://13.210.47.18:8088/fe83dce7816670353cfa807c5722d816",
+        "subItems": []
+      },
+      {
+        "text": "Ocean Import DSR",
+        "href": "http://13.210.47.18:8088/1387f1ae3dc1d840789d15c546e89125",
+        "subItems": []
+      },
+      {
+        "text": "Ocean Export DSR",
+        "href": "http://13.210.47.18:8088/c745c437840b2e21636a2cbdab4b33a6",
+        "subItems": []
+      },
+      {
+        "text": "Air Import DSR",
+        "href": "http://13.210.47.18:8088/abf5db603d4276889077e81de984cf6d",
+        "subItems": []
+      },
+      {
+        "text": "Air Export DSR",
+        "href": "http://13.210.47.18:8088/627db3ba79d7139f8dfd6f462e1b0514",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "text": "Logout",
+    "href": "http://13.210.47.18:8088/logout",
+    "subItems": []
+  }
+]
