@@ -1,0 +1,2520 @@
+{
+  "test_run": "2026-04-19T08:13:50.198731",
+  "total_pages_tested": 28,
+  "pages_loaded_ok": 28,
+  "pages_with_errors": 1,
+  "pages_with_data": 15,
+  "results": [
+    {
+      "name": "Purchase Invoice",
+      "url": "http://13.210.47.18:8088/purchase-invoice",
+      "path": "/purchase-invoice",
+      "page_type": "invoice_report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_01_purchase_inv_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_01_purchase_inv_02_filtered.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_01_purchase_inv_error.png"
+      ],
+      "errors": [
+        "Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http://13.210.47.18:8088/purchase-invoice\", waiting until \"domcontentloaded\"\n"
+      ],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 21,
+        "columns": [
+          "#",
+          "VENDOR TYPE",
+          "AGENT / PARTY",
+          "INVOICE NO.",
+          "JOB NO",
+          "INVOICE DATE",
+          "ADDED DATE",
+          "DETAILS",
+          "FILE",
+          "STATUS",
+          "ACTION",
+          "All\nFULLY PAID\nPARTIAL\nUNPAID\nVOID ONLY\nPARTIAL VOID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "adate_from"
+        },
+        {
+          "type": "date_input",
+          "name": "adate_to"
+        },
+        {
+          "type": "date_input",
+          "name": "inv_from"
+        },
+        {
+          "type": "date_input",
+          "name": "inv_to"
+        },
+        {
+          "type": "date_input",
+          "name": "invoice_date"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "status",
+          "options_sample": [
+            "All",
+            "FULLY PAID",
+            "PARTIAL",
+            "UNPAID",
+            "VOID ONLY",
+            "PARTIAL VOID"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/AI/2526//0422",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6Ikhab2ZaNzVURW1TZE5JVHVVTTE3NUE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0395",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IjFBTXY1ekZhd04zclFQeDQ5YndiVVE9PS"
+        },
+        {
+          "text": "Add CRN",
+          "href": ""
+        },
+        {
+          "text": "Save",
+          "href": ""
+        },
+        {
+          "text": "Cancel",
+          "href": ""
+        },
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlZlajN4K3RGaHJ4dkc4NWZONFRqN1E9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0396",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkFTMWIyM1BxcUl0N2hXR3V2bC9BS2c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0417",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlZXeGtLWkVMMU1GMGpoUFJZQ3lBQ3c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0420",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImRqMzBESUJzaUtYWG4zdmxvNStzNHc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0422",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Im1OSzR1SmNDbTVMTHNTcWNReXliWWc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0435",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImltSUFNL0JLV1hheGRxZ1FJczZMdlE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0418",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IkVScUpneWp1eE56eS9ENG9YaWYrcUE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0408",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Ik9iYU01UkNkWGZuakQrT3RjSEtLNHc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImhSWEtYaWM4Q2NwdDc3T2RpZjZyb3c9PS"
+        }
+      ],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 21,
+        "columns": [
+          "#",
+          "VENDOR TYPE",
+          "AGENT / PARTY",
+          "INVOICE NO.",
+          "JOB NO",
+          "INVOICE DATE",
+          "ADDED DATE",
+          "DETAILS",
+          "FILE",
+          "STATUS",
+          "ACTION",
+          "All\nFULLY PAID\nPARTIAL\nUNPAID\nVOID ONLY\nPARTIAL VOID"
+        ],
+        "has_data": true
+      },
+      "detail_view_opened": false,
+      "traceback": "Traceback (most recent call last):\n  File \"/var/lib/freelancer/projects/40298427/erp-test/test_reports_accounts.py\", line 375, in test_page\n    page.goto(f\"{BASE_URL}{path}\", wait_until=\"domcontentloaded\", timeout=20000)\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/sync_api/_generated.py\", line 9050, in goto\n    self._sync(\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/_impl/_page.py\", line 552, in goto\n    return await self._main_frame.goto(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/_impl/_frame.py\", line 153, in goto\n    await self._channel.send(\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/dist-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"http://13.210.47.18:8088/purchase-invoice\", waiting until \"domcontentloaded\"\n\n"
+    },
+    {
+      "name": "Sales Invoice",
+      "url": "http://13.210.47.18:8088/sales-invoice",
+      "path": "/sales-invoice",
+      "page_type": "invoice_report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_02_sales_inv_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 20,
+        "columns": [
+          "#",
+          "PARTY",
+          "INVOICE NO",
+          "JOB NO",
+          "INVOICE DATE",
+          "INVOICE DETAILS",
+          "UPLOADED FILE",
+          "STATUS",
+          "ACTION",
+          "All\nPaid\nPartial\nUnpaid\nCRN"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "date_input",
+          "name": "invoice_date"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "status",
+          "options_sample": [
+            "All",
+            "Paid",
+            "Partial",
+            "Unpaid",
+            "CRN"
+          ]
+        },
+        {
+          "type": "select",
+          "name": "charge_id",
+          "options_sample": [
+            "Select Charges"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2526//0435",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjVidWNrRlpoUmNxTnBFeXkxNTZaVWc9PS"
+        },
+        {
+          "text": "Edit",
+          "href": "http://13.210.47.18:8088/sales-invoice/consignee_invoice/502/edit"
+        },
+        {
+          "text": "pencil",
+          "href": ""
+        },
+        {
+          "text": "Add CRN",
+          "href": ""
+        },
+        {
+          "text": "Save",
+          "href": ""
+        },
+        {
+          "text": "Cancel",
+          "href": ""
+        },
+        {
+          "text": "TLI/AI/2627//0445",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IndYdENBcVFWRHBwVGUyOHdUQ2ErZlE9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0447",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6ImhQa3I5UVVFdVhoMUpaWUtrSlYxQ2c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0414",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InZxQWZpWEVraXVXZmpHQUcvbkpqZ0E9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IklIZEZMNWx3ZDAySllhVWc4Y2lpTkE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IllxUDBUeld0RjVyRWFuVTcxWEhudWc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0396",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Ik43Q2NHZXFtMTZZRTY1TU5LOE9aTWc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0450",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IjN5RDFlQndiSlQzbm5qb3d5ZWFDeVE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0419",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjNsYUNBSkNpZGFMZktCZmV0SmZianc9PS"
+        }
+      ],
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "detail_view_opened": false
+    },
+    {
+      "name": "Purchase Invoice with VAT",
+      "url": "http://13.210.47.18:8088/purchase-invoice-with-vat",
+      "path": "/purchase-invoice-with-vat",
+      "page_type": "invoice_report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_03_purchase_inv_vat_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_03_purchase_inv_vat_02_filtered.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 21,
+        "columns": [
+          "#",
+          "VENDOR TYPE",
+          "AGENT / PARTY",
+          "INVOICE NO.",
+          "JOB NO",
+          "INVOICE DATE",
+          "DETAILS",
+          "STATUS",
+          "All\nFULLY PAID\nPARTIAL\nUNPAID\nVOID ONLY\nPARTIAL VOID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "date_input",
+          "name": "invoice_date"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "status",
+          "options_sample": [
+            "All",
+            "FULLY PAID",
+            "PARTIAL",
+            "UNPAID",
+            "VOID ONLY",
+            "PARTIAL VOID"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2526//0408",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjdzRUpJZ205WURYUFFoeDBkZVZrQ2c9PS"
+        },
+        {
+          "text": "Save",
+          "href": ""
+        },
+        {
+          "text": "Cancel",
+          "href": ""
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImorV3V5MHFtTU9rd004WjBDM2Y1WWc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0420",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkRidTgzMUlOQW5lMWlEUmp2U05DSkE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0413",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImhaZXlVbk1yU25BZWg0aHdDN1RBbkE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0404",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjZzTE5QTHB0NGI0UFZaYjNCbkMzcUE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0429",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6Ii9uVnFmVU95b0RwUEFjMzNwTXhhN1E9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0428",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6ImxDVFVzKzA4QWR6a1Qwam9MUGpFcmc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0410",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjdieUhPTzdzQXdhY3Fxc20vVjdHNHc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0403",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImxTZmg4UEZXd3g5ZTNRRVVWK1NHOEE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImRLL3RXck96aktPL25RR2RRckw4OGc9PS"
+        }
+      ],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 21,
+        "columns": [
+          "#",
+          "VENDOR TYPE",
+          "AGENT / PARTY",
+          "INVOICE NO.",
+          "JOB NO",
+          "INVOICE DATE",
+          "DETAILS",
+          "STATUS",
+          "All\nFULLY PAID\nPARTIAL\nUNPAID\nVOID ONLY\nPARTIAL VOID"
+        ],
+        "has_data": true
+      },
+      "detail_view_opened": false
+    },
+    {
+      "name": "Sales Invoice with VAT",
+      "url": "http://13.210.47.18:8088/sales-invoice/with-vat",
+      "path": "/sales-invoice/with-vat",
+      "page_type": "invoice_report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_04_sales_inv_vat_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_04_sales_inv_vat_02_filtered.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 20,
+        "columns": [
+          "#",
+          "PARTY",
+          "INVOICE NO",
+          "JOB NO",
+          "INVOICE DATE",
+          "INVOICE DETAILS",
+          "UPLOADED FILE",
+          "STATUS",
+          "All\nPaid\nPartial\nUnpaid"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "date_input",
+          "name": "invoice_date"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "status",
+          "options_sample": [
+            "All",
+            "Paid",
+            "Partial",
+            "Unpaid"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImcwMkp6dW9yZVB4ZDZJVmliV0JYS2c9PS"
+        },
+        {
+          "text": "Save",
+          "href": ""
+        },
+        {
+          "text": "Cancel",
+          "href": ""
+        },
+        {
+          "text": "TLI/AI/2526//0436",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InhWTmRTMW5VcHE5TjNmTSs0TjFtY0E9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0430",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6Ind5TzBtZnRqenNmRVJ1WlBLNmoxd3c9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0426",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IncvUmpwbitWbVlXbGR0QXNyVUxtVEE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0419",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6ImhRN0NjeFVrRFBSeXJlYVp4NG1FbFE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0415",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlRmaDJLR1hwRkdFRHBOaWI3cmVVU2c9PS"
+        }
+      ],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 20,
+        "columns": [
+          "#",
+          "PARTY",
+          "INVOICE NO",
+          "JOB NO",
+          "INVOICE DATE",
+          "INVOICE DETAILS",
+          "UPLOADED FILE",
+          "STATUS",
+          "All\nPaid\nPartial\nUnpaid"
+        ],
+        "has_data": true
+      },
+      "detail_view_opened": false
+    },
+    {
+      "name": "Ledger Report",
+      "url": "http://13.210.47.18:8088/ledger",
+      "path": "/ledger",
+      "page_type": "ledger",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_05_ledger_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_05_ledger_02_filtered.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 2,
+        "columns": [
+          "SNO",
+          "Job no",
+          "Date",
+          "Particulars",
+          "Voucher Type",
+          "Voucher No",
+          "Dr.",
+          "Cr.",
+          "Balance"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from"
+        },
+        {
+          "type": "date_input",
+          "name": "to"
+        },
+        {
+          "type": "date_input",
+          "name": "from"
+        },
+        {
+          "type": "date_input",
+          "name": "to"
+        },
+        {
+          "type": "select",
+          "name": "party",
+          "options_sample": []
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 2839,
+        "columns": [
+          "SNO",
+          "Job no",
+          "Date",
+          "Particulars",
+          "Voucher Type",
+          "Voucher No",
+          "Dr.",
+          "Cr.",
+          "Balance"
+        ],
+        "has_data": true
+      },
+      "balance_keywords_found": [
+        "balance",
+        "credit"
+      ]
+    },
+    {
+      "name": "Customer Ageing",
+      "url": "http://13.210.47.18:8088/reports/customer-aging",
+      "path": "/reports/customer-aging",
+      "page_type": "ageing",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_06_customer_ageing_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 10,
+        "columns": [
+          "SNO",
+          "MODULE",
+          "CUSTOMER",
+          "JOB NO",
+          "IINVOICE NO",
+          "INVOICE DATE",
+          "DUE DATE",
+          "NOT DUE",
+          "30-60",
+          "OVERDUE< 60",
+          "Total"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "select",
+          "name": "module",
+          "options_sample": [
+            "All Modules",
+            "Ocean Import",
+            "Air Import",
+            "Ocean Export",
+            "Air Export"
+          ]
+        },
+        {
+          "type": "select",
+          "name": "customer",
+          "options_sample": []
+        },
+        {
+          "type": "button",
+          "text": "Show Report"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2526//0435",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImF4anVNelBuaXdzOGhLczcyeGxnYUE9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0445",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlNIV2c0cXEyc3NUQ0lVSjFXOE1WWlE9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0447",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IjdDRG43R2MxdThQMFhKY3Q2anF6NEE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0414",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Iml5di9YMEFjZEJILzZnTm15czkwQmc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjJyamordVUrMlRHSGNWSGo3RWt1QlE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImtLTm9vUndQWERHU0tWdFR5N3dNaVE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0396",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InowZVpqemczZG9lR0ZLOXVuckhTQ0E9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0450",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlZ5cTBnUkVPb0l6dGZ4ak0yRUJjTXc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0419",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlBNQ3duRnl0VGRxNEdPUjhSc2graWc9PS"
+        }
+      ],
+      "ageing_columns": [
+        "SNO",
+        "MODULE",
+        "CUSTOMER",
+        "JOB NO",
+        "IINVOICE NO",
+        "INVOICE DATE",
+        "DUE DATE",
+        "NOT DUE",
+        "30-60",
+        "OVERDUE< 60",
+        "Total"
+      ],
+      "ageing_buckets_found": [
+        "30-60",
+        "OVERDUE< 60"
+      ]
+    },
+    {
+      "name": "Supplier Ageing",
+      "url": "http://13.210.47.18:8088/reports/supplier-ageing",
+      "path": "/reports/supplier-ageing",
+      "page_type": "ageing",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_07_supplier_ageing_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 10,
+        "columns": [
+          "SNO",
+          "MODULE",
+          "CUSTOMER",
+          "JOB NO",
+          "IINVOICE NO",
+          "INVOICE DATE",
+          "DUE DATE",
+          "NOT DUE",
+          "30-60",
+          "OVERDUE< 60",
+          "Total"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "select",
+          "name": "module",
+          "options_sample": [
+            "All Modules",
+            "Ocean Import",
+            "Air Import",
+            "Ocean Export",
+            "Air Export"
+          ]
+        },
+        {
+          "type": "select",
+          "name": "customer",
+          "options_sample": []
+        },
+        {
+          "type": "button",
+          "text": "Show Report"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/AI/2526//0418",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InhzTHlmRmlxcUxjWkE3MER0VXVJU2c9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0441",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6Ilh3NmdHempOcXpiTnp0VHFITUkvR0E9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0439",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InRKSjh3ZkszalFZaFhFdXBxVGczZEE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0438",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6ImIzNEp4bEI2ZXFUeVV4WG9UQXc5YlE9PS"
+        },
+        {
+          "text": "TLI/SE/2526//0035",
+          "href": "http://13.210.47.18:8088/ddc5bbfa18cf713c1478e511ea7455a7/eyJpdiI6IjNmM0dIMExJK1hER0xtTTBjM3JqVUE9PS"
+        },
+        {
+          "text": "TLI/SE/2526//0033",
+          "href": "http://13.210.47.18:8088/ddc5bbfa18cf713c1478e511ea7455a7/eyJpdiI6Im81SE45cDV1MENEVXFQNzFkazJWM1E9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0413",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IkxWak00Q2U4SDRMZCt3eTMrS2N3M2c9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0414",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlRiTFk3UmwrSU5OQjZqMTIrb2I3REE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0429",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IjdwV3BmMVZFZkhraDVIMm5TNE5HY1E9PS"
+        }
+      ],
+      "ageing_columns": [
+        "SNO",
+        "MODULE",
+        "CUSTOMER",
+        "JOB NO",
+        "IINVOICE NO",
+        "INVOICE DATE",
+        "DUE DATE",
+        "NOT DUE",
+        "30-60",
+        "OVERDUE< 60",
+        "Total"
+      ],
+      "ageing_buckets_found": [
+        "30-60",
+        "OVERDUE< 60"
+      ]
+    },
+    {
+      "name": "Jobs without Purchase Invoice",
+      "url": "http://13.210.47.18:8088/purchase-invoice-missing",
+      "path": "/purchase-invoice-missing",
+      "page_type": "report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_08_jobs_no_purchase_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_08_jobs_no_purchase_02_filtered.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 10,
+        "columns": [
+          "SR",
+          "JOB NO",
+          "PAYABLE TO",
+          "PARTY",
+          "JOB DATE",
+          "CHARGES",
+          "TOTAL AMNOUNT"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "search"
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2627//0462",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Iktpazg2RjBUTC9JRHluSTdIUDdCYnc9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0460",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImJ4ekluUVNqMVRWcXIrVWFRblFIaEE9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0459",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImVNMy9GSkdWMktPRDU2QTVpaTVJQkE9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0450",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IkV0blJpTnB2T0psRURndEM5T1VCbWc9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0458",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InI1ejF2OTFqdjNPcVdHOElIV1J3MGc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0446",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InRzZytSN0JORElLbzNMakd0bmFXTHc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0445",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlN3b3NmcmtXUVFRTzVDajFYUDl3YlE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0443",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IlRieSs1eTZQZ1lqUG1memE0NjQ3MVE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0448",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkpxeW91QWdOS2xqekNJTHBRaG5iQUE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0449",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlMzZTZTOEsvbWk1bDV3R3p4TjVxZmc9PS"
+        }
+      ],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 10,
+        "columns": [
+          "SR",
+          "JOB NO",
+          "PAYABLE TO",
+          "PARTY",
+          "JOB DATE",
+          "CHARGES",
+          "TOTAL AMNOUNT"
+        ],
+        "has_data": true
+      },
+      "detail_view_opened": false
+    },
+    {
+      "name": "Jobs without Sales Invoice",
+      "url": "http://13.210.47.18:8088/sales-charges-without-invoice",
+      "path": "/sales-charges-without-invoice",
+      "page_type": "report",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_09_jobs_no_sales_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/fin_09_jobs_no_sales_02_filtered.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 10,
+        "columns": [
+          "SR",
+          "JOB NO",
+          "JOB DATE",
+          "PARTY",
+          "CHARGES",
+          "TOTAL AMOUNT"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "search"
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "TLI/SI/2627//0462",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImRzMUloK3ppUHBGbWlDc3cvMThPR2c9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0460",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImV5K2VDYkJuS0hVZzRpUGNNazJEb1E9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0459",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Ik9CZHRvWTdjb3owK1J0blFNNDJGdmc9PS"
+        },
+        {
+          "text": "TLI/SI/2627//0458",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkozUmluaXdZRElEQXJwOW4xQk56SWc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0449",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IkRRUXpZMWMxc0l2V2QrVnRHZW55M0E9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0446",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InlqZFc3S0RtbzBIcnBOaTBsTm5OOXc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0448",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InJZaHFRYXNkNmhacXhHVk91N2kxU1E9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0444",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjFGUUlmUit5TTdpSXpXM2NYN3hZV1E9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0440",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkZ2TVlUYkhXTDEvbmZQRUxLdDVjc3c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0439",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjF5alRmc1c0aVJobkl6NzY1aXZHMVE9PS"
+        }
+      ],
+      "date_filter_applied": true,
+      "filter_button_clicked": true,
+      "table_after_filter": {
+        "row_count": 10,
+        "columns": [
+          "SR",
+          "JOB NO",
+          "JOB DATE",
+          "PARTY",
+          "CHARGES",
+          "TOTAL AMOUNT"
+        ],
+        "has_data": true
+      },
+      "detail_view_opened": false
+    },
+    {
+      "name": "Consignee Due",
+      "url": "http://13.210.47.18:8088/1abe8a244329f592bb3bbb96e22e0344",
+      "path": "/1abe8a244329f592bb3bbb96e22e0344",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_01_consignee_due_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_01_consignee_due_03_checkbox_selected.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 32,
+        "columns": [
+          "#",
+          "CONSIGNEE NAME",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "DUE",
+          "PAID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Pending Invoice",
+          "href": "http://13.210.47.18:8088/1abe8a244329f592bb3bbb96e22e0344/eyJpdiI6IkhyR1ZzUS9BWFJoK3VKV2l5YitDd3c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhJS0RUeXpRcHI5WEQ0QnlGUEZiZHc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0409/1",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/s_500.pdf"
+        },
+        {
+          "text": "2026-04-08 15:29:39",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/s_500.pdf"
+        },
+        {
+          "text": "4647.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/s_500.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/s_500.pdf"
+        },
+        {
+          "text": "TLI/SI/2526//0414",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InNmSWdrM3orWVV2cHJJbmJVcUpDcEE9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0414/1",
+          "href": "http://13.210.47.18:8088/files/2526/oc/414/s_501.pdf"
+        },
+        {
+          "text": "2026-04-08 16:14:21",
+          "href": "http://13.210.47.18:8088/files/2526/oc/414/s_501.pdf"
+        },
+        {
+          "text": "4412.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/414/s_501.pdf"
+        },
+        {
+          "text": "PAY",
+          "href": ""
+        },
+        {
+          "text": "2",
+          "href": ""
+        },
+        {
+          "text": "TLI/AI/2526//0437",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6ImI1Z1dtRkpGcTVYUGEyY0JnUFRaQlE9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0437/1",
+          "href": "http://13.210.47.18:8088/files/2526/ar/437/s_489.pdf"
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 14,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "payment_flow": "Checkboxes available for selecting invoices - Successfully selected first checkbox"
+    },
+    {
+      "name": "Consignee Paid",
+      "url": "http://13.210.47.18:8088/8c8bcb5e96e6c22e001efff53fcadf28",
+      "path": "/8c8bcb5e96e6c22e001efff53fcadf28",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_02_consignee_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 3,
+        "columns": [
+          "#",
+          "CONSIGNEE NAME",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "PAID AMNT",
+          "DUE AMNT",
+          "PAID DATE"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Paid Invoice",
+          "href": "http://13.210.47.18:8088/1abe8a244329f592bb3bbb96e22e0344/eyJpdiI6IlppTU82V3poSjVmTThBUERHUWl1eWc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0449",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Imsva0FUMEc2ZUhCNGtWUHJobHdpcHc9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0449/1",
+          "href": "http://13.210.47.18:8088/files/2526/oc/449/s_493.pdf"
+        },
+        {
+          "text": "03/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/449/s_493.pdf"
+        },
+        {
+          "text": "5976.68",
+          "href": "http://13.210.47.18:8088/files/2526/oc/449/s_493.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/449/s_493.pdf"
+        },
+        {
+          "text": "07/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/449/s_493.pdf"
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Agent Due (Debtor)",
+      "url": "http://13.210.47.18:8088/28f3b7864cdf11d6b30b148bec8d6307",
+      "path": "/28f3b7864cdf11d6b30b148bec8d6307",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_03_agent_due_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_03_agent_due_03_checkbox_selected.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 11,
+        "columns": [
+          "#",
+          "AGENT NAME",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "DUE",
+          "PAID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Pending Invoice",
+          "href": "http://13.210.47.18:8088/28f3b7864cdf11d6b30b148bec8d6307/eyJpdiI6Im9OdjJoSUVmOEZXaUwzUkJPMi9DN3c9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0445",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6InBxc2x3eVJPRHNsWUJBNkM1R0J5cHc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0445/1",
+          "href": "http://13.210.47.18:8088/files/2627/ar/445/s_222.pdf"
+        },
+        {
+          "text": "2026-04-08 17:00:15",
+          "href": "http://13.210.47.18:8088/files/2627/ar/445/s_222.pdf"
+        },
+        {
+          "text": "1417.00",
+          "href": "http://13.210.47.18:8088/files/2627/ar/445/s_222.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2627/ar/445/s_222.pdf"
+        },
+        {
+          "text": "PAY",
+          "href": ""
+        },
+        {
+          "text": "2",
+          "href": ""
+        },
+        {
+          "text": "TLI/AI/2526//0443",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IktJUi82dGw1Um1QaU5DaW44UHE0b3c9PS"
+        },
+        {
+          "text": "TLI/AI/2526//0443/1",
+          "href": "http://13.210.47.18:8088/files/2526/ar/443/s_218.pdf"
+        },
+        {
+          "text": "2026-04-06 19:08:31",
+          "href": "http://13.210.47.18:8088/files/2526/ar/443/s_218.pdf"
+        },
+        {
+          "text": "5465.00",
+          "href": "http://13.210.47.18:8088/files/2526/ar/443/s_218.pdf"
+        },
+        {
+          "text": "TLI/AI/2627//0447",
+          "href": "http://13.210.47.18:8088/951733b073f499bd67fa764d38df48a8/eyJpdiI6IkJjR2ZockNnUUIyRHRRS2lkc3M1VWc9PS"
+        },
+        {
+          "text": "TLI/AI/2627//0447/1",
+          "href": "http://13.210.47.18:8088/files/2627/ar/447/s_221.pdf"
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 5,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "payment_flow": "Checkboxes available for selecting invoices - Successfully selected first checkbox"
+    },
+    {
+      "name": "Agent Paid (Debtor)",
+      "url": "http://13.210.47.18:8088/b621a0964636bcee73d691db7d3572fd",
+      "path": "/b621a0964636bcee73d691db7d3572fd",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_04_agent_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Shipper Due",
+      "url": "http://13.210.47.18:8088/8211377a76b5f20c607e278620d4abe3",
+      "path": "/8211377a76b5f20c607e278620d4abe3",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_05_shipper_due_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Shipper Paid",
+      "url": "http://13.210.47.18:8088/76264365e7c5a943b7629804aeab136b",
+      "path": "/76264365e7c5a943b7629804aeab136b",
+      "page_type": "debtor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dbt_06_shipper_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Shipping Line Due",
+      "url": "http://13.210.47.18:8088/8e1b7fdf1fd87dcc9e0546d03ae62556",
+      "path": "/8e1b7fdf1fd87dcc9e0546d03ae62556",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_01_shipping_due_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_01_shipping_due_03_checkbox_selected.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 14,
+        "columns": [
+          "#",
+          "SHIPPING LINE",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "DUE",
+          "PAID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Pending Invoice",
+          "href": "http://13.210.47.18:8088/8e1b7fdf1fd87dcc9e0546d03ae62556/eyJpdiI6IjViWkFmb3pvakdPQXlLa0ovY1cxS2c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0422",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjlCd01VY2VEaWRwNkllODZIM0tDNkE9PS"
+        },
+        {
+          "text": "GBDIC770111",
+          "href": "http://13.210.47.18:8088/files/2526/oc/422/p_648.pdf"
+        },
+        {
+          "text": "06/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/422/p_648.pdf"
+        },
+        {
+          "text": "441.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/422/p_648.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/422/p_648.pdf"
+        },
+        {
+          "text": "PAY",
+          "href": ""
+        },
+        {
+          "text": "2",
+          "href": ""
+        },
+        {
+          "text": "TLI/SI/2526//0396",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjlhNjRmWkNmYVlxbFAyVHlzLzZ6bUE9PS"
+        },
+        {
+          "text": "2409178458",
+          "href": "http://13.210.47.18:8088/files/2526/oc/396/p_650.pdf"
+        },
+        {
+          "text": "07/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/396/p_650.pdf"
+        },
+        {
+          "text": "85.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/396/p_650.pdf"
+        },
+        {
+          "text": "3",
+          "href": ""
+        },
+        {
+          "text": "TLI/SI/2526//0420",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkVoNjB1eGtWazBWaHlUR1VMcE93TlE9PS"
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 8,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "payment_flow": "Checkboxes available for selecting invoices - Successfully selected first checkbox"
+    },
+    {
+      "name": "Shipping Line Paid",
+      "url": "http://13.210.47.18:8088/d18ec27a83b522669c9efc55a880f917",
+      "path": "/d18ec27a83b522669c9efc55a880f917",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_02_shipping_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Co-Loader Due",
+      "url": "http://13.210.47.18:8088/285ee3bf7d21a421fb354e824a0ba678",
+      "path": "/285ee3bf7d21a421fb354e824a0ba678",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_03_coloader_due_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Co-Loader Paid",
+      "url": "http://13.210.47.18:8088/49ab2c7ef13c1de745c5e511ea7d306f",
+      "path": "/49ab2c7ef13c1de745c5e511ea7d306f",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_04_coloader_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Supplier Due",
+      "url": "http://13.210.47.18:8088/57e215a5d82f9e54a6e6b2ddfd0372c1",
+      "path": "/57e215a5d82f9e54a6e6b2ddfd0372c1",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_05_supplier_due_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_05_supplier_due_03_checkbox_selected.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 17,
+        "columns": [
+          "#",
+          "SUPPLIER",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "DUE",
+          "PAID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Pending Invoice",
+          "href": "http://13.210.47.18:8088/57e215a5d82f9e54a6e6b2ddfd0372c1/eyJpdiI6Im1aSmtmNVhSZ0FUekxYWGxYY29ya2c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0333",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkJxeEJkb0JzT05tSkx1cCt3RFpzblE9PS"
+        },
+        {
+          "text": "123456789",
+          "href": "http://13.210.47.18:8088/files/2526/oc/333/p_1642.pdf"
+        },
+        {
+          "text": "08/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/333/p_1642.pdf"
+        },
+        {
+          "text": "220.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/333/p_1642.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/333/p_1642.pdf"
+        },
+        {
+          "text": "PAY",
+          "href": ""
+        },
+        {
+          "text": "2",
+          "href": ""
+        },
+        {
+          "text": "TLI/SI/2526//0409",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlM5a016bHE1TitpQ3NXdStVeVR0eUE9PS"
+        },
+        {
+          "text": "304232",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/p_1632.pdf"
+        },
+        {
+          "text": "02/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/p_1632.pdf"
+        },
+        {
+          "text": "17.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/409/p_1632.pdf"
+        },
+        {
+          "text": "TLI/SI/2526//0408",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjgyTENISnhEeEc3aUNmR2tBLzlNWWc9PS"
+        },
+        {
+          "text": "304230",
+          "href": "http://13.210.47.18:8088/files/2526/oc/408/p_1633.pdf"
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 9,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "payment_flow": "Checkboxes available for selecting invoices - Successfully selected first checkbox"
+    },
+    {
+      "name": "Supplier Paid",
+      "url": "http://13.210.47.18:8088/832128c1bea0bf94b30c16a8417125ae",
+      "path": "/832128c1bea0bf94b30c16a8417125ae",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_06_supplier_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Agent Due (Creditor)",
+      "url": "http://13.210.47.18:8088/455492c7888db5aafecf4facc1aa7639",
+      "path": "/455492c7888db5aafecf4facc1aa7639",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_07_agent_due_01_initial.png",
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_07_agent_due_03_checkbox_selected.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 3,
+        "columns": [
+          "#",
+          "AGENT NAME",
+          "JOB NO",
+          "INV NO",
+          "INV DATE",
+          "INV AMNT",
+          "DUE",
+          "PAID"
+        ],
+        "has_data": true
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [
+        {
+          "text": "1",
+          "href": ""
+        },
+        {
+          "text": "Pending Invoice",
+          "href": "http://13.210.47.18:8088/455492c7888db5aafecf4facc1aa7639/eyJpdiI6Ilh5NXZxaE5TVkJaa2tXS01ZWHp1a2c9PS"
+        },
+        {
+          "text": "TLI/SI/2526//0421",
+          "href": "http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImducktEZTF4UWYzWHZPbW45cExYd2c9PS"
+        },
+        {
+          "text": "26023132-014",
+          "href": "http://13.210.47.18:8088/files/2526/oc/421/p_570.pdf"
+        },
+        {
+          "text": "02/04/2026",
+          "href": "http://13.210.47.18:8088/files/2526/oc/421/p_570.pdf"
+        },
+        {
+          "text": "15.38",
+          "href": "http://13.210.47.18:8088/files/2526/oc/421/p_570.pdf"
+        },
+        {
+          "text": "0.00",
+          "href": "http://13.210.47.18:8088/files/2526/oc/421/p_570.pdf"
+        },
+        {
+          "text": "PAY",
+          "href": ""
+        }
+      ],
+      "payment_controls": {
+        "checkboxes": 1,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n",
+      "payment_flow": "Checkboxes available for selecting invoices - Successfully selected first checkbox"
+    },
+    {
+      "name": "Agent Paid (Creditor)",
+      "url": "http://13.210.47.18:8088/bfd9d957f28679c09593198e7cefb085",
+      "path": "/bfd9d957f28679c09593198e7cefb085",
+      "page_type": "creditor",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/crd_08_agent_paid_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "date_input",
+          "name": "from_date"
+        },
+        {
+          "type": "date_input",
+          "name": "to_date"
+        },
+        {
+          "type": "search_input",
+          "name": "Str2"
+        },
+        {
+          "type": "button",
+          "text": "Filter"
+        }
+      ],
+      "action_buttons": [],
+      "payment_controls": {
+        "checkboxes": 0,
+        "payment_fields": [],
+        "submit_button": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Basic Graph",
+      "url": "http://13.210.47.18:8088/fe83dce7816670353cfa807c5722d816",
+      "path": "/fe83dce7816670353cfa807c5722d816",
+      "page_type": "dsr_graph",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dsr_01_basic_graph_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "yrChng",
+          "options_sample": [
+            "2026 - 2027",
+            "2025 - 2026",
+            "2024 - 2025",
+            "2023 - 2024"
+          ]
+        }
+      ],
+      "action_buttons": [],
+      "chart": {
+        "has_chart": true,
+        "chart_type": "canvas (likely Chart.js)",
+        "canvas_count": 1
+      }
+    },
+    {
+      "name": "Ocean Import DSR",
+      "url": "http://13.210.47.18:8088/1387f1ae3dc1d840789d15c546e89125",
+      "path": "/1387f1ae3dc1d840789d15c546e89125",
+      "page_type": "dsr",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dsr_02_ocean_import_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "pnjb",
+          "options_sample": [
+            "--ETA--",
+            "--ETD--",
+            "--DELIVERY DATE--"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        },
+        {
+          "type": "button",
+          "text": "Apply"
+        }
+      ],
+      "action_buttons": [],
+      "chart": {
+        "has_chart": false,
+        "chart_type": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Ocean Export DSR",
+      "url": "http://13.210.47.18:8088/c745c437840b2e21636a2cbdab4b33a6",
+      "path": "/c745c437840b2e21636a2cbdab4b33a6",
+      "page_type": "dsr",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dsr_03_ocean_export_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "pnjb",
+          "options_sample": [
+            "--ETA--",
+            "--ETD--",
+            "--DELIVERY DATE--"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        },
+        {
+          "type": "button",
+          "text": "Apply"
+        }
+      ],
+      "action_buttons": [],
+      "chart": {
+        "has_chart": false,
+        "chart_type": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Air Import DSR",
+      "url": "http://13.210.47.18:8088/abf5db603d4276889077e81de984cf6d",
+      "path": "/abf5db603d4276889077e81de984cf6d",
+      "page_type": "dsr",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dsr_04_air_import_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "pnjb",
+          "options_sample": [
+            "--ETA--",
+            "--ETD--",
+            "--DELIVERY DATE--"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        },
+        {
+          "type": "button",
+          "text": "Apply"
+        }
+      ],
+      "action_buttons": [],
+      "chart": {
+        "has_chart": false,
+        "chart_type": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    },
+    {
+      "name": "Air Export DSR",
+      "url": "http://13.210.47.18:8088/627db3ba79d7139f8dfd6f462e1b0514",
+      "path": "/627db3ba79d7139f8dfd6f462e1b0514",
+      "page_type": "dsr",
+      "load_status": 200,
+      "screenshots": [
+        "/var/lib/freelancer/projects/40298427/erp-test/screenshots/reports_accounts/dsr_05_air_export_01_initial.png"
+      ],
+      "errors": [],
+      "page_title": "Sena ERP",
+      "table": {
+        "row_count": 0,
+        "columns": [
+          "No records found."
+        ],
+        "has_data": false
+      },
+      "filter_controls": [
+        {
+          "type": "date_input",
+          "name": "_token"
+        },
+        {
+          "type": "select",
+          "name": "pnjb",
+          "options_sample": [
+            "--ETA--",
+            "--ETD--",
+            "--DELIVERY DATE--"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Search"
+        },
+        {
+          "type": "button",
+          "text": "Apply"
+        }
+      ],
+      "action_buttons": [],
+      "chart": {
+        "has_chart": false,
+        "chart_type": null
+      },
+      "date_filter_error": "ElementHandle.fill: Timeout 60000ms exceeded.\nCall log:\n    - fill(\"2024-01-01\")\n  - attempting fill action\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and editable\n      - element is not visible\n    - retrying fill action\n      - waiting 100ms\n    119 \u00d7 waiting for element to be visible, enabled and editable\n        - element is not visible\n      - retrying fill action\n        - waiting 500ms\n"
+    }
+  ]
+}

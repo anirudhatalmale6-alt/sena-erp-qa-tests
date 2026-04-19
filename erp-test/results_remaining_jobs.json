@@ -1,0 +1,96 @@
+{
+  "ocean_export": {
+    "test": "Ocean Export Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-2 ()",
+      "Required: conSizeId ()",
+      "Required: signupForm_step-5 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: sl_party[] ()",
+      "Required: signupForm_step-6 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: signupForm_step-9 ()",
+      "Required: file_link ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/01_ocean_export_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/02_ocean_export_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/03_ocean_export_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/04_ocean_export_result.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/05_ocean_export_verify.png"
+    ],
+    "job_no": "TLI/SE/2627//0043",
+    "verified_in_list": false
+  },
+  "air_export": {
+    "test": "Air Export Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-5 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: sl_party[] ()",
+      "Required: signupForm_step-6 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: sl_payto[] ()",
+      "Required: signupForm_step-8 ()",
+      "Required: file_link ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/06_air_export_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/07_air_export_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/08_air_export_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/09_air_export_result.png"
+    ],
+    "job_no": "TLI/AE/2627//0074"
+  },
+  "land_import": {
+    "test": "Land Import Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-2 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: bl_payto[] ()",
+      "Required: bl_party[] ()",
+      "Required: signupForm_step-3 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/10_land_import_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/11_land_import_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/12_land_import_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/13_land_import_result.png"
+    ],
+    "job_no": "TLI/LI/2627//0001"
+  },
+  "land_export": {
+    "test": "Land Export Job",
+    "status": "success",
+    "errors": [
+      "Required: signupForm_step-2 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()",
+      "Required: bl_payto[] ()",
+      "Required: bl_party[] ()",
+      "Required: signupForm_step-3 ()",
+      "Required: slcharge[] ()",
+      "Required: sl_amnt[] ()"
+    ],
+    "screenshots": [
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/14_land_export_list.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/15_land_export_form.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/16_land_export_filled.png",
+      "/var/lib/freelancer/projects/40298427/erp-test/screenshots/remaining_jobs/17_land_export_result.png"
+    ],
+    "job_no": "TLI/LE/2627//0001"
+  }
+}
