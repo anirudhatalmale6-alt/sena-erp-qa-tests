@@ -1,0 +1,1009 @@
+{
+  "run_time": "2026-04-29T11:31:34.435261",
+  "phases": {
+    "login": [
+      {
+        "test": "Login",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/4d5c7c941df8262af83d7b494f9d120e",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/001_after_login.png",
+        "ts": "2026-04-29T11:31:48.660583"
+      }
+    ],
+    "job_lists": [
+      {
+        "test": "List ocean_import_open",
+        "status": "PASS",
+        "detail": "20 jobs",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/002_list_ocean_import_open.png",
+        "ts": "2026-04-29T11:31:55.302221"
+      },
+      {
+        "test": "List air_import_open",
+        "status": "PASS",
+        "detail": "14 jobs",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/082_list_air_import_open.png",
+        "ts": "2026-04-29T11:38:05.680080"
+      },
+      {
+        "test": "List ocean_export_open",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/085_list_ocean_export_open.png",
+        "ts": "2026-04-29T11:38:14.978447"
+      },
+      {
+        "test": "List ocean_export_closed",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/086_list_ocean_export_closed.png",
+        "ts": "2026-04-29T11:38:20.008924"
+      },
+      {
+        "test": "List air_export_open",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/087_list_air_export_open.png",
+        "ts": "2026-04-29T11:38:25.045108"
+      },
+      {
+        "test": "List air_export_closed",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/088_list_air_export_closed.png",
+        "ts": "2026-04-29T11:38:30.069139"
+      },
+      {
+        "test": "List land_import_open",
+        "status": "PASS",
+        "detail": "1 jobs",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/089_list_land_import_open.png",
+        "ts": "2026-04-29T11:38:34.947760"
+      },
+      {
+        "test": "List land_export_open",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/092_list_land_export_open.png",
+        "ts": "2026-04-29T11:38:44.065475"
+      },
+      {
+        "test": "List land_export_closed",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/093_list_land_export_closed.png",
+        "ts": "2026-04-29T11:38:49.086492"
+      }
+    ],
+    "navigation": [
+      {
+        "test": "Detail ocean_import_open",
+        "status": "PASS",
+        "detail": "URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/003_detail_ocean_import_open.png",
+        "ts": "2026-04-29T11:31:59.189737"
+      },
+      {
+        "test": "Detail air_import_open",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/083_detail_air_import_open.png",
+        "ts": "2026-04-29T11:38:09.486810"
+      },
+      {
+        "test": "Detail land_import_open",
+        "status": "FAIL",
+        "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/090_detail_land_import_open.png",
+        "ts": "2026-04-29T11:38:38.638601"
+      }
+    ],
+    "ocean_import": [
+      {
+        "test": "Step Basic Details",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/004_step_basic_Ocean_Import.png",
+        "ts": "2026-04-29T11:32:01.473179"
+      },
+      {
+        "test": "Step_basic - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/005_Step_basic_Ocean_Export.png",
+        "ts": "2026-04-29T11:32:04.725311"
+      },
+      {
+        "test": "Step_basic - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/006_Step_basic_Air_Export.png",
+        "ts": "2026-04-29T11:32:07.975593"
+      },
+      {
+        "test": "Step_basic - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/007_Step_basic_Land_Export.png",
+        "ts": "2026-04-29T11:32:11.241127"
+      },
+      {
+        "test": "Step_basic - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InJldnIrTzBwMFUydSs5b1B5bHdtYlE9PSIsInZhbHVlIjoiMUZmU1hlcEJhZW5INFpYZkRGekhXdz09IiwibWFjIjoiZmQyZTM5YTQxZTM2OWMyYjZlOGJiODFhNTdjNDVhMjRkNzA2MGM3NjUxNjlhMmY1Y2EwMWRjNDMyOTAyMmJlYiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/008_Step_basic_Save.png",
+        "ts": "2026-04-29T11:32:14.562271"
+      },
+      {
+        "test": "Step_basic - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/009_Step_basic_Exit.png",
+        "ts": "2026-04-29T11:32:22.701997"
+      },
+      {
+        "test": "Step Clearing Instructions",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/010_step_clearing_Ocean_Import.png",
+        "ts": "2026-04-29T11:32:29.248294"
+      },
+      {
+        "test": "Step_clearing - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/011_Step_clearing_Ocean_Export.png",
+        "ts": "2026-04-29T11:32:32.504752"
+      },
+      {
+        "test": "Step_clearing - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/012_Step_clearing_Air_Export.png",
+        "ts": "2026-04-29T11:32:35.737850"
+      },
+      {
+        "test": "Step_clearing - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/013_Step_clearing_Land_Export.png",
+        "ts": "2026-04-29T11:32:39.014650"
+      },
+      {
+        "test": "Step_clearing - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjVxS3JGSlBsKzQya3lVVXZvbTlaQWc9PSIsInZhbHVlIjoiZ3h2V3FCcTlwTnJDWEZEcWhtYlExUT09IiwibWFjIjoiYjJlODBlZmIyZjU5MWE5MWRjMmY1MzZiNDQzZmU2MmRmZGMyYmY3ODg5ODFmMDYxYmYwNDEzZTJhYTQ0ZGYxOSIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/014_Step_clearing_Save.png",
+        "ts": "2026-04-29T11:32:42.335319"
+      },
+      {
+        "test": "Step_clearing - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/015_Step_clearing_Exit.png",
+        "ts": "2026-04-29T11:32:50.378085"
+      },
+      {
+        "test": "Step Delivery Note",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/016_step_delivery_Ocean_Import.png",
+        "ts": "2026-04-29T11:32:56.955207"
+      },
+      {
+        "test": "Step_delivery - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/017_Step_delivery_Ocean_Export.png",
+        "ts": "2026-04-29T11:33:00.209352"
+      },
+      {
+        "test": "Step_delivery - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/018_Step_delivery_Air_Export.png",
+        "ts": "2026-04-29T11:33:03.460796"
+      },
+      {
+        "test": "Step_delivery - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/019_Step_delivery_Land_Export.png",
+        "ts": "2026-04-29T11:33:06.669029"
+      },
+      {
+        "test": "Step_delivery - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImovUnJqWXVWZmdmZ05LN3hyZ2JUcnc9PSIsInZhbHVlIjoiOVRwWWJTckhFNEtTZVJTYzJoNkY4dz09IiwibWFjIjoiZWQwMGRmYjI2OTUzZjBlMjZjZDA1ZmYzNTIxMDc3NGNkNDE4YzVhYWZmNjAwZDE5MTQ3ZGM2N2I3MDJhNWEwYSIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/020_Step_delivery_Save.png",
+        "ts": "2026-04-29T11:33:09.990260"
+      },
+      {
+        "test": "Step_delivery - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/021_Step_delivery_Exit.png",
+        "ts": "2026-04-29T11:33:18.089507"
+      },
+      {
+        "test": "Step Buying Charges",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/022_step_buying_Ocean_Import.png",
+        "ts": "2026-04-29T11:33:24.624750"
+      },
+      {
+        "test": "Step_buying - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/023_Step_buying_Ocean_Export.png",
+        "ts": "2026-04-29T11:33:27.869980"
+      },
+      {
+        "test": "Step_buying - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/024_Step_buying_Air_Export.png",
+        "ts": "2026-04-29T11:33:31.110371"
+      },
+      {
+        "test": "Step_buying - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/025_Step_buying_Land_Export.png",
+        "ts": "2026-04-29T11:33:34.360323"
+      },
+      {
+        "test": "Step_buying - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InRuejZPSTZWMm0rT3Q5blE0TXdQeFE9PSIsInZhbHVlIjoiRUJNVUdQaE05TG5ibmV3c3hLbnozZz09IiwibWFjIjoiZTc4ODcwOTM1MjAxOTQ5YmRkYjc1ZmM0NzdmYmQ5ZThhNTdhNjU3MDA0YmNhZGYwMGJmMmE5NzMwMmU3ZTE3NiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/026_Step_buying_Save.png",
+        "ts": "2026-04-29T11:33:37.671303"
+      },
+      {
+        "test": "Step_buying - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/027_Step_buying_Exit.png",
+        "ts": "2026-04-29T11:33:45.757701"
+      },
+      {
+        "test": "Step Selling Charges",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/028_step_selling_Ocean_Import.png",
+        "ts": "2026-04-29T11:33:52.335959"
+      },
+      {
+        "test": "Step_selling - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/029_Step_selling_Ocean_Export.png",
+        "ts": "2026-04-29T11:33:55.605465"
+      },
+      {
+        "test": "Step_selling - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/030_Step_selling_Air_Export.png",
+        "ts": "2026-04-29T11:33:58.857443"
+      },
+      {
+        "test": "Step_selling - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/031_Step_selling_Land_Export.png",
+        "ts": "2026-04-29T11:34:02.112713"
+      },
+      {
+        "test": "Step_selling - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IllHK1dhYXlhYkhQUVNSWTlNMCtRRUE9PSIsInZhbHVlIjoiM2U0T0V6YWtVcFF2R3lnZHNpOHdaQT09IiwibWFjIjoiZWZlNDY5NmQ3ZDhjYTlhNTZhNjNiYTYyYmY5NWYxYjA1NzcyMDk1NzBmN2U4NDA2YTYyNGRjZWI3YzJlMzJkZiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/032_Step_selling_Save.png",
+        "ts": "2026-04-29T11:34:05.451670"
+      },
+      {
+        "test": "Step_selling - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/033_Step_selling_Exit.png",
+        "ts": "2026-04-29T11:34:13.557948"
+      },
+      {
+        "test": "Step Purchase Charges",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/034_step_purchase_charges_Ocean_Import.png",
+        "ts": "2026-04-29T11:34:20.111341"
+      },
+      {
+        "test": "Step_purchase_charges - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/035_Step_purchase_charges_Ocean_Export.png",
+        "ts": "2026-04-29T11:34:23.405112"
+      },
+      {
+        "test": "Step_purchase_charges - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/036_Step_purchase_charges_Air_Export.png",
+        "ts": "2026-04-29T11:34:26.640847"
+      },
+      {
+        "test": "Step_purchase_charges - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/037_Step_purchase_charges_Land_Export.png",
+        "ts": "2026-04-29T11:34:29.907229"
+      },
+      {
+        "test": "Step_purchase_charges - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImQrd0RxUXRwZkQ4ZS95R0VEZkpYc3c9PSIsInZhbHVlIjoiNE1YdG1yekY5NTVUUEhhbGRkQXFKZz09IiwibWFjIjoiODk2NTMwNTlmNmE3MmE4ZWNhZmYyZWU3MTdmMzk1NmEzMDQ3NWY4OGIzOTUyYWJhZGIyNzg2NjAzYWQxZGFmNyIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/038_Step_purchase_charges_Save.png",
+        "ts": "2026-04-29T11:34:33.210565"
+      },
+      {
+        "test": "Step_purchase_charges - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/039_Step_purchase_charges_Exit.png",
+        "ts": "2026-04-29T11:34:41.277268"
+      },
+      {
+        "test": "Step Sales Charges",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/040_step_sales_charges_Ocean_Import.png",
+        "ts": "2026-04-29T11:34:47.889598"
+      },
+      {
+        "test": "Step_sales_charges - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/041_Step_sales_charges_Ocean_Export.png",
+        "ts": "2026-04-29T11:34:51.122601"
+      },
+      {
+        "test": "Step_sales_charges - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/042_Step_sales_charges_Air_Export.png",
+        "ts": "2026-04-29T11:34:54.359362"
+      },
+      {
+        "test": "Step_sales_charges - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/043_Step_sales_charges_Land_Export.png",
+        "ts": "2026-04-29T11:34:57.585849"
+      },
+      {
+        "test": "Step_sales_charges - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IkVKeEhmWlNiK3Z4NXJXNVNaMzE4c0E9PSIsInZhbHVlIjoiM083SUhaOUc5dm5BQnVtYW5xam9mdz09IiwibWFjIjoiZmJlMzMyMWRiNTA2MmNmYzljMjU3MmRlZTZiZGY0ZGRkZTJlNmM3ZTc2ZWI4NTdkNmUzNzY3Y2M3NzRhOTIzMCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/044_Step_sales_charges_Save.png",
+        "ts": "2026-04-29T11:35:00.898412"
+      },
+      {
+        "test": "Step_sales_charges - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/045_Step_sales_charges_Exit.png",
+        "ts": "2026-04-29T11:35:09.412443"
+      },
+      {
+        "test": "Step Purchase Invoice",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/046_step_purchase_inv_Ocean_Import.png",
+        "ts": "2026-04-29T11:35:15.963467"
+      },
+      {
+        "test": "Step_purchase_inv - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/047_Step_purchase_inv_Ocean_Export.png",
+        "ts": "2026-04-29T11:35:19.261705"
+      },
+      {
+        "test": "Step_purchase_inv - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/048_Step_purchase_inv_Air_Export.png",
+        "ts": "2026-04-29T11:35:22.539938"
+      },
+      {
+        "test": "Step_purchase_inv - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/049_Step_purchase_inv_Land_Export.png",
+        "ts": "2026-04-29T11:35:25.807777"
+      },
+      {
+        "test": "Step_purchase_inv - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Imdaa2JGOXhBcmlIbWlGL2hwVUVnblE9PSIsInZhbHVlIjoiWkhlcXdWazBWL2txTi9haFVPbGNHUT09IiwibWFjIjoiNGM0OGY2ZTYyNzExZjI4YmRlYzRmMTk0NThjMzBkZjg4OWFiNjY0ZmU1ZGJiODlmZTg4N2YxOGIyMTAyZWQ4OCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/050_Step_purchase_inv_Save.png",
+        "ts": "2026-04-29T11:35:29.119348"
+      },
+      {
+        "test": "Step_purchase_inv - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/051_Step_purchase_inv_Exit.png",
+        "ts": "2026-04-29T11:35:37.239531"
+      },
+      {
+        "test": "Step Sale Invoice",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/052_step_sale_inv_Ocean_Import.png",
+        "ts": "2026-04-29T11:35:43.767998"
+      },
+      {
+        "test": "Step_sale_inv - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/053_Step_sale_inv_Ocean_Export.png",
+        "ts": "2026-04-29T11:35:47.011099"
+      },
+      {
+        "test": "Step_sale_inv - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/054_Step_sale_inv_Air_Export.png",
+        "ts": "2026-04-29T11:35:50.279725"
+      },
+      {
+        "test": "Step_sale_inv - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/055_Step_sale_inv_Land_Export.png",
+        "ts": "2026-04-29T11:35:53.515356"
+      },
+      {
+        "test": "Step_sale_inv - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Iml1K0ZOR1Vtc2ZMd3ZxQWw1ZjBORnc9PSIsInZhbHVlIjoicVdudzFPMklQTkJrVmVkTlM3YnRQdz09IiwibWFjIjoiNjU2MTJhOWU3NTU1NTcwMjM2NmVlMDVkMTllNDI5MDRmYzJkZmY3NDQyN2E1ZDA5YWExYmE5YzVmYjA3NmRkZiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/056_Step_sale_inv_Save.png",
+        "ts": "2026-04-29T11:35:56.846245"
+      },
+      {
+        "test": "Step_sale_inv - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/057_Step_sale_inv_Exit.png",
+        "ts": "2026-04-29T11:36:05.423780"
+      },
+      {
+        "test": "Step Sales Invoice",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/058_step_sales_inv_Ocean_Import.png",
+        "ts": "2026-04-29T11:36:12.030738"
+      },
+      {
+        "test": "Step_sales_inv - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/059_Step_sales_inv_Ocean_Export.png",
+        "ts": "2026-04-29T11:36:15.313783"
+      },
+      {
+        "test": "Step_sales_inv - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/060_Step_sales_inv_Air_Export.png",
+        "ts": "2026-04-29T11:36:18.568377"
+      },
+      {
+        "test": "Step_sales_inv - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/061_Step_sales_inv_Land_Export.png",
+        "ts": "2026-04-29T11:36:21.746062"
+      },
+      {
+        "test": "Step_sales_inv - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6InB5dkxmWFh4amwyTlZrdjB5MGtiaGc9PSIsInZhbHVlIjoibXh4YmJhNGhwRDhLbXZqUUhDb0piUT09IiwibWFjIjoiNTgxM2QwODBhNGQxNTIxYjVkZTc3ZGFiYzI1MWNmMjAyMWUwYjI1YWZhZjg0OTRiYzI1MmZiY2IzNWIzMjE2ZiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/062_Step_sales_inv_Save.png",
+        "ts": "2026-04-29T11:36:25.063338"
+      },
+      {
+        "test": "Step_sales_inv - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/063_Step_sales_inv_Exit.png",
+        "ts": "2026-04-29T11:36:33.147601"
+      },
+      {
+        "test": "Step Job Supporting",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/064_step_supporting_Ocean_Import.png",
+        "ts": "2026-04-29T11:36:39.692595"
+      },
+      {
+        "test": "Step_supporting - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/065_Step_supporting_Ocean_Export.png",
+        "ts": "2026-04-29T11:36:42.940522"
+      },
+      {
+        "test": "Step_supporting - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/066_Step_supporting_Air_Export.png",
+        "ts": "2026-04-29T11:36:46.171622"
+      },
+      {
+        "test": "Step_supporting - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/067_Step_supporting_Land_Export.png",
+        "ts": "2026-04-29T11:36:49.429534"
+      },
+      {
+        "test": "Step_supporting - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IjNTNG1UN1FqbmN0YndMQlNCN1Noc0E9PSIsInZhbHVlIjoibWY4R1Bja2k1ais2MWYrS25VSlV4QT09IiwibWFjIjoiYzI3MTczMDA1Y2NkNDc1YTk5ZmVmODMzYmYwNTZhMTI5YzVkM2NhZDJmNjI2NDIyZjlkY2QyMzVjMzk5NTAxZSIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/068_Step_supporting_Save.png",
+        "ts": "2026-04-29T11:36:52.722375"
+      },
+      {
+        "test": "Step_supporting - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/069_Step_supporting_Exit.png",
+        "ts": "2026-04-29T11:37:00.807162"
+      },
+      {
+        "test": "Step Files",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/070_step_files_Ocean_Import.png",
+        "ts": "2026-04-29T11:37:07.365389"
+      },
+      {
+        "test": "Step_files - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/071_Step_files_Ocean_Export.png",
+        "ts": "2026-04-29T11:37:10.652132"
+      },
+      {
+        "test": "Step_files - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/072_Step_files_Air_Export.png",
+        "ts": "2026-04-29T11:37:13.911337"
+      },
+      {
+        "test": "Step_files - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/073_Step_files_Land_Export.png",
+        "ts": "2026-04-29T11:37:17.150358"
+      },
+      {
+        "test": "Step_files - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6Ik9EcVlHT3lDTHMvUjMzL0d6TkwzakE9PSIsInZhbHVlIjoibGVQVlovZzhpenUyZGd3SGU2a013Zz09IiwibWFjIjoiZTRlMTk3YzQzZWFhOThjNmIwMjg2OGQzM2Q0YjE0ZmY0MTdjNjY3MGVjZDNiMzY1NzEyZTQyMmE1NDk1OGI3ZCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/074_Step_files_Save.png",
+        "ts": "2026-04-29T11:37:20.463998"
+      },
+      {
+        "test": "Step_files - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/075_Step_files_Exit.png",
+        "ts": "2026-04-29T11:37:28.639685"
+      },
+      {
+        "test": "Step Supporting Documents",
+        "status": "PASS",
+        "detail": "Step loaded",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/076_step_supporting_docs_Ocean_Import.png",
+        "ts": "2026-04-29T11:37:35.212630"
+      },
+      {
+        "test": "Step_supporting_docs - Ocean Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/077_Step_supporting_docs_Ocean_Export.png",
+        "ts": "2026-04-29T11:37:38.483606"
+      },
+      {
+        "test": "Step_supporting_docs - Air Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/078_Step_supporting_docs_Air_Export.png",
+        "ts": "2026-04-29T11:37:41.705623"
+      },
+      {
+        "test": "Step_supporting_docs - Land Export",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6IlhZRkdFRFJjZkk1eE9OdUhlMkRMaHc9PSIsInZhbHVlIjoiVnRHRENVMFFyS2FKaGFpS0ZVeFFrQT09IiwibWFjIjoiYTNmZTA3NTM4MjBhMjJlYzkwN2IxYTNjNDRhNjg0OGM5MDZkZjhiN2RlZGU0OGI5ZTYyZWZhODc3MDI0MmUxOCIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/079_Step_supporting_docs_Land_Export.png",
+        "ts": "2026-04-29T11:37:44.956197"
+      },
+      {
+        "test": "Step_supporting_docs - Save",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b/eyJpdiI6ImVqV0piMlRvWDU1VnZGa0FsS0k1TGc9PSIsInZhbHVlIjoiOW91MnVkWFBadWxyQmxCZENUeGlBUT09IiwibWFjIjoiZjE5ZDBhOTYyODczNjM3MjYxNmM0YjRlZjU3NDk1NWVhNDQ3MGI0MTRlZDc3NDI4MDBkYTA4NDE1MDMzYWE0ZiIsInRhZyI6IiJ9",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/080_Step_supporting_docs_Save.png",
+        "ts": "2026-04-29T11:37:48.258652"
+      },
+      {
+        "test": "Step_supporting_docs - Exit",
+        "status": "PASS",
+        "detail": "OK. URL: http://13.210.47.18:8088/9dddd5ce1b1375bc497feeb871842d4b",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/081_Step_supporting_docs_Exit.png",
+        "ts": "2026-04-29T11:37:56.387414"
+      }
+    ],
+    "ocean_export": [
+      {
+        "test": "Ocean Export - No Jobs",
+        "status": "WARN",
+        "detail": "No jobs available",
+        "screenshot": "",
+        "ts": "2026-04-29T11:38:20.008955"
+      }
+    ],
+    "air_export": [
+      {
+        "test": "Air Export - No Jobs",
+        "status": "WARN",
+        "detail": "No jobs available",
+        "screenshot": "",
+        "ts": "2026-04-29T11:38:30.069157"
+      }
+    ],
+    "land_export": [
+      {
+        "test": "Land Export - No Jobs",
+        "status": "WARN",
+        "detail": "No jobs available",
+        "screenshot": "",
+        "ts": "2026-04-29T11:38:49.086517"
+      }
+    ],
+    "all_routes": [
+      {
+        "test": "Route: Ocean Import Closed",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/094_route_Ocean_Import_Closed.png",
+        "ts": "2026-04-29T11:38:52.603850"
+      },
+      {
+        "test": "Route: Ocean Export Open",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/095_route_Ocean_Export_Open.png",
+        "ts": "2026-04-29T11:38:56.123738"
+      },
+      {
+        "test": "Route: Ocean Export Closed",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/096_route_Ocean_Export_Closed.png",
+        "ts": "2026-04-29T11:38:59.627582"
+      },
+      {
+        "test": "Route: Air Import Closed",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/097_route_Air_Import_Closed.png",
+        "ts": "2026-04-29T11:39:03.136579"
+      },
+      {
+        "test": "Route: Air Export Open",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/098_route_Air_Export_Open.png",
+        "ts": "2026-04-29T11:39:06.637058"
+      },
+      {
+        "test": "Route: Air Export Closed",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/099_route_Air_Export_Closed.png",
+        "ts": "2026-04-29T11:39:10.144274"
+      },
+      {
+        "test": "Route: Land Import Open",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/100_route_Land_Import_Open.png",
+        "ts": "2026-04-29T11:39:13.218620"
+      },
+      {
+        "test": "Route: Land Import Closed",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/101_route_Land_Import_Closed.png",
+        "ts": "2026-04-29T11:39:16.285369"
+      },
+      {
+        "test": "Route: Land Export Open",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/102_route_Land_Export_Open.png",
+        "ts": "2026-04-29T11:39:19.822489"
+      },
+      {
+        "test": "Route: Land Export Closed",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/103_route_Land_Export_Closed.png",
+        "ts": "2026-04-29T11:39:23.340717"
+      },
+      {
+        "test": "Route: Ocean Import Booking",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/104_route_Ocean_Import_Booking.png",
+        "ts": "2026-04-29T11:39:26.849311"
+      },
+      {
+        "test": "Route: Ocean Export Booking",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/105_route_Ocean_Export_Booking.png",
+        "ts": "2026-04-29T11:39:30.368546"
+      },
+      {
+        "test": "Route: Air Import Booking",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/106_route_Air_Import_Booking.png",
+        "ts": "2026-04-29T11:39:33.927926"
+      },
+      {
+        "test": "Route: Air Export Booking",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/107_route_Air_Export_Booking.png",
+        "ts": "2026-04-29T11:39:37.470949"
+      },
+      {
+        "test": "Route: Purchase Invoice Report",
+        "status": "WARN",
+        "detail": "Timeout",
+        "screenshot": "",
+        "ts": "2026-04-29T11:39:52.473738"
+      },
+      {
+        "test": "Route: Sales Invoice Report",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/108_route_Sales_Invoice_Report.png",
+        "ts": "2026-04-29T11:40:03.472156"
+      },
+      {
+        "test": "Route: Purchase Invoice w/ VAT",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/109_route_Purchase_Invoice_w__VAT.png",
+        "ts": "2026-04-29T11:40:11.579830"
+      },
+      {
+        "test": "Route: Sales Invoice w/ VAT",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/110_route_Sales_Invoice_w__VAT.png",
+        "ts": "2026-04-29T11:40:15.294834"
+      },
+      {
+        "test": "Route: Ledger",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/111_route_Ledger.png",
+        "ts": "2026-04-29T11:40:18.362871"
+      },
+      {
+        "test": "Route: Customer Ageing",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/112_route_Customer_Ageing.png",
+        "ts": "2026-04-29T11:40:21.568053"
+      },
+      {
+        "test": "Route: Supplier Ageing",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/113_route_Supplier_Ageing.png",
+        "ts": "2026-04-29T11:40:24.758271"
+      },
+      {
+        "test": "Route: Purchase Invoice Missing",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/114_route_Purchase_Invoice_Missing.png",
+        "ts": "2026-04-29T11:40:28.079663"
+      },
+      {
+        "test": "Route: Sales Charges w/o Invoice",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/115_route_Sales_Charges_w_o_Invoice.png",
+        "ts": "2026-04-29T11:40:31.346217"
+      },
+      {
+        "test": "Route: Activity Log",
+        "status": "FAIL",
+        "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/116_route_Activity_Log.png",
+        "ts": "2026-04-29T11:40:34.942719"
+      },
+      {
+        "test": "Route: Credit Note Register",
+        "status": "PASS",
+        "detail": "HTTP 200, loaded OK",
+        "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/117_route_Credit_Note_Register.png",
+        "ts": "2026-04-29T11:40:37.756359"
+      }
+    ]
+  },
+  "errors": [
+    {
+      "test": "Detail air_import_open",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/083_detail_air_import_open.png",
+      "ts": "2026-04-29T11:38:09.486810"
+    },
+    {
+      "test": "List ocean_export_open",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/085_list_ocean_export_open.png",
+      "ts": "2026-04-29T11:38:14.978447"
+    },
+    {
+      "test": "List ocean_export_closed",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/086_list_ocean_export_closed.png",
+      "ts": "2026-04-29T11:38:20.008924"
+    },
+    {
+      "test": "List air_export_open",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/087_list_air_export_open.png",
+      "ts": "2026-04-29T11:38:25.045108"
+    },
+    {
+      "test": "List air_export_closed",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/088_list_air_export_closed.png",
+      "ts": "2026-04-29T11:38:30.069139"
+    },
+    {
+      "test": "Detail land_import_open",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/090_detail_land_import_open.png",
+      "ts": "2026-04-29T11:38:38.638601"
+    },
+    {
+      "test": "List land_export_open",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/092_list_land_export_open.png",
+      "ts": "2026-04-29T11:38:44.065475"
+    },
+    {
+      "test": "List land_export_closed",
+      "status": "FAIL",
+      "detail": "Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/093_list_land_export_closed.png",
+      "ts": "2026-04-29T11:38:49.086492"
+    },
+    {
+      "test": "Route: Ocean Import Closed",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/094_route_Ocean_Import_Closed.png",
+      "ts": "2026-04-29T11:38:52.603850"
+    },
+    {
+      "test": "Route: Ocean Export Open",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/095_route_Ocean_Export_Open.png",
+      "ts": "2026-04-29T11:38:56.123738"
+    },
+    {
+      "test": "Route: Ocean Export Closed",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/096_route_Ocean_Export_Closed.png",
+      "ts": "2026-04-29T11:38:59.627582"
+    },
+    {
+      "test": "Route: Air Import Closed",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/097_route_Air_Import_Closed.png",
+      "ts": "2026-04-29T11:39:03.136579"
+    },
+    {
+      "test": "Route: Air Export Open",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/098_route_Air_Export_Open.png",
+      "ts": "2026-04-29T11:39:06.637058"
+    },
+    {
+      "test": "Route: Air Export Closed",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/099_route_Air_Export_Closed.png",
+      "ts": "2026-04-29T11:39:10.144274"
+    },
+    {
+      "test": "Route: Land Export Open",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/102_route_Land_Export_Open.png",
+      "ts": "2026-04-29T11:39:19.822489"
+    },
+    {
+      "test": "Route: Land Export Closed",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/103_route_Land_Export_Closed.png",
+      "ts": "2026-04-29T11:39:23.340717"
+    },
+    {
+      "test": "Route: Ocean Import Booking",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/104_route_Ocean_Import_Booking.png",
+      "ts": "2026-04-29T11:39:26.849311"
+    },
+    {
+      "test": "Route: Ocean Export Booking",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/105_route_Ocean_Export_Booking.png",
+      "ts": "2026-04-29T11:39:30.368546"
+    },
+    {
+      "test": "Route: Air Import Booking",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/106_route_Air_Import_Booking.png",
+      "ts": "2026-04-29T11:39:33.927926"
+    },
+    {
+      "test": "Route: Air Export Booking",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/107_route_Air_Export_Booking.png",
+      "ts": "2026-04-29T11:39:37.470949"
+    },
+    {
+      "test": "Route: Activity Log",
+      "status": "FAIL",
+      "detail": "HTTP 500, Errors: ['PERMISSION_DENIED', 'LARAVEL_LOG_PERMISSION', 'SYMFONY_EXCEPTION', 'UNEXPECTED_VALUE_EXCEPTION', 'HTTP_500']",
+      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/functional_deep/116_route_Activity_Log.png",
+      "ts": "2026-04-29T11:40:34.942719"
+    }
+  ],
+  "summary": {
+    "total_tests": 119,
+    "passed": 94,
+    "failed": 21,
+    "warnings": 4
+  }
+}
