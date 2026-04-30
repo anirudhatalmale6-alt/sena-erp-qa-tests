@@ -1,0 +1,1537 @@
+{
+  "run_date": "2026-04-30T08:40:26.751380",
+  "tests": {
+    "LOGIN": {
+      "status": "PASS",
+      "details": "Logged in as superadmin",
+      "errors": [],
+      "timestamp": "2026-04-30T08:40:41.279584"
+    },
+    "1.1_Carriers_Fields": {
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "mode",
+          "id": "mode",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "O",
+              "text": "Ocean"
+            },
+            {
+              "value": "A",
+              "text": "Air"
+            },
+            {
+              "value": "R",
+              "text": "Road"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "code",
+          "id": "code",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "name",
+          "id": "name",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "Status",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "A",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "Status",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "I",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ]
+    },
+    "1.1_Carriers_Create": {
+      "status": "PASS",
+      "details": "Carrier form submitted",
+      "errors": [],
+      "timestamp": "2026-04-30T08:40:55.318641"
+    },
+    "1.1_Carriers_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 4 rows.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:40:55.318663"
+    },
+    "1.2_ExchangeRates_Fields": {
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "currency",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "USD",
+              "text": "USD \u2013 US Dollar"
+            },
+            {
+              "value": "EUR",
+              "text": "EUR \u2013 Euro"
+            },
+            {
+              "value": "INR",
+              "text": "INR \u2013 Indian Rupee"
+            },
+            {
+              "value": "CNY",
+              "text": "CNY \u2013 Chinese Yuan"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "rate",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "eff_date",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "2026-04-30",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ]
+    },
+    "1.2_ExchangeRates_Create": {
+      "status": "PASS",
+      "details": "Exchange rate submitted",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:05.121352"
+    },
+    "1.2_ExchangeRates_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 2 rows.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:05.121377"
+    },
+    "1.3_RateDatabase_Fields": {
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "mode",
+          "id": "mode",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "O",
+              "text": "Ocean"
+            },
+            {
+              "value": "A",
+              "text": "Air"
+            },
+            {
+              "value": "R",
+              "text": "Road"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "rate_type",
+          "id": "",
+          "placeholder": "e.g. SEA_FRGHT, AIR_FRGHT, HANDLING...",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "carrierid",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [
+            {
+              "value": "0",
+              "text": "-- Any Carrier --"
+            },
+            {
+              "value": "3",
+              "text": "AUTOTEST CARRIER"
+            },
+            {
+              "value": "1",
+              "text": "AUTOTEST_NAME"
+            },
+            {
+              "value": "4",
+              "text": "AUTOTEST-CARRIER"
+            },
+            {
+              "value": "2",
+              "text": "HELLAS"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "rate_buy",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "0.00",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "rate_sell",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "0.00",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "unit",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "PER_SHIPMENT",
+          "options": [
+            {
+              "value": "PER_SHIPMENT",
+              "text": "Per Shipment"
+            },
+            {
+              "value": "PER_KG",
+              "text": "Per KG"
+            },
+            {
+              "value": "PER_CBM",
+              "text": "Per CBM"
+            },
+            {
+              "value": "PER_TON",
+              "text": "Per Ton"
+            },
+            {
+              "value": "PER_CNTR",
+              "text": "Per Container"
+            },
+            {
+              "value": "PER_AWB",
+              "text": "Per AWB"
+            },
+            {
+              "value": "PER_BL",
+              "text": "Per B/L"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "valid_from",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "2026-04-30",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "valid_to",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "Status",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "A",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "Status",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "I",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ]
+    },
+    "1.3_RateDatabase_Create": {
+      "status": "PASS",
+      "details": "Rate entry submitted",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:18.345044"
+    },
+    "1.3_RateDatabase_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 1 rows.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:24.051395"
+    },
+    "1.4_ClientRates_Fields": {
+      "fields": []
+    },
+    "1.4_ClientRates_Create": {
+      "status": "WARNING",
+      "details": "Form is EMPTY - no visible fields after clicking Add",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:30.301002"
+    },
+    "1.4_ClientRates_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 0 rows.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:41:30.301019"
+    },
+    "1.5_Quotes_FormFields": {
+      "visible_fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "TLAR-Q/2627/00005",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "quote_date",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "2026-04-30",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "valid_until",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "2026-05-30",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "cusid",
+          "id": "cusid",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select Client --"
+            },
+            {
+              "value": "220",
+              "text": "A V INTERNATIONAL"
+            },
+            {
+              "value": "76",
+              "text": "Aargus Global Logistics Pvt. Ltd."
+            },
+            {
+              "value": "131",
+              "text": "ABDI FARMA"
+            },
+            {
+              "value": "331",
+              "text": "ABUHAMDEH MARKETING CORP"
+            },
+            {
+              "value": "294",
+              "text": "ADALVO LTD"
+            },
+            {
+              "value": "119",
+              "text": "AERO LINES GMBH"
+            },
+            {
+              "value": "108",
+              "text": "AGROMACH SPARES"
+            },
+            {
+              "value": "80",
+              "text": "AIR EXPRESS LTD"
+            },
+            {
+              "value": "74",
+              "text": "AIR MENZIES INTERNATIONAL LTD"
+            },
+            {
+              "value": "193",
+              "text": "AIRBORNE GLOBAL SERVICES"
+            },
+            {
+              "value": "181",
+              "text": "ALEKSEJ PERSIJANOV"
+            },
+            {
+              "value": "202",
+              "text": "ALEMBIC PHARMACEUTICALS LIMITED"
+            },
+            {
+              "value": "43",
+              "text": "ALIVUS LIFE SCIENCES LTD (GLENMARK LIFE SCIENCES LTD)"
+            },
+            {
+              "value": "93",
+              "text": "ALLCARGO LOGISTIC SERVICES LTD"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "mode",
+          "id": "mode",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "--"
+            },
+            {
+              "value": "O",
+              "text": "Ocean"
+            },
+            {
+              "value": "A",
+              "text": "Air"
+            },
+            {
+              "value": "R",
+              "text": "Road"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "shiptype",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "I",
+          "options": [
+            {
+              "value": "I",
+              "text": "Import"
+            },
+            {
+              "value": "E",
+              "text": "Export"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "date",
+          "name": "cargo_ready",
+          "id": "cargo_ready",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "cargo_type",
+          "id": "cargo_type",
+          "placeholder": "",
+          "required": false,
+          "value": "GEN",
+          "options": [
+            {
+              "value": "GEN",
+              "text": "General"
+            },
+            {
+              "value": "TEMP",
+              "text": "Temperature-Controlled"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "cmdty_id",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [
+            {
+              "value": "0",
+              "text": "-- General --"
+            },
+            {
+              "value": "47",
+              "text": "(W) ARTICLES IN HANDBAG"
+            },
+            {
+              "value": "50",
+              "text": "(W) CHRISTMAS FESTIVITIES"
+            },
+            {
+              "value": "52",
+              "text": "(W) DOG COLLAR / DOG LEAD"
+            },
+            {
+              "value": "54",
+              "text": "(W) QUILTS/BEDSPREADS"
+            },
+            {
+              "value": "55",
+              "text": "(W) RUGS"
+            },
+            {
+              "value": "56",
+              "text": "(W) VESTS/WAIST COATS"
+            },
+            {
+              "value": "29",
+              "text": "036P1700 D & C. RED 30/LAVANYA ROSEUM"
+            },
+            {
+              "value": "323",
+              "text": "52% VISCOSE 30% POLYESTER 18% NYLON KNITTED BEANIE"
+            },
+            {
+              "value": "308",
+              "text": "ACETAZOLAMIDE 250 MG"
+            },
+            {
+              "value": "198",
+              "text": "ACID DYES"
+            },
+            {
+              "value": "330",
+              "text": "ALMUS ALLERGY RELIEF 2MG/5ML SYRUP"
+            },
+            {
+              "value": "262",
+              "text": "ALUGLASS"
+            },
+            {
+              "value": "57",
+              "text": "ALUMINIUM JARS"
+            },
+            {
+              "value": "305",
+              "text": "ALUMINIUM LAKES"
+            }
+          ],
+          "hasSelect2": true,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "pkgs",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "gw",
+          "id": "gw",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "nw",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "cbm",
+          "id": "cbm",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "remarks",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ],
+      "url": "http://13.210.47.18:8088/04fbcc790f0b1923f2b3404cd4580c61"
+    },
+    "1.5_Quotes_Create": {
+      "status": "PASS",
+      "details": "Quote submitted. Redirected: True. Success: ['Quote CreatedQuote TLAR-Q/2627/00005 created successfully.']",
+      "errors": [],
+      "timestamp": "2026-04-30T08:42:04.142293"
+    },
+    "1.5_Quotes_Page": {
+      "status": "PASS",
+      "details": "Quotes page loaded. 4 existing quotes.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:42:14.528491"
+    },
+    "2.1_LandImport_Fields": {
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "JbNo",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "TLI/LI/2627//0004",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "jbdte",
+          "id": "jbdte",
+          "placeholder": "",
+          "required": true,
+          "value": "30/04/2026",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "IncoTrms",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "1",
+              "text": "ExW"
+            },
+            {
+              "value": "2",
+              "text": "FCA"
+            },
+            {
+              "value": "3",
+              "text": "FOB"
+            },
+            {
+              "value": "4",
+              "text": "FAS"
+            },
+            {
+              "value": "5",
+              "text": "CFR"
+            },
+            {
+              "value": "6",
+              "text": "CIF"
+            },
+            {
+              "value": "7",
+              "text": "CIP"
+            },
+            {
+              "value": "8",
+              "text": "CPT"
+            },
+            {
+              "value": "9",
+              "text": "DAP"
+            },
+            {
+              "value": "10",
+              "text": "DPU"
+            },
+            {
+              "value": "11",
+              "text": "DDP"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "consigne",
+          "id": "consigne",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Type to search --"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "etd",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "eta",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "origin",
+          "id": "",
+          "placeholder": "e.g. London, UK",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "destination",
+          "id": "",
+          "placeholder": "e.g. Paris, France",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "veh_type",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "FTL",
+              "text": "FTL (Full Truck Load)"
+            },
+            {
+              "value": "LTL",
+              "text": "LTL (Less Truck Load)"
+            },
+            {
+              "value": "FTLR",
+              "text": "FTLR (Full Trailer Load)"
+            },
+            {
+              "value": "Van",
+              "text": "Van"
+            },
+            {
+              "value": "Refrigerated",
+              "text": "Refrigerated"
+            },
+            {
+              "value": "Flatbed",
+              "text": "Flatbed"
+            },
+            {
+              "value": "Tanker",
+              "text": "Tanker"
+            },
+            {
+              "value": "Other",
+              "text": "Other"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "veh_reg",
+          "id": "",
+          "placeholder": "e.g. AB12 CDE",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "driver",
+          "id": "",
+          "placeholder": "Driver name",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "cmr_no",
+          "id": "",
+          "placeholder": "CMR No.",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "gw",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "nw",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "cbm",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "pkgs",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "dlvr_dte",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "remarks",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ]
+    },
+    "2.1_LandImport_Create": {
+      "status": "FAIL",
+      "details": "Validation errors: ['Required: CUSTOMER / CONSIGNEE']",
+      "errors": [
+        "Required: CUSTOMER / CONSIGNEE"
+      ],
+      "timestamp": "2026-04-30T08:43:30.707183"
+    },
+    "2.1_LandImport_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 1 existing jobs.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:43:30.707208"
+    },
+    "2.2_LandImport_Step1_BasicDetails": {
+      "status": "PASS",
+      "details": "Basic Details section visible. 45 fields.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:43:38.781966"
+    },
+    "2.2_LandImport_Step2_BuyingCharges": {
+      "status": "PASS",
+      "details": "Buying Charges section found with Save button",
+      "errors": [],
+      "timestamp": "2026-04-30T08:43:42.029815"
+    },
+    "2.2_LandImport_Step3_SellingCharges": {
+      "status": "PASS",
+      "details": "Selling Charges section found with Save button",
+      "errors": [],
+      "timestamp": "2026-04-30T08:43:46.073102"
+    },
+    "2.2_LandImport_DetailPage": {
+      "status": "PASS",
+      "details": "Job detail loaded. Steps: Basic Details, Buying Charges, Selling Charges. Additional sections: ['Files/Documents']",
+      "errors": [],
+      "timestamp": "2026-04-30T08:43:46.079929"
+    },
+    "3.1_LandExport_Fields": {
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "JbNo",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "TLI/LE/2627//0002",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "jbdte",
+          "id": "jbdte",
+          "placeholder": "",
+          "required": true,
+          "value": "30/04/2026",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "IncoTrms",
+          "id": "",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "1",
+              "text": "ExW"
+            },
+            {
+              "value": "2",
+              "text": "FCA"
+            },
+            {
+              "value": "3",
+              "text": "FOB"
+            },
+            {
+              "value": "4",
+              "text": "FAS"
+            },
+            {
+              "value": "5",
+              "text": "CFR"
+            },
+            {
+              "value": "6",
+              "text": "CIF"
+            },
+            {
+              "value": "7",
+              "text": "CIP"
+            },
+            {
+              "value": "8",
+              "text": "CPT"
+            },
+            {
+              "value": "9",
+              "text": "DAP"
+            },
+            {
+              "value": "10",
+              "text": "DPU"
+            },
+            {
+              "value": "11",
+              "text": "DDP"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "consigne",
+          "id": "consigne",
+          "placeholder": "",
+          "required": true,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Type to search --"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "etd",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "eta",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "origin",
+          "id": "",
+          "placeholder": "e.g. London, UK",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "destination",
+          "id": "",
+          "placeholder": "e.g. Paris, France",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "name": "veh_type",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [
+            {
+              "value": "",
+              "text": "-- Select --"
+            },
+            {
+              "value": "FTL",
+              "text": "FTL (Full Truck Load)"
+            },
+            {
+              "value": "LTL",
+              "text": "LTL (Less Truck Load)"
+            },
+            {
+              "value": "FTLR",
+              "text": "FTLR (Full Trailer Load)"
+            },
+            {
+              "value": "Van",
+              "text": "Van"
+            },
+            {
+              "value": "Refrigerated",
+              "text": "Refrigerated"
+            },
+            {
+              "value": "Flatbed",
+              "text": "Flatbed"
+            },
+            {
+              "value": "Tanker",
+              "text": "Tanker"
+            },
+            {
+              "value": "Other",
+              "text": "Other"
+            }
+          ],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "veh_reg",
+          "id": "",
+          "placeholder": "e.g. AB12 CDE",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "driver",
+          "id": "",
+          "placeholder": "Driver name",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "cmr_no",
+          "id": "",
+          "placeholder": "CMR No.",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "gw",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "nw",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "cbm",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0.000",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "pkgs",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "0",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "dlvr_dte",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "name": "remarks",
+          "id": "",
+          "placeholder": "",
+          "required": false,
+          "value": "",
+          "options": [],
+          "hasSelect2": false,
+          "label": "",
+          "visible": true
+        }
+      ]
+    },
+    "3.1_LandExport_Create": {
+      "status": "FAIL",
+      "details": "Validation errors: ['Required: CUSTOMER / CONSIGNEE']",
+      "errors": [
+        "Required: CUSTOMER / CONSIGNEE"
+      ],
+      "timestamp": "2026-04-30T08:45:02.099351"
+    },
+    "3.1_LandExport_Page": {
+      "status": "PASS",
+      "details": "Page loaded. 1 existing jobs.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:02.099367"
+    },
+    "3.2_LandExport_Step1": {
+      "status": "PASS",
+      "details": "Basic Details. 45 fields.",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:10.119793"
+    },
+    "3.2_LandExport_Step2": {
+      "status": "PASS",
+      "details": "Buying Charges section visible",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:11.367696"
+    },
+    "3.2_LandExport_Step3": {
+      "status": "PASS",
+      "details": "Selling Charges section visible",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:12.600381"
+    },
+    "3.2_LandExport_DetailPage": {
+      "status": "PASS",
+      "details": "Job detail loaded. Steps: Basic Details, Buying Charges, Selling Charges. Additional: ['Document']",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:12.609298"
+    },
+    "4.1_ConsigneeDue": {
+      "status": "PASS",
+      "details": "24 rows. Land refs: True",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:18.387089"
+    },
+    "4.2_PurchaseInvoice": {
+      "status": "PASS",
+      "details": "11 rows. Land refs: True",
+      "errors": [],
+      "timestamp": "2026-04-30T08:45:56.608687"
+    },
+    "4.3_SalesInvoice": {
+      "status": "PASS",
+      "details": "10 rows. Land refs: True",
+      "errors": [],
+      "timestamp": "2026-04-30T08:46:06.195019"
+    },
+    "4.4_OceanImportDSR": {
+      "status": "FAIL",
+      "details": "HTTP 500 ERROR on Ocean Import DSR page: ['HTTP 500', 'SYMFONY_EXCEPTION', 'UNDEFINED_ERROR']",
+      "errors": [
+        "HTTP 500",
+        "SYMFONY_EXCEPTION",
+        "UNDEFINED_ERROR"
+      ],
+      "timestamp": "2026-04-30T08:46:12.061513"
+    }
+  },
+  "summary": {
+    "passed": 23,
+    "failed": 3,
+    "errors": 0,
+    "warnings": 1
+  }
+}

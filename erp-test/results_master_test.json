@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-19T17:31:59.477126",
+  "timestamp": "2026-04-29T16:32:21.270717",
   "base_url": "http://13.210.47.18:8088",
   "username": "superadmin",
   "viewport": {
@@ -9,12 +9,12 @@
   "total_pages_tested": 73,
   "summary": {
     "total": 130,
-    "passed": 127,
-    "failed": 2,
+    "passed": 129,
+    "failed": 0,
     "warnings": 1,
     "errors": 0,
     "skipped": 0,
-    "error_screenshots": 2
+    "error_screenshots": 0
   },
   "results": [
     {
@@ -209,9 +209,9 @@
     {
       "section": "SECTION A: PAGE LOAD TESTS",
       "name": "Xero Integration",
-      "status": "FAIL",
-      "message": "HTTP 500: Internal Server Error",
-      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_A_Xero_Integration.png"
+      "status": "PASS",
+      "message": "Page loaded OK",
+      "screenshot": ""
     },
     {
       "section": "SECTION A: PAGE LOAD TESTS",
@@ -651,7 +651,7 @@
       "section": "SECTION B: CRUD TESTS",
       "name": "Ledger Group",
       "status": "PASS",
-      "message": "Record created (2/2 fields filled)",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
       "screenshot": ""
     },
     {
@@ -728,7 +728,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Purchase Invoice w/ VAT",
       "status": "PASS",
-      "message": "21 rows loaded",
+      "message": "20 rows loaded",
       "screenshot": ""
     },
     {
@@ -756,7 +756,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Supplier Ageing",
       "status": "PASS",
-      "message": "1 rows loaded",
+      "message": "5 rows loaded",
       "screenshot": ""
     },
     {
@@ -790,15 +790,15 @@
     {
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Xero Integration",
-      "status": "FAIL",
-      "message": "Page error: HTTP 500: Internal Server Error",
-      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_D_Financial_Xero_Integration.png"
+      "status": "PASS",
+      "message": "Page loaded, no data rows",
+      "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Consignee Due",
       "status": "PASS",
-      "message": "32 rows, 21 filter controls",
+      "message": "33 rows, 21 filter controls",
       "screenshot": ""
     },
     {
@@ -868,7 +868,7 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Supplier Due",
       "status": "PASS",
-      "message": "17 rows, 11 filter controls",
+      "message": "23 rows, 13 filter controls",
       "screenshot": ""
     },
     {
