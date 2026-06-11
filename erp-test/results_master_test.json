@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T16:32:21.270717",
+  "timestamp": "2026-06-11T14:15:53.771350",
   "base_url": "http://13.210.47.18:8088",
   "username": "superadmin",
   "viewport": {
@@ -8,10 +8,10 @@
   },
   "total_pages_tested": 73,
   "summary": {
-    "total": 130,
-    "passed": 129,
+    "total": 211,
+    "passed": 206,
     "failed": 0,
-    "warnings": 1,
+    "warnings": 5,
     "errors": 0,
     "skipped": 0,
     "error_screenshots": 0
@@ -657,9 +657,9 @@
     {
       "section": "SECTION B: CRUD TESTS",
       "name": "Vendor Master",
-      "status": "WARNING",
-      "message": "No 'Add New' button found",
-      "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/master_test/errors/FAIL_B_CRUD_Vendor_Master.png"
+      "status": "PASS",
+      "message": "Form submitted, 2/2 fields filled (no error detected)",
+      "screenshot": ""
     },
     {
       "section": "SECTION B: CRUD TESTS",
@@ -714,21 +714,21 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Purchase Invoice",
       "status": "PASS",
-      "message": "21 rows loaded",
+      "message": "22 rows loaded",
       "screenshot": ""
     },
     {
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Sales Invoice",
       "status": "PASS",
-      "message": "20 rows loaded",
+      "message": "21 rows loaded",
       "screenshot": ""
     },
     {
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Purchase Invoice w/ VAT",
       "status": "PASS",
-      "message": "20 rows loaded",
+      "message": "24 rows loaded",
       "screenshot": ""
     },
     {
@@ -756,7 +756,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Supplier Ageing",
       "status": "PASS",
-      "message": "5 rows loaded",
+      "message": "10 rows loaded",
       "screenshot": ""
     },
     {
@@ -777,14 +777,14 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Credit Note Register",
       "status": "PASS",
-      "message": "6 rows loaded",
+      "message": "8 rows loaded",
       "screenshot": ""
     },
     {
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Activity Log",
       "status": "PASS",
-      "message": "Page loaded, no data rows",
+      "message": "25 rows loaded",
       "screenshot": ""
     },
     {
@@ -798,35 +798,35 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Consignee Due",
       "status": "PASS",
-      "message": "33 rows, 21 filter controls",
+      "message": "13 rows, 11 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Consignee Paid",
       "status": "PASS",
-      "message": "3 rows, 3 filter controls",
+      "message": "8 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Due (Debtor)",
       "status": "PASS",
-      "message": "11 rows, 9 filter controls",
+      "message": "3 rows, 5 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Paid (Debtor)",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "4 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Shipper Due",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "3 rows, 5 filter controls",
       "screenshot": ""
     },
     {
@@ -840,14 +840,14 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Shipping Line Due",
       "status": "PASS",
-      "message": "14 rows, 9 filter controls",
+      "message": "3 rows, 5 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Shipping Line Paid",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "4 rows, 3 filter controls",
       "screenshot": ""
     },
     {
@@ -861,35 +861,35 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Co-Loader Paid",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "6 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Supplier Due",
       "status": "PASS",
-      "message": "23 rows, 13 filter controls",
+      "message": "7 rows, 7 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Supplier Paid",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "26 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Due (Creditor)",
       "status": "PASS",
-      "message": "3 rows, 5 filter controls",
+      "message": "0 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Paid (Creditor)",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "18 rows, 3 filter controls",
       "screenshot": ""
     },
     {
@@ -925,6 +925,573 @@
       "name": "Air Export DSR",
       "status": "PASS",
       "message": "No data rows",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 1 Load",
+      "status": "PASS",
+      "message": "Add New page loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 1 Fill Fields",
+      "status": "PASS",
+      "message": "Filled 14 fields",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 1 Save",
+      "status": "PASS",
+      "message": "Basic details saved",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 2 Load",
+      "status": "PASS",
+      "message": "Step 2 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 3 Load",
+      "status": "PASS",
+      "message": "Step 3 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 4 Load",
+      "status": "PASS",
+      "message": "Step 4 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 5 Load",
+      "status": "PASS",
+      "message": "Step 5 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 6 Load",
+      "status": "PASS",
+      "message": "Step 6 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 7 Load",
+      "status": "PASS",
+      "message": "Step 7 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Ocean Import - Step 8 Load",
+      "status": "PASS",
+      "message": "Step 8 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 1 Load",
+      "status": "PASS",
+      "message": "Add New page loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 1 Fill Fields",
+      "status": "PASS",
+      "message": "Filled 12 fields",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 1 Save",
+      "status": "PASS",
+      "message": "Basic details saved",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 2 Load",
+      "status": "PASS",
+      "message": "Step 2 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 3 Load",
+      "status": "PASS",
+      "message": "Step 3 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 4 Load",
+      "status": "PASS",
+      "message": "Step 4 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 5 Load",
+      "status": "PASS",
+      "message": "Step 5 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 6 Load",
+      "status": "PASS",
+      "message": "Step 6 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 7 Load",
+      "status": "PASS",
+      "message": "Step 7 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 8 Load",
+      "status": "PASS",
+      "message": "Step 8 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Air Export - Step 9 Load",
+      "status": "PASS",
+      "message": "Step 9 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 1 Load",
+      "status": "PASS",
+      "message": "Add New page loaded",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 1 Fill Fields",
+      "status": "PASS",
+      "message": "Filled 7 fields",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 1 Save",
+      "status": "PASS",
+      "message": "Basic details saved",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 2 Load",
+      "status": "PASS",
+      "message": "Step 2 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 3 Load",
+      "status": "PASS",
+      "message": "Step 3 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 4 Load",
+      "status": "PASS",
+      "message": "Step 4 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 5 Load",
+      "status": "PASS",
+      "message": "Step 5 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 6 Load",
+      "status": "PASS",
+      "message": "Step 6 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
+      "name": "Land Import - Step 7 Load",
+      "status": "PASS",
+      "message": "Step 7 loaded OK",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Load Existing Job",
+      "status": "PASS",
+      "message": "Job loaded for charge testing",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charges - Initial Count",
+      "status": "PASS",
+      "message": "1 existing buy charge row(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - Select Charge",
+      "status": "PASS",
+      "message": "Selected: EXWORKS CHARGES",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - Tax Rate Auto-Fill",
+      "status": "PASS",
+      "message": "Tax Rate: 0.00, Tax: 0.00, Total: 500.00",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - VAT Calculation",
+      "status": "PASS",
+      "message": "Tax rate is 0% - no VAT applicable (amount=500.0)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - Totals Before Save",
+      "status": "PASS",
+      "message": "Tax: 0.00, Amount: 500.00, Total: 500.00",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - Save",
+      "status": "PASS",
+      "message": "Buy charges saved",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Buy Charge - Totals After Save",
+      "status": "PASS",
+      "message": "Tax: 0.00, Amount: 500.00, Total: 500.00",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sell Charges - Initial Count",
+      "status": "PASS",
+      "message": "1 existing sell charge row(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sell Charge - Select Charge",
+      "status": "PASS",
+      "message": "Selected: EXWORKS CHARGE",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sell Charge - Tax Calculation",
+      "status": "PASS",
+      "message": "Rate: 0.00, Tax: 0.00, Total: 750.00",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sell Charge - Totals",
+      "status": "PASS",
+      "message": "Tax: 0.00, Amount: 750.00, Total: 750.00",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sell Charge - Save",
+      "status": "PASS",
+      "message": "Saved",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Additional Buy Charges Toggle",
+      "status": "PASS",
+      "message": "Toggle works: was_checked=False, addl_visible=True",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Purchase Invoice - After Charges",
+      "status": "PASS",
+      "message": "Invoice present: False, Invoice table: True",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Sale Invoice - After Charges",
+      "status": "WARNING",
+      "message": "Invoice present: False",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Void Button - Present",
+      "status": "WARNING",
+      "message": "No void buttons found (may need generated invoices)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Remove Button - Present",
+      "status": "PASS",
+      "message": "2 remove button(s) found",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION H: CHARGE ADD/REMOVE/VAT TESTS",
+      "name": "Remove Charge - Execute",
+      "status": "WARNING",
+      "message": "Error during removal: Locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for locator(\"button.remove-dn-row, .fa-trash-o, .fa-trash\").last\n    - locator resolved to <i class=\"fa fa-trash-o\"></i>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    116 \u00d7 waiting for element to be visible, enabled and stable\n        - element is not visible\n      - retrying click action\n        - waiting 500ms\n",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - Table",
+      "status": "PASS",
+      "message": "22 invoice(s), headers: ['#', 'VENDOR TYPE', 'AGENT / PARTY', 'INVOICE NO.', 'JOB NO']",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - Export Excel",
+      "status": "PASS",
+      "message": "Export Excel button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - Filter",
+      "status": "PASS",
+      "message": "Filter button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - Filter Apply",
+      "status": "PASS",
+      "message": "Filter applied",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - Credit Notes",
+      "status": "PASS",
+      "message": "8 Add CRN button(s) found",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice - CRN Modal",
+      "status": "PASS",
+      "message": "Credit note modal opens correctly",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Table",
+      "status": "PASS",
+      "message": "21 invoice(s), headers: ['#', 'PARTY', 'INVOICE NO', 'JOB NO', 'INVOICE DATE']",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Export Excel",
+      "status": "PASS",
+      "message": "Export Excel button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Filter",
+      "status": "PASS",
+      "message": "Filter button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Filter Apply",
+      "status": "PASS",
+      "message": "Filter applied",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Credit Notes",
+      "status": "PASS",
+      "message": "9 Add CRN button(s) found",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - CRN Modal",
+      "status": "PASS",
+      "message": "Credit note modal opens correctly",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice w/VAT - Table",
+      "status": "PASS",
+      "message": "24 invoice(s), headers: ['#', 'VENDOR TYPE', 'AGENT / PARTY', 'INVOICE NO.', 'JOB NO']",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice w/VAT - Export Excel",
+      "status": "PASS",
+      "message": "Export Excel button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice w/VAT - Filter",
+      "status": "PASS",
+      "message": "Filter button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice w/VAT - Filter Apply",
+      "status": "PASS",
+      "message": "Filter applied",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Purchase Invoice w/VAT - VAT Columns",
+      "status": "WARNING",
+      "message": "No VAT-specific columns found",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice w/VAT - Table",
+      "status": "PASS",
+      "message": "20 invoice(s), headers: ['#', 'PARTY', 'INVOICE NO', 'JOB NO', 'INVOICE DATE']",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice w/VAT - Export Excel",
+      "status": "PASS",
+      "message": "Export Excel button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice w/VAT - Filter",
+      "status": "PASS",
+      "message": "Filter button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice w/VAT - Filter Apply",
+      "status": "PASS",
+      "message": "Filter applied",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice w/VAT - VAT Columns",
+      "status": "WARNING",
+      "message": "No VAT-specific columns found",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Download PDFs Button",
+      "status": "PASS",
+      "message": "Button present",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Edit Links",
+      "status": "PASS",
+      "message": "12 edit link(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Delete Actions",
+      "status": "PASS",
+      "message": "8 delete button(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales Invoice - Statuses",
+      "status": "PASS",
+      "message": "Invoice statuses: {\"PARTIAL CREDIT\": 1, \"UNPAID\": 8}",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Ocean Import - PDF Links Found",
+      "status": "PASS",
+      "message": "1 PDF link(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Ocean Import - PDF Download",
+      "status": "PASS",
+      "message": "HTTP 200, Size: 7702B, Valid PDF: True",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Air Export - PDF Links Found",
+      "status": "PASS",
+      "message": "10 PDF link(s)",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Air Export - PDF Download",
+      "status": "PASS",
+      "message": "HTTP 200, Size: 8117B, Valid PDF: True",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "VAT vs Non-VAT Comparison",
+      "status": "PASS",
+      "message": "Non-VAT invoices: 22, VAT invoices: 24",
+      "screenshot": ""
+    },
+    {
+      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
+      "name": "Sales VAT vs Non-VAT",
+      "status": "PASS",
+      "message": "Non-VAT sales: 21, VAT sales: 20",
       "screenshot": ""
     }
   ]

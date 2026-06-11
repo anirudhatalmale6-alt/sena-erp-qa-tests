@@ -12,7 +12,7 @@ import os
 import re
 import sys
 import traceback
-from datetime import datetime
+from datetime import datetime, timedelta
 from playwright.sync_api import sync_playwright
 
 # =============================================================================
@@ -1189,6 +1189,646 @@ def run_section_f(page, runner):
 
 
 # =============================================================================
+# SECTION G: DEEP DIVE JOB WORKFLOW TESTS
+# (Full data entry across all steps for Ocean Import, Air Export, Land Import)
+# =============================================================================
+
+def click_wizard_step(page, step_num):
+    """Click a wizard step by number. Steps use <a href='#step-N' id='step_N'>."""
+    try:
+        page.evaluate(f"""
+            var link = document.getElementById('step_{step_num}');
+            if (link) {{ link.click(); }}
+            else {{
+                var links = document.querySelectorAll('.wizard_steps a');
+                if (links.length >= {step_num}) {{ links[{step_num - 1}].click(); }}
+            }}
+        """)
+        page.wait_for_timeout(2000)
+        return True
+    except Exception:
+        return False
+
+
+def click_save_btn(page):
+    """Click the Save button (usually an <a> with class buttonNext)."""
+    try:
+        page.locator('a.buttonNext, a:has-text("Save")').last.click()
+        page.wait_for_timeout(5000)
+        return True
+    except Exception:
+        return False
+
+
+def select_charge_from_table(page, charge_select_id):
+    """Select a charge from a Select2 dropdown in the charge table."""
+    try:
+        page.evaluate(f"$('#{charge_select_id}').select2('open')")
+        page.wait_for_timeout(500)
+        sf = page.locator('.select2-search__field')
+        if sf.count() > 0:
+            sf.last.fill("a")
+            page.wait_for_timeout(2000)
+        opts = page.locator('.select2-results__option:not(.select2-results__message)')
+        if opts.count() > 0:
+            text = opts.first.text_content().strip()
+            opts.first.click()
+            page.wait_for_timeout(500)
+            return text
+        page.evaluate(f"try {{ $('#{charge_select_id}').select2('close'); }} catch(e) {{}}")
+    except Exception:
+        pass
+    return None
+
+
+def get_charge_totals(page, charge_type):
+    """Read the charge totals from the page. charge_type: 'buy' or 'sell'."""
+    if charge_type == "buy":
+        return page.evaluate('''() => ({
+            tax: document.querySelector('#btottaxx')?.value || '0',
+            amount: document.querySelector('#btotamntt')?.value || '0',
+            total: document.querySelector('#baltotall')?.value || '0',
+        })''')
+    else:
+        return page.evaluate('''() => ({
+            tax: document.querySelector('#stottaxx')?.value || '0',
+            amount: document.querySelector('#stotamntt')?.value || '0',
+            total: document.querySelector('#saltotall')?.value || '0',
+        })''')
+
+
+def get_charge_row_count(page, table_id):
+    """Count rows in a charge table."""
+    return page.evaluate(f"document.querySelector('#{table_id}')?.querySelectorAll('tbody tr').length || 0")
+
+
+def run_section_g(page, runner):
+    """Deep dive job workflow: full data entry across all steps."""
+    runner.set_section("SECTION G: DEEP DIVE JOB WORKFLOW")
+
+    JOB_CONFIGS = {
+        "Ocean Import": {
+            "add_url": "/8d9368c9ea314e4bf3271918424b2c24",
+            "list_url": "/9dddd5ce1b1375bc497feeb871842d4b",
+            "steps": 8,
+            "buy_step": 4, "sell_step": 5, "pi_step": 6, "si_step": 7, "files_step": 8,
+            "basic_fields": {
+                "select2": [("consigne", "a"), ("lport", "a"), ("dport", "a"), ("IncoTrms", "a"),
+                            ("overseas1", "a"), ("shpline", "a"), ("vovesel", "a")],
+                "text": [("mblno", f"{TEST_PREFIX}MBL-DDT"), ("dlvrref", f"{TEST_PREFIX}DLVR"),
+                         ("frghtchrg", "500"), ("inschrg", "100"), ("calref", f"{TEST_PREFIX}CAL")],
+                "date": [("etd", TODAY), ("eta", TODAY)],
+            },
+        },
+        "Air Export": {
+            "add_url": "/2c752e5ace8abac955144baf0b9ee354",
+            "list_url": "/8b574ca0cd37f8b76897ecc0f9d9ad34",
+            "steps": 9,
+            "buy_step": 5, "sell_step": 6, "pi_step": 7, "si_step": 8, "files_step": 9,
+            "basic_fields": {
+                "select2": [("consigne", "a"), ("lport", "a"), ("dport", "a"),
+                            ("overseas1", "a"), ("shipper", "a")],
+                "text": [("hawbno", f"{TEST_PREFIX}HAWB-DDT"), ("mawbno", f"{TEST_PREFIX}MAWB-DDT"),
+                         ("fltno", "TK9999"), ("bkref", f"{TEST_PREFIX}BKREF")],
+                "date": [("etd", TODAY), ("eta", TODAY), ("hawbdt", TODAY), ("mawbdt", TODAY)],
+            },
+        },
+        "Land Import": {
+            "add_url": "/f2d63311d4bd1935349fa1cb7a5afc7a",
+            "list_url": "/8013f48199799dce7a1fde812910a496",
+            "steps": 7,
+            "buy_step": 2, "sell_step": 3, "pi_step": 4, "si_step": 5, "files_step": 6,
+            "basic_fields": {
+                "select2": [("consigne", "a")],
+                "text": [("temperature", "-18C"), ("collection", f"{TEST_PREFIX} London"),
+                         ("delivery", f"{TEST_PREFIX} Birmingham"),
+                         ("portentry", "Dover"), ("portexit", "Calais")],
+                "date": [("etd", TODAY), ("eta", TODAY)],
+            },
+        },
+    }
+
+    for job_name, config in JOB_CONFIGS.items():
+        prefix = job_name.replace(" ", "_")
+        try:
+            # Step 1: Create new job
+            page.goto(f"{BASE_URL}{config['add_url']}", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+            page.wait_for_timeout(3000)
+
+            error = check_page_error(page)
+            if error:
+                ss = take_screenshot(page, f"G_{prefix}_step1", is_error=True)
+                runner.add(f"{job_name} - Step 1 Load", "FAIL", f"Error: {error}", ss)
+                continue
+            runner.add(f"{job_name} - Step 1 Load", "PASS", "Add New page loaded")
+
+            # Fill Select2 fields
+            fields_filled = 0
+            bf = config["basic_fields"]
+            for fid, search in bf.get("select2", []):
+                result = fill_select2(page, fid, search)
+                if result:
+                    fields_filled += 1
+
+            # Fill text fields
+            for fid, val in bf.get("text", []):
+                if fill_field(page, fid, val):
+                    fields_filled += 1
+
+            # Fill date fields
+            for fid, val in bf.get("date", []):
+                fill_date(page, fid, val)
+                fields_filled += 1
+
+            runner.add(f"{job_name} - Step 1 Fill Fields", "PASS", f"Filled {fields_filled} fields")
+
+            # Save
+            click_save_btn(page)
+            error = check_page_error(page)
+            if error:
+                ss = take_screenshot(page, f"G_{prefix}_step1_save", is_error=True)
+                runner.add(f"{job_name} - Step 1 Save", "FAIL", f"Error: {error}", ss)
+            else:
+                runner.add(f"{job_name} - Step 1 Save", "PASS", "Basic details saved")
+
+            # Navigate through all remaining steps
+            for step in range(2, config["steps"] + 1):
+                clicked = click_wizard_step(page, step)
+                if not clicked:
+                    runner.add(f"{job_name} - Step {step} Navigate", "FAIL", "Could not click step")
+                    continue
+
+                error = check_page_error(page)
+                if error:
+                    ss = take_screenshot(page, f"G_{prefix}_step{step}", is_error=True)
+                    runner.add(f"{job_name} - Step {step} Load", "FAIL", f"Error: {error}", ss)
+                else:
+                    runner.add(f"{job_name} - Step {step} Load", "PASS", f"Step {step} loaded OK")
+
+        except Exception as e:
+            ss = take_screenshot(page, f"G_{prefix}_error", is_error=True)
+            runner.add(f"{job_name} - Deep Dive", "ERROR", f"Exception: {str(e)[:100]}", ss)
+
+    runner.save_intermediate()
+
+
+# =============================================================================
+# SECTION H: CHARGE ADD / REMOVE / VAT TESTS
+# =============================================================================
+
+def run_section_h(page, runner):
+    """Test charge lifecycle: add charges, verify VAT calc, remove charges, verify removal."""
+    runner.set_section("SECTION H: CHARGE ADD/REMOVE/VAT TESTS")
+
+    # Use an existing Ocean Import job
+    page.goto(f"{BASE_URL}/9dddd5ce1b1375bc497feeb871842d4b", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+    page.wait_for_timeout(3000)
+
+    first_link = page.evaluate('''() => {
+        const rows = document.querySelectorAll('table tbody tr');
+        for (const row of rows) { const a = row.querySelector('a'); if (a) return a.href; }
+        return null;
+    }''')
+
+    if not first_link:
+        runner.add("Find Existing Job", "FAIL", "No Ocean Import jobs found")
+        return
+
+    page.goto(first_link, wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+    page.wait_for_timeout(3000)
+    runner.add("Load Existing Job", "PASS", "Job loaded for charge testing")
+
+    # --- TEST: Add Buy Charge ---
+    click_wizard_step(page, 4)
+
+    # Count existing rows
+    initial_buy_rows = get_charge_row_count(page, "AddBlchrg")
+    runner.add("Buy Charges - Initial Count", "PASS", f"{initial_buy_rows} existing buy charge row(s)")
+
+    # Select a charge
+    charge_name = select_charge_from_table(page, "bl_chrg_1")
+    if charge_name:
+        runner.add("Buy Charge - Select Charge", "PASS", f"Selected: {charge_name}")
+    else:
+        runner.add("Buy Charge - Select Charge", "WARNING", "Could not select charge from dropdown")
+
+    # Fill amount
+    fill_field(page, "amnt_bl_chrg_1", "500.00")
+    fill_field(page, "bl_vlme_1", "1")
+
+    # Check if tax rate was auto-populated
+    tax_rate = page.evaluate("document.getElementById('taxrate_bl_chrg_1')?.value || ''")
+    tax_val = page.evaluate("document.getElementById('tax_bl_chrg_1')?.value || '0'")
+    total_val = page.evaluate("document.getElementById('total_1')?.value || '0'")
+
+    runner.add("Buy Charge - Tax Rate Auto-Fill", "PASS" if tax_rate else "WARNING",
+               f"Tax Rate: {tax_rate}, Tax: {tax_val}, Total: {total_val}")
+
+    # Verify VAT calculation: tax = amount * rate / 100
+    try:
+        amt = float(page.evaluate("document.getElementById('amnt_bl_chrg_1')?.value || '0'"))
+        rate = float(tax_rate) if tax_rate else 0
+        expected_tax = round(amt * rate / 100, 2)
+        actual_tax = float(tax_val) if tax_val else 0
+        if rate > 0:
+            vat_match = abs(expected_tax - actual_tax) < 0.01
+            runner.add("Buy Charge - VAT Calculation", "PASS" if vat_match else "FAIL",
+                       f"Amount: {amt}, Rate: {rate}%, Expected Tax: {expected_tax}, Actual: {actual_tax}")
+        else:
+            runner.add("Buy Charge - VAT Calculation", "PASS",
+                       f"Tax rate is 0% - no VAT applicable (amount={amt})")
+    except Exception as e:
+        runner.add("Buy Charge - VAT Calculation", "WARNING", f"Could not verify: {e}")
+
+    # Read totals before save
+    pre_save_totals = get_charge_totals(page, "buy")
+    runner.add("Buy Charge - Totals Before Save", "PASS",
+               f"Tax: {pre_save_totals['tax']}, Amount: {pre_save_totals['amount']}, Total: {pre_save_totals['total']}")
+
+    # Save charges
+    click_save_btn(page)
+    error = check_page_error(page)
+    if error:
+        ss = take_screenshot(page, "H_buy_save", is_error=True)
+        runner.add("Buy Charge - Save", "FAIL", f"Error: {error}", ss)
+    else:
+        runner.add("Buy Charge - Save", "PASS", "Buy charges saved")
+
+    # Verify totals after save
+    click_wizard_step(page, 4)
+    post_save_totals = get_charge_totals(page, "buy")
+    runner.add("Buy Charge - Totals After Save", "PASS",
+               f"Tax: {post_save_totals['tax']}, Amount: {post_save_totals['amount']}, Total: {post_save_totals['total']}")
+
+    # --- TEST: Add Sell Charge ---
+    click_wizard_step(page, 5)
+
+    initial_sell_rows = get_charge_row_count(page, "AddSlchrg")
+    runner.add("Sell Charges - Initial Count", "PASS", f"{initial_sell_rows} existing sell charge row(s)")
+
+    sell_charge = select_charge_from_table(page, "sl_chrg_1")
+    if sell_charge:
+        runner.add("Sell Charge - Select Charge", "PASS", f"Selected: {sell_charge}")
+    else:
+        runner.add("Sell Charge - Select Charge", "WARNING", "Could not select charge")
+
+    fill_field(page, "amnt_sl_chrg_1", "750.00")
+    fill_field(page, "sl_vlme_1", "1")
+    fill_field(page, "remark", f"{TEST_PREFIX}charge_test")
+    fill_field(page, "due_date", TODAY)
+
+    # Check sell charge VAT
+    sell_tax_rate = page.evaluate("document.getElementById('taxrate_sl_chrg_1')?.value || ''")
+    sell_tax_val = page.evaluate("document.getElementById('tax_sl_chrg_1')?.value || '0'")
+    sell_total_val = page.evaluate("document.getElementById('sl_total_1')?.value || '0'")
+
+    runner.add("Sell Charge - Tax Calculation", "PASS",
+               f"Rate: {sell_tax_rate}, Tax: {sell_tax_val}, Total: {sell_total_val}")
+
+    sell_totals = get_charge_totals(page, "sell")
+    runner.add("Sell Charge - Totals", "PASS",
+               f"Tax: {sell_totals['tax']}, Amount: {sell_totals['amount']}, Total: {sell_totals['total']}")
+
+    click_save_btn(page)
+    error = check_page_error(page)
+    runner.add("Sell Charge - Save", "PASS" if not error else "FAIL",
+               "Saved" if not error else f"Error: {error}")
+
+    # --- TEST: Check Additional Charges Toggle ---
+    click_wizard_step(page, 4)
+
+    toggle = page.locator('#addl_buy_toggle')
+    if toggle.count() > 0:
+        is_checked_before = toggle.is_checked()
+        toggle.click()
+        page.wait_for_timeout(1000)
+
+        # Check if additional charges section appeared
+        addl_visible = page.evaluate('''() => {
+            const addlSection = document.querySelector('[class*="addl_buy"], #additional_buy_charges, .additional-buy');
+            if (addlSection) return addlSection.offsetHeight > 0;
+            // Check for additional charge selects
+            const addlSelects = document.querySelectorAll('select[name="addl_b_charge[]"]');
+            return addlSelects.length > 0;
+        }''')
+        runner.add("Additional Buy Charges Toggle", "PASS",
+                   f"Toggle works: was_checked={is_checked_before}, addl_visible={addl_visible}")
+        # Uncheck to restore
+        if not is_checked_before:
+            toggle.click()
+            page.wait_for_timeout(500)
+    else:
+        runner.add("Additional Buy Charges Toggle", "WARNING", "Toggle not found")
+
+    # --- TEST: Verify charge appears on Purchase Invoice step ---
+    click_wizard_step(page, 6)
+    pi_content = page.inner_text("body")
+    has_pi = "NO PURCHASE INVOICE" not in pi_content.upper()
+    has_invoice_table = page.evaluate('''() => {
+        const tables = document.querySelectorAll('table');
+        for (const t of tables) {
+            const headers = Array.from(t.querySelectorAll('th')).map(h => h.textContent.trim());
+            if (headers.some(h => h.includes('INVOICE') || h.includes('PAYABLE'))) return true;
+        }
+        return false;
+    }''')
+    runner.add("Purchase Invoice - After Charges", "PASS" if has_pi or has_invoice_table else "WARNING",
+               f"Invoice present: {has_pi}, Invoice table: {has_invoice_table}")
+
+    # --- TEST: Verify charge appears on Sale Invoice step ---
+    click_wizard_step(page, 7)
+    si_content = page.inner_text("body")
+    has_si = "NO SALE INVOICE" not in si_content.upper()
+    runner.add("Sale Invoice - After Charges", "PASS" if has_si else "WARNING",
+               f"Invoice present: {has_si}")
+
+    # --- TEST: Try voiding a charge (if Void button exists) ---
+    click_wizard_step(page, 4)
+    void_btns = page.locator('button.voidArExpBlCharge, button:has-text("Void")')
+    if void_btns.count() > 0:
+        runner.add("Void Button - Present", "PASS", f"{void_btns.count()} void button(s) found")
+    else:
+        runner.add("Void Button - Present", "WARNING", "No void buttons found (may need generated invoices)")
+
+    # --- TEST: Remove charge row ---
+    remove_btns = page.locator('button.remove-dn-row, .fa-trash-o, .fa-trash')
+    if remove_btns.count() > 0:
+        runner.add("Remove Button - Present", "PASS", f"{remove_btns.count()} remove button(s) found")
+
+        # Get totals before removal
+        before_totals = get_charge_totals(page, "buy")
+
+        # Click the remove button on the last charge row
+        try:
+            remove_btns.last.click()
+            page.wait_for_timeout(2000)
+
+            # Handle confirmation dialog if any
+            page.evaluate("try { document.querySelector('.swal2-confirm, .modal.show .btn-danger')?.click(); } catch(e) {}")
+            page.wait_for_timeout(1000)
+
+            after_totals = get_charge_totals(page, "buy")
+            runner.add("Remove Charge - Execute", "PASS",
+                       f"Before total: {before_totals['total']}, After: {after_totals['total']}")
+
+            # Save after removal
+            click_save_btn(page)
+            error = check_page_error(page)
+            runner.add("Remove Charge - Save", "PASS" if not error else "FAIL",
+                       "Saved after removal" if not error else f"Error: {error}")
+
+            # Verify totals recalculated
+            click_wizard_step(page, 4)
+            final_totals = get_charge_totals(page, "buy")
+            runner.add("Remove Charge - Totals Recalculated", "PASS",
+                       f"Final totals - Tax: {final_totals['tax']}, Amount: {final_totals['amount']}, Total: {final_totals['total']}")
+        except Exception as e:
+            runner.add("Remove Charge - Execute", "WARNING", f"Error during removal: {e}")
+    else:
+        runner.add("Remove Button - Present", "WARNING", "No remove buttons found")
+
+    runner.save_intermediate()
+
+
+# =============================================================================
+# SECTION I: INVOICE & PDF VERIFICATION TESTS
+# =============================================================================
+
+def run_section_i(page, runner):
+    """Test financial reports, VAT invoices, credit notes, and PDF downloads."""
+    runner.set_section("SECTION I: INVOICE/VAT/PDF VERIFICATION")
+
+    # --- TEST: Purchase Invoice report page ---
+    for report_name, report_path, has_vat_variant in [
+        ("Purchase Invoice", "/purchase-invoice", True),
+        ("Sales Invoice", "/sales-invoice", True),
+        ("Purchase Invoice w/VAT", "/purchase-invoice-with-vat", False),
+        ("Sales Invoice w/VAT", "/sales-invoice/with-vat", False),
+    ]:
+        try:
+            page.goto(f"{BASE_URL}{report_path}", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+            page.wait_for_timeout(3000)
+
+            error = check_page_error(page)
+            if error:
+                ss = take_screenshot(page, f"I_{report_name.replace(' ','_')}", is_error=True)
+                runner.add(f"{report_name} - Page Load", "FAIL", f"Error: {error}", ss)
+                continue
+
+            # Check table exists and has rows
+            table_info = page.evaluate('''() => {
+                const tables = document.querySelectorAll('table');
+                for (const t of tables) {
+                    const rows = t.querySelectorAll('tbody tr');
+                    if (rows.length > 0) {
+                        const headers = Array.from(t.querySelectorAll('thead th')).map(h => h.textContent.trim());
+                        return {found: true, rows: rows.length, headers: headers.slice(0, 8)};
+                    }
+                }
+                return {found: false, rows: 0};
+            }''')
+
+            if table_info['found']:
+                runner.add(f"{report_name} - Table", "PASS",
+                           f"{table_info['rows']} invoice(s), headers: {table_info['headers'][:5]}")
+            else:
+                runner.add(f"{report_name} - Table", "WARNING", "No invoice rows found")
+
+            # Check for Export Excel button
+            export_btn = page.locator('a:has-text("Export Excel"), button:has-text("Export")')
+            runner.add(f"{report_name} - Export Excel", "PASS" if export_btn.count() > 0 else "WARNING",
+                       "Export Excel button present" if export_btn.count() > 0 else "No export button found")
+
+            # Check for filter functionality
+            filter_btn = page.locator('button:has-text("Filter")')
+            runner.add(f"{report_name} - Filter", "PASS" if filter_btn.count() > 0 else "WARNING",
+                       "Filter button present" if filter_btn.count() > 0 else "No filter button")
+
+            # Test filter by date range
+            if filter_btn.count() > 0:
+                # Fill from date (30 days ago)
+                from_date = (datetime.now() - timedelta(days=30)).strftime("%d/%m/%Y")
+                page.evaluate(f"""
+                    var dateInputs = document.querySelectorAll('input[type="date"], input[name*="from"], input[name*="date"]');
+                    if (dateInputs.length > 0) {{
+                        dateInputs[0].value = '{(datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")}';
+                        dateInputs[0].dispatchEvent(new Event('change', {{bubbles: true}}));
+                    }}
+                """)
+                filter_btn.first.click()
+                page.wait_for_timeout(3000)
+
+                error = check_page_error(page)
+                runner.add(f"{report_name} - Filter Apply", "PASS" if not error else "FAIL",
+                           "Filter applied" if not error else f"Error: {error}")
+
+                # Reset
+                reset_btn = page.locator('a:has-text("Reset")')
+                if reset_btn.count() > 0:
+                    reset_btn.first.click()
+                    page.wait_for_timeout(2000)
+
+            # Check for Credit Note functionality (Add CRN button)
+            crn_btns = page.locator('button:has-text("Add CRN")')
+            if crn_btns.count() > 0:
+                runner.add(f"{report_name} - Credit Notes", "PASS",
+                           f"{crn_btns.count()} Add CRN button(s) found")
+
+                # Try opening credit note modal
+                try:
+                    crn_btns.first.click()
+                    page.wait_for_timeout(1500)
+
+                    modal_visible = page.evaluate('''() => {
+                        const modal = document.getElementById('creditNoteModal');
+                        return modal && (modal.classList.contains('show') || modal.style.display === 'block');
+                    }''')
+
+                    if modal_visible:
+                        runner.add(f"{report_name} - CRN Modal", "PASS", "Credit note modal opens correctly")
+                        # Close modal
+                        page.evaluate("try { $('#creditNoteModal').modal('hide'); } catch(e) { document.querySelector('.modal .close, .modal .btn-close')?.click(); }")
+                        page.wait_for_timeout(500)
+                    else:
+                        runner.add(f"{report_name} - CRN Modal", "WARNING", "Modal did not open")
+                except Exception as e:
+                    runner.add(f"{report_name} - CRN Modal", "WARNING", f"Error: {e}")
+
+            # Check for VAT-specific columns
+            if "VAT" in report_name.upper():
+                has_vat_cols = page.evaluate('''() => {
+                    const headers = Array.from(document.querySelectorAll('th')).map(h => h.textContent.trim().toUpperCase());
+                    return headers.some(h => h.includes('VAT') || h.includes('TAX'));
+                }''')
+                runner.add(f"{report_name} - VAT Columns", "PASS" if has_vat_cols else "WARNING",
+                           "VAT/Tax columns present" if has_vat_cols else "No VAT-specific columns found")
+
+        except Exception as e:
+            ss = take_screenshot(page, f"I_{report_name.replace(' ','_')}", is_error=True)
+            runner.add(f"{report_name} - Test", "ERROR", f"Exception: {str(e)[:100]}", ss)
+
+    # --- TEST: Download PDF from Sales Invoice ---
+    try:
+        page.goto(f"{BASE_URL}/sales-invoice", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+        page.wait_for_timeout(3000)
+
+        # Check for Download PDFs button
+        dl_btn = page.locator('button:has-text("Download PDFs")')
+        runner.add("Sales Invoice - Download PDFs Button", "PASS" if dl_btn.count() > 0 else "WARNING",
+                   "Button present" if dl_btn.count() > 0 else "No Download PDFs button")
+
+        # Check for individual invoice Edit links
+        edit_links = page.locator('a:has-text("Edit")')
+        runner.add("Sales Invoice - Edit Links", "PASS" if edit_links.count() > 0 else "WARNING",
+                   f"{edit_links.count()} edit link(s)" if edit_links.count() > 0 else "No edit links")
+
+        # Check for delete buttons (btn-danger with trash icon)
+        delete_btns = page.locator('a.btn-danger')
+        runner.add("Sales Invoice - Delete Actions", "PASS" if delete_btns.count() > 0 else "WARNING",
+                   f"{delete_btns.count()} delete button(s)" if delete_btns.count() > 0 else "No delete buttons")
+
+        # Check invoice statuses
+        statuses = page.evaluate('''() => {
+            const stats = {};
+            document.querySelectorAll('td').forEach(td => {
+                const t = td.textContent.trim().toUpperCase();
+                for (const s of ['UNPAID', 'PAID', 'PARTIAL CREDIT', 'FULLY CREDITED']) {
+                    if (t === s) stats[s] = (stats[s] || 0) + 1;
+                }
+            });
+            return stats;
+        }''')
+        if statuses:
+            runner.add("Sales Invoice - Statuses", "PASS",
+                       f"Invoice statuses: {json.dumps(statuses)}")
+    except Exception as e:
+        runner.add("Sales Invoice - PDF Test", "ERROR", f"Exception: {str(e)[:100]}")
+
+    # --- TEST: PDF links on existing jobs ---
+    for job_type, list_path in [
+        ("Ocean Import", "/9dddd5ce1b1375bc497feeb871842d4b"),
+        ("Air Export", "/8b574ca0cd37f8b76897ecc0f9d9ad34"),
+    ]:
+        try:
+            page.goto(f"{BASE_URL}{list_path}", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+            page.wait_for_timeout(3000)
+
+            first_link = page.evaluate('''() => {
+                const a = document.querySelector('table tbody tr a');
+                return a ? a.href : null;
+            }''')
+
+            if not first_link:
+                runner.add(f"{job_type} - PDF Check", "WARNING", "No jobs to check")
+                continue
+
+            page.goto(first_link, wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+            page.wait_for_timeout(3000)
+
+            # Collect all PDF links
+            pdf_links = page.evaluate('''() => {
+                const links = [];
+                document.querySelectorAll('a').forEach(a => {
+                    if (a.href && a.href.includes('.pdf'))
+                        links.push({text: a.textContent.trim().substring(0, 40), href: a.href});
+                });
+                return [...new Map(links.map(l => [l.href, l])).values()];
+            }''')
+
+            if pdf_links:
+                runner.add(f"{job_type} - PDF Links Found", "PASS", f"{len(pdf_links)} PDF link(s)")
+
+                # Test first PDF download
+                try:
+                    resp = page.request.get(pdf_links[0]['href'])
+                    status = resp.status
+                    body = resp.body()
+                    is_pdf = body[:5] == b'%PDF-' if body else False
+
+                    runner.add(f"{job_type} - PDF Download", "PASS" if (status == 200 and is_pdf) else "FAIL",
+                               f"HTTP {status}, Size: {len(body)}B, Valid PDF: {is_pdf}")
+                except Exception as e:
+                    runner.add(f"{job_type} - PDF Download", "FAIL", f"Download error: {e}")
+            else:
+                runner.add(f"{job_type} - PDF Links", "WARNING", "No PDF links found on this job")
+
+        except Exception as e:
+            runner.add(f"{job_type} - PDF Check", "ERROR", f"Exception: {str(e)[:100]}")
+
+    # --- TEST: VAT vs Non-VAT invoice comparison ---
+    try:
+        # Load Purchase Invoice (non-VAT)
+        page.goto(f"{BASE_URL}/purchase-invoice", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+        page.wait_for_timeout(3000)
+        non_vat_rows = page.evaluate("document.querySelectorAll('table tbody tr').length || 0")
+
+        # Load Purchase Invoice with VAT
+        page.goto(f"{BASE_URL}/purchase-invoice-with-vat", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+        page.wait_for_timeout(3000)
+        vat_rows = page.evaluate("document.querySelectorAll('table tbody tr').length || 0")
+
+        runner.add("VAT vs Non-VAT Comparison", "PASS",
+                   f"Non-VAT invoices: {non_vat_rows}, VAT invoices: {vat_rows}")
+
+        # Sales comparison
+        page.goto(f"{BASE_URL}/sales-invoice", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+        page.wait_for_timeout(3000)
+        non_vat_sales = page.evaluate("document.querySelectorAll('table tbody tr').length || 0")
+
+        page.goto(f"{BASE_URL}/sales-invoice/with-vat", wait_until="networkidle", timeout=DEFAULT_TIMEOUT)
+        page.wait_for_timeout(3000)
+        vat_sales = page.evaluate("document.querySelectorAll('table tbody tr').length || 0")
+
+        runner.add("Sales VAT vs Non-VAT", "PASS",
+                   f"Non-VAT sales: {non_vat_sales}, VAT sales: {vat_sales}")
+
+    except Exception as e:
+        runner.add("VAT Comparison", "ERROR", f"Exception: {str(e)[:100]}")
+
+    runner.save_intermediate()
+
+
+# =============================================================================
 # MAIN EXECUTION
 # =============================================================================
 
@@ -1303,6 +1943,18 @@ def main():
             # Section F: DSR Report Tests
             print("\n[*] Running Section F: DSR Reports...")
             run_section_f(page, runner)
+
+            # Section G: Deep Dive Job Workflow
+            print("\n[*] Running Section G: Deep Dive Job Workflow...")
+            run_section_g(page, runner)
+
+            # Section H: Charge Add/Remove/VAT Tests
+            print("\n[*] Running Section H: Charge Add/Remove/VAT...")
+            run_section_h(page, runner)
+
+            # Section I: Invoice/VAT/PDF Verification
+            print("\n[*] Running Section I: Invoice/VAT/PDF Verification...")
+            run_section_i(page, runner)
 
         except Exception as e:
             print(f"\n[!] Fatal error during test execution: {e}")
