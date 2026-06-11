@@ -17,7 +17,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
-BASE_URL = "http://13.210.47.18:8088"
+BASE_URL = "http://35.244.14.223:8088"
 USERNAME = "superadmin"
 PASSWORD = "Nick@#24"
 

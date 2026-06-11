@@ -19,7 +19,7 @@ from playwright.sync_api import sync_playwright
 # CONFIGURATION
 # =============================================================================
 
-BASE_URL = "http://13.210.47.18:8088"  # Change if IP changes
+BASE_URL = "http://35.244.14.223:8088"  # Change if IP changes
 USERNAME = "superadmin"
 PASSWORD = "Nick@#24"
 

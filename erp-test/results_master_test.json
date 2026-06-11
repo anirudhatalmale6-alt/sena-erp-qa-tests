@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-11T14:15:53.771350",
-  "base_url": "http://13.210.47.18:8088",
+  "timestamp": "2026-06-11T15:11:27.437841",
+  "base_url": "http://35.244.14.223:8088",
   "username": "superadmin",
   "viewport": {
     "width": 1280,
@@ -8,9 +8,9 @@
   },
   "total_pages_tested": 73,
   "summary": {
-    "total": 211,
-    "passed": 206,
-    "failed": 0,
+    "total": 209,
+    "passed": 202,
+    "failed": 2,
     "warnings": 5,
     "errors": 0,
     "skipped": 0,
@@ -721,7 +721,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Sales Invoice",
       "status": "PASS",
-      "message": "21 rows loaded",
+      "message": "23 rows loaded",
       "screenshot": ""
     },
     {
@@ -777,7 +777,7 @@
       "section": "SECTION D: FINANCIAL REPORTS",
       "name": "Credit Note Register",
       "status": "PASS",
-      "message": "8 rows loaded",
+      "message": "12 rows loaded",
       "screenshot": ""
     },
     {
@@ -798,7 +798,7 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Consignee Due",
       "status": "PASS",
-      "message": "13 rows, 11 filter controls",
+      "message": "15 rows, 11 filter controls",
       "screenshot": ""
     },
     {
@@ -826,7 +826,7 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Shipper Due",
       "status": "PASS",
-      "message": "3 rows, 5 filter controls",
+      "message": "0 rows, 3 filter controls",
       "screenshot": ""
     },
     {
@@ -847,7 +847,7 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Shipping Line Paid",
       "status": "PASS",
-      "message": "4 rows, 3 filter controls",
+      "message": "8 rows, 3 filter controls",
       "screenshot": ""
     },
     {
@@ -861,35 +861,35 @@
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Co-Loader Paid",
       "status": "PASS",
-      "message": "6 rows, 3 filter controls",
+      "message": "3 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Supplier Due",
       "status": "PASS",
-      "message": "7 rows, 7 filter controls",
+      "message": "11 rows, 9 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Supplier Paid",
       "status": "PASS",
-      "message": "26 rows, 3 filter controls",
+      "message": "27 rows, 3 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Due (Creditor)",
       "status": "PASS",
-      "message": "0 rows, 3 filter controls",
+      "message": "3 rows, 5 filter controls",
       "screenshot": ""
     },
     {
       "section": "SECTION E: ACCOUNT PAGES",
       "name": "Agent Paid (Creditor)",
       "status": "PASS",
-      "message": "18 rows, 3 filter controls",
+      "message": "0 rows, 3 filter controls",
       "screenshot": ""
     },
     {
@@ -1085,7 +1085,7 @@
       "section": "SECTION G: DEEP DIVE JOB WORKFLOW",
       "name": "Land Import - Step 1 Fill Fields",
       "status": "PASS",
-      "message": "Filled 7 fields",
+      "message": "Filled 8 fields",
       "screenshot": ""
     },
     {
@@ -1300,20 +1300,6 @@
     },
     {
       "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
-      "name": "Purchase Invoice - Credit Notes",
-      "status": "PASS",
-      "message": "8 Add CRN button(s) found",
-      "screenshot": ""
-    },
-    {
-      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
-      "name": "Purchase Invoice - CRN Modal",
-      "status": "PASS",
-      "message": "Credit note modal opens correctly",
-      "screenshot": ""
-    },
-    {
-      "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
       "name": "Sales Invoice - Table",
       "status": "PASS",
       "message": "21 invoice(s), headers: ['#', 'PARTY', 'INVOICE NO', 'JOB NO', 'INVOICE DATE']",
@@ -1442,14 +1428,14 @@
       "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
       "name": "Sales Invoice - Delete Actions",
       "status": "PASS",
-      "message": "8 delete button(s)",
+      "message": "4 delete button(s)",
       "screenshot": ""
     },
     {
       "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
       "name": "Sales Invoice - Statuses",
       "status": "PASS",
-      "message": "Invoice statuses: {\"PARTIAL CREDIT\": 1, \"UNPAID\": 8}",
+      "message": "Invoice statuses: {\"UNPAID\": 9, \"PARTIAL CREDIT\": 1}",
       "screenshot": ""
     },
     {
@@ -1462,8 +1448,8 @@
     {
       "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
       "name": "Ocean Import - PDF Download",
-      "status": "PASS",
-      "message": "HTTP 200, Size: 7702B, Valid PDF: True",
+      "status": "FAIL",
+      "message": "HTTP 404, Size: 653B, Valid PDF: False",
       "screenshot": ""
     },
     {
@@ -1476,8 +1462,8 @@
     {
       "section": "SECTION I: INVOICE/VAT/PDF VERIFICATION",
       "name": "Air Export - PDF Download",
-      "status": "PASS",
-      "message": "HTTP 200, Size: 8117B, Valid PDF: True",
+      "status": "FAIL",
+      "message": "HTTP 404, Size: 653B, Valid PDF: False",
       "screenshot": ""
     },
     {
