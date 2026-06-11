@@ -1,0 +1,569 @@
+[
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Page Load",
+    "status": "PASS",
+    "detail": "Add New page loaded successfully",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:26.842721"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Consignee Select",
+    "status": "PASS",
+    "detail": "Selected: EUROFINS FOOD & FEED TESTING SWEDEN AB",
+    "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/deep_dive/OI_step1_consignee.png",
+    "timestamp": "2026-06-11T13:30:31.343379"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Load Port",
+    "status": "PASS",
+    "detail": "Selected: INNSA \u2013 NHAVA SHEVA",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:35.728240"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Discharge Port",
+    "status": "PASS",
+    "detail": "Selected: GBFXT \u2013 FELIXSTOWE",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:40.111036"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Incoterms",
+    "status": "PASS",
+    "detail": "Selected: FCA",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:44.491079"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Overseas Agent",
+    "status": "PASS",
+    "detail": "Selected: PARTHA",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:48.873794"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Shipping Line",
+    "status": "PASS",
+    "detail": "Selected: HAPAG LLOYD",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:30:53.261379"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Vessel",
+    "status": "PASS",
+    "detail": "Selected: CMA CGM",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:02.027159"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "All Fields Filled",
+    "status": "PASS",
+    "detail": "HBL=DEEPTEST_HBL-OI-001, MBL=DEEPTEST_MBL-OI-001, Container=MSCU1234567",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:07.213698"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 1",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Job saved. Job No: ",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:15.296748"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 2",
+    "test": "Container Size",
+    "status": "WARN",
+    "detail": "No container size options",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:21.143797"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 2",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/deep_dive/OI_step2_saved.png",
+    "timestamp": "2026-06-11T13:31:26.917043"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 3",
+    "test": "Delivery Note Fields",
+    "status": "PASS",
+    "detail": "Desc: Test Pharma Shipment - Deep Dive Test, Marks: DEEPTEST_MARKS/001",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:31.027047"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 3",
+    "test": "D/O PDF Link",
+    "status": "WARN",
+    "detail": "No PDF links found after regenerate",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:36.098865"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 4",
+    "test": "Buy Charges Entry",
+    "status": "PASS",
+    "detail": "Entered 2 charge(s): [{\"charge_idx\": 0, \"amount\": \"175.50\", \"ppcc\": \"PP\", \"status\": \"entered\"}, {\"charge_idx\": 1, \"amount\": \"320.00\", \"ppcc\": \"CC\", \"status\": \"entered\"}]",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:40.838972"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 4",
+    "test": "Buy Totals",
+    "status": "PASS",
+    "detail": "Tax: , Amount: , Total: ",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:40.843825"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 4",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Buy charges saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:48.902490"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 5",
+    "test": "Sell Charges Entry",
+    "status": "PASS",
+    "detail": "Entered 2 charge(s), remark=Deep dive test - selling charg",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:53.696120"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 5",
+    "test": "Sell Totals",
+    "status": "PASS",
+    "detail": "Tax: , Amount: , Total: ",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:31:53.700723"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 5",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Sell charges saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:01.760096"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 6",
+    "test": "Purchase Invoice Status",
+    "status": "PASS",
+    "detail": "Invoice status: unknown",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:05.882881"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 7",
+    "test": "Sale Invoice Status",
+    "status": "PASS",
+    "detail": "Status: has_content",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:10.006956"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Step 8",
+    "test": "Files Section",
+    "status": "PASS",
+    "detail": "File inputs: 0, Has upload: True",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:14.116649"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Page Load",
+    "status": "PASS",
+    "detail": "Add New page loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:19.292795"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Shipper",
+    "status": "PASS",
+    "detail": "Selected: RASKEL",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:24.492429"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Consignee",
+    "status": "PASS",
+    "detail": "Selected: RASKEL",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:28.874420"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Loading Airport",
+    "status": "PASS",
+    "detail": "Selected: BOM \u2013 MUMBAI",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:37.642081"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Discharge Airport",
+    "status": "PASS",
+    "detail": "Selected: AMD \u2013 AHMEDABAD",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:42.024043"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "All Fields Filled",
+    "status": "PASS",
+    "detail": "HAWB=DEEPTEST_HAWB-AE-001, MAWB=DEEPTEST_MAWB-AE-001, Flight=TK6643/9999",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:32:52.551451"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 1",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Job saved. No: ",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:00.649068"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 2",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:09.938571"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 3",
+    "test": "Delivery Note",
+    "status": "PASS",
+    "detail": "Desc: Air Export Test Shipment - Dee",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:19.121210"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 4",
+    "test": "Shipping Documents Page",
+    "status": "PASS",
+    "detail": "Tables: True, Forms: True",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:23.212080"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 5",
+    "test": "Buy Charges",
+    "status": "PASS",
+    "detail": "Entered 1 charge(s)",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:27.847817"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 5",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:32.914914"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 6",
+    "test": "Sell Charges",
+    "status": "PASS",
+    "detail": "Entered 1 charge(s)",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:37.572172"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 6",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:42.649831"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 7",
+    "test": "Purchase Invoice",
+    "status": "PASS",
+    "detail": "Invoice present",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:46.737863"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 8",
+    "test": "Sale Invoice",
+    "status": "PASS",
+    "detail": "Invoice present",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:50.850294"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Step 9",
+    "test": "Files Section",
+    "status": "PASS",
+    "detail": "Files tab loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:33:54.961432"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 1",
+    "test": "Page Load",
+    "status": "PASS",
+    "detail": "Add New page loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:00.468973"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 1",
+    "test": "Customer/Consignee",
+    "status": "FAIL",
+    "detail": "No options found",
+    "screenshot": "/var/lib/freelancer/projects/40298427/erp-test/screenshots/deep_dive/errors/LI_step1_consignee_fail.png",
+    "timestamp": "2026-06-11T13:34:01.694289"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 1",
+    "test": "All Fields",
+    "status": "PASS",
+    "detail": "Consignee=None, ETD=11/06/2026, Temp=-18C",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:07.361402"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 1",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Job saved. No: ",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:10.381495"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 2",
+    "test": "Buy Charges",
+    "status": "PASS",
+    "detail": "Entered 1 charge(s)",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:15.109601"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 2",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:15.122793"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 3",
+    "test": "Sell Charges",
+    "status": "PASS",
+    "detail": "Entered 1 charge(s)",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:19.766318"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 3",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:19.778420"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 4",
+    "test": "Purchase Invoice",
+    "status": "PASS",
+    "detail": "Invoice present",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:23.881543"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 5",
+    "test": "Sale Invoice",
+    "status": "PASS",
+    "detail": "Invoice present",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:28.005655"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 6",
+    "test": "Attachments Section",
+    "status": "PASS",
+    "detail": "Attachments tab loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:32.092091"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 7",
+    "test": "Clearing Remarks",
+    "status": "PASS",
+    "detail": "Remarks entered",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:36.203534"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Step 7",
+    "test": "Save",
+    "status": "PASS",
+    "detail": "Saved",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:36.217825"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Existing",
+    "test": "Load Job",
+    "status": "PASS",
+    "detail": "Job N/A loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:34:47.016101"
+  },
+  {
+    "job_type": "Ocean Import",
+    "step": "Existing PDFs",
+    "test": "PDF ''",
+    "status": "PASS",
+    "detail": "Status: OK, Size: 7702B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:35:16.547352"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing",
+    "test": "Load Job",
+    "status": "PASS",
+    "detail": "Job N/A loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:35:26.726624"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing PDFs",
+    "test": "PDF ''",
+    "status": "PASS",
+    "detail": "Status: OK, Size: 8117B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:35:59.564759"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing PDFs",
+    "test": "PDF 'TLI/AE/2627//0075/1'",
+    "status": "PASS",
+    "detail": "Status: OK, Size: 8117B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:35:59.860298"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing PDFs",
+    "test": "PDF ''",
+    "status": "PASS",
+    "detail": "Status: OK, Size: 8282B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:36:00.162181"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing PDFs",
+    "test": "PDF 'TLI/AE/2627//0075/1'",
+    "status": "PASS",
+    "detail": "Status: OK, Size: 8280B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:36:00.457943"
+  },
+  {
+    "job_type": "Air Export",
+    "step": "Existing PDFs",
+    "test": "PDF ''",
+    "status": "FAIL",
+    "detail": "Status: HTTP_404, Size: 0B",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:36:00.775995"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Existing",
+    "test": "Load Job",
+    "status": "PASS",
+    "detail": "Job N/A loaded",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:36:10.568002"
+  },
+  {
+    "job_type": "Land Import",
+    "step": "Existing PDFs",
+    "test": "PDF Links",
+    "status": "WARN",
+    "detail": "No PDF links found on this job",
+    "screenshot": "",
+    "timestamp": "2026-06-11T13:36:35.920739"
+  }
+]
